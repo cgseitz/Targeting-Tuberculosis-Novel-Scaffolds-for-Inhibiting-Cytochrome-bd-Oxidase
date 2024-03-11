@@ -1,0 +1,380 @@
+
+====================================
+            Glide Script            
+====================================
+
+mmshare         2cb27f0eb7
+glide-src       1e5ffd4733
+psp-src         6c93e2fe77
+macromodel-src  d47a6cf2e1
+epik-src        46d635d642
+
+--------------------------------------------------------------------------------
+JobId          : tscc-13-20-0-62cf59e5
+Name           : glide-dock_HTVS_1
+Program        : Glide
+Host           : tscc-13-20.sdsc.edu
+Dir            : /oasis/tscc/scratch/cseitz/docking/mtb/disulfide/qloop/cluster1/lifechemicals
+HostEntry      : localhost
+JobHost        : tscc-13-20.sdsc.edu
+JobDir         : /oasis/tscc/scratch/cseitz/docking/mtb/disulfide/qloop/cluster1/enamine/cseitz/glide-dock_HTVS_1
+JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -WAIT glide-dock_HTVS_1.in -OVERWRITE -adjust -HOST localhost:36 -NJOBS 144 -NOLOCAL
+StartTime      : 2022-07-13-16:49:38
+--------------------------------------------------------------------------------
+
+Running locally: False
+Max retries: 2
+Input file: glide-dock_HTVS_1.in
+
+Setting up docking job
+Separating ligands...
+..................................................     50000
+..................................................    100000
+..................................................    150000
+..................................................    200000
+..................................................    250000
+..................................................    300000
+..................................................    350000
+..................................................    400000
+..................................................    450000
+..................................................    500000
+..................................................    550000
+..................................................    600000
+..................................................    650000
+..................................................    700000
+..................................................    750000
+..................................................    800000
+..................................................    850000
+..................................................    900000
+..............................                        930464
+Number of structures that are to be docked: 930464
+Setting up Glide docking jobs...
+
+Running subjobs on hosts:
+  localhost (Max: 36)
+Number of jobs:       144
+Max retries per job:  2
+Max allowed failures: unlimited
+Verbosity:            normal
+
+Starting JobDJ...
+
+Keep one job on driver host: False
+JobDJ columns:
+  C: Number of completed subjobs
+  A: Number of active subjobs (e.g., submitted, running)
+  W: Number of waiting/pending subjobs
+
+  C   A   W | Activity  JobId  JobName  JobHost
+--- --- --- | --------- -----------------------
+  0   1 143 | launched  tscc-13-20-0-62cf5be8 glide-dock_HTVS_1-0001 localhost [tscc-13-20]
+  0   2 142 | launched  tscc-13-20-0-62cf5bec glide-dock_HTVS_1-0002 localhost [tscc-13-20]
+  0   3 141 | launched  tscc-13-20-0-62cf5bee glide-dock_HTVS_1-0003 localhost [tscc-13-20]
+  0   4 140 | launched  tscc-13-20-0-62cf5bf2 glide-dock_HTVS_1-0004 localhost [tscc-13-20]
+  0   5 139 | launched  tscc-13-20-0-62cf5bf5 glide-dock_HTVS_1-0005 localhost [tscc-13-20]
+  0   6 138 | launched  tscc-13-20-0-62cf5bf8 glide-dock_HTVS_1-0006 localhost [tscc-13-20]
+  0   7 137 | launched  tscc-13-20-0-62cf5bfc glide-dock_HTVS_1-0007 localhost [tscc-13-20]
+  0   8 136 | launched  tscc-13-20-0-62cf5bff glide-dock_HTVS_1-0008 localhost [tscc-13-20]
+  0   9 135 | launched  tscc-13-20-0-62cf5c02 glide-dock_HTVS_1-0009 localhost [tscc-13-20]
+  0  10 134 | launched  tscc-13-20-0-62cf5c06 glide-dock_HTVS_1-0010 localhost [tscc-13-20]
+  0  11 133 | launched  tscc-13-20-0-62cf5c09 glide-dock_HTVS_1-0011 localhost [tscc-13-20]
+  0  12 132 | launched  tscc-13-20-0-62cf5c0c glide-dock_HTVS_1-0012 localhost [tscc-13-20]
+  0  13 131 | launched  tscc-13-20-0-62cf5c0f glide-dock_HTVS_1-0013 localhost [tscc-13-20]
+  0  14 130 | launched  tscc-13-20-0-62cf5c14 glide-dock_HTVS_1-0014 localhost [tscc-13-20]
+  0  15 129 | launched  tscc-13-20-0-62cf5c18 glide-dock_HTVS_1-0015 localhost [tscc-13-20]
+  0  16 128 | launched  tscc-13-20-0-62cf5c1b glide-dock_HTVS_1-0016 localhost [tscc-13-20]
+  0  17 127 | launched  tscc-13-20-0-62cf5c1e glide-dock_HTVS_1-0017 localhost [tscc-13-20]
+  0  18 126 | launched  tscc-13-20-0-62cf5c21 glide-dock_HTVS_1-0018 localhost [tscc-13-20]
+  0  19 125 | launched  tscc-13-20-0-62cf5c24 glide-dock_HTVS_1-0019 localhost [tscc-13-20]
+  0  20 124 | launched  tscc-13-20-0-62cf5c27 glide-dock_HTVS_1-0020 localhost [tscc-13-20]
+  0  21 123 | launched  tscc-13-20-0-62cf5c2a glide-dock_HTVS_1-0021 localhost [tscc-13-20]
+  0  22 122 | launched  tscc-13-20-0-62cf5c2d glide-dock_HTVS_1-0022 localhost [tscc-13-20]
+  0  23 121 | launched  tscc-13-20-0-62cf5c30 glide-dock_HTVS_1-0023 localhost [tscc-13-20]
+  0  24 120 | launched  tscc-13-20-0-62cf5c33 glide-dock_HTVS_1-0024 localhost [tscc-13-20]
+  0  25 119 | launched  tscc-13-20-0-62cf5c36 glide-dock_HTVS_1-0025 localhost [tscc-13-20]
+  0  26 118 | launched  tscc-13-20-0-62cf5c38 glide-dock_HTVS_1-0026 localhost [tscc-13-20]
+  0  27 117 | launched  tscc-13-20-0-62cf5c3b glide-dock_HTVS_1-0027 localhost [tscc-13-20]
+  0  28 116 | launched  tscc-13-20-0-62cf5c3e glide-dock_HTVS_1-0028 localhost [tscc-13-20]
+  0  29 115 | launched  tscc-13-20-0-62cf5c41 glide-dock_HTVS_1-0029 localhost [tscc-13-20]
+  0  30 114 | launched  tscc-13-20-0-62cf5c45 glide-dock_HTVS_1-0030 localhost [tscc-13-20]
+  0  31 113 | launched  tscc-13-20-0-62cf5c48 glide-dock_HTVS_1-0031 localhost [tscc-13-20]
+  0  32 112 | launched  tscc-13-20-0-62cf5c4b glide-dock_HTVS_1-0032 localhost [tscc-13-20]
+  0  33 111 | launched  tscc-13-20-0-62cf5c4f glide-dock_HTVS_1-0033 localhost [tscc-13-20]
+  0  34 110 | launched  tscc-13-20-0-62cf5c52 glide-dock_HTVS_1-0034 localhost [tscc-13-20]
+  0  35 109 | launched  tscc-13-20-0-62cf5c56 glide-dock_HTVS_1-0035 localhost [tscc-13-20]
+  0  36 108 | launched  tscc-13-20-0-62cf5c5a glide-dock_HTVS_1-0036 localhost [tscc-13-20]
+  1  35 108 | finished  tscc-13-20-0-62cf5c45 glide-dock_HTVS_1-0030 localhost [tscc-13-20]
+  1  36 107 | launched  tscc-13-20-0-62cf84f7 glide-dock_HTVS_1-0037 localhost [tscc-13-20]
+  2  35 107 | finished  tscc-13-20-0-62cf5c36 glide-dock_HTVS_1-0025 localhost [tscc-13-20]
+  2  36 106 | launched  tscc-13-20-0-62cf8a4b glide-dock_HTVS_1-0038 localhost [tscc-13-20]
+  3  35 106 | finished  tscc-13-20-0-62cf5c02 glide-dock_HTVS_1-0009 localhost [tscc-13-20]
+  3  36 105 | launched  tscc-13-20-0-62cf8bae glide-dock_HTVS_1-0039 localhost [tscc-13-20]
+  4  35 105 | finished  tscc-13-20-0-62cf5c5a glide-dock_HTVS_1-0036 localhost [tscc-13-20]
+  4  36 104 | launched  tscc-13-20-0-62cf92ee glide-dock_HTVS_1-0040 localhost [tscc-13-20]
+  5  35 104 | finished  tscc-13-20-0-62cf5c30 glide-dock_HTVS_1-0023 localhost [tscc-13-20]
+  5  36 103 | launched  tscc-13-20-0-62cf931e glide-dock_HTVS_1-0041 localhost [tscc-13-20]
+  6  35 103 | finished  tscc-13-20-0-62cf5bfc glide-dock_HTVS_1-0007 localhost [tscc-13-20]
+  6  36 102 | launched  tscc-13-20-0-62cf94ee glide-dock_HTVS_1-0042 localhost [tscc-13-20]
+  7  35 102 | finished  tscc-13-20-0-62cf5c33 glide-dock_HTVS_1-0024 localhost [tscc-13-20]
+  7  36 101 | launched  tscc-13-20-0-62cf978c glide-dock_HTVS_1-0043 localhost [tscc-13-20]
+  8  35 101 | finished  tscc-13-20-0-62cf5c52 glide-dock_HTVS_1-0034 localhost [tscc-13-20]
+  8  36 100 | launched  tscc-13-20-0-62cf97a3 glide-dock_HTVS_1-0044 localhost [tscc-13-20]
+  9  35 100 | finished  tscc-13-20-0-62cf5c1e glide-dock_HTVS_1-0017 localhost [tscc-13-20]
+  9  36  99 | launched  tscc-13-20-0-62cf9984 glide-dock_HTVS_1-0045 localhost [tscc-13-20]
+ 10  35  99 | finished  tscc-13-20-0-62cf5c27 glide-dock_HTVS_1-0020 localhost [tscc-13-20]
+ 10  36  98 | launched  tscc-13-20-0-62cf9a05 glide-dock_HTVS_1-0046 localhost [tscc-13-20]
+ 11  35  98 | finished  tscc-13-20-0-62cf5c09 glide-dock_HTVS_1-0011 localhost [tscc-13-20]
+ 11  36  97 | launched  tscc-13-20-0-62cf9b98 glide-dock_HTVS_1-0047 localhost [tscc-13-20]
+ 12  35  97 | finished  tscc-13-20-0-62cf5c18 glide-dock_HTVS_1-0015 localhost [tscc-13-20]
+ 12  36  96 | launched  tscc-13-20-0-62cf9ce0 glide-dock_HTVS_1-0048 localhost [tscc-13-20]
+ 13  35  96 | finished  tscc-13-20-0-62cf5c41 glide-dock_HTVS_1-0029 localhost [tscc-13-20]
+ 13  36  95 | launched  tscc-13-20-0-62cf9d1c glide-dock_HTVS_1-0049 localhost [tscc-13-20]
+ 14  35  95 | finished  tscc-13-20-0-62cf5c3e glide-dock_HTVS_1-0028 localhost [tscc-13-20]
+ 14  36  94 | launched  tscc-13-20-0-62cf9d5d glide-dock_HTVS_1-0050 localhost [tscc-13-20]
+ 15  35  94 | finished  tscc-13-20-0-62cf5bec glide-dock_HTVS_1-0002 localhost [tscc-13-20]
+ 15  36  93 | launched  tscc-13-20-0-62cf9df2 glide-dock_HTVS_1-0051 localhost [tscc-13-20]
+ 16  35  93 | finished  tscc-13-20-0-62cf5c4f glide-dock_HTVS_1-0033 localhost [tscc-13-20]
+ 16  36  92 | launched  tscc-13-20-0-62cf9e3c glide-dock_HTVS_1-0052 localhost [tscc-13-20]
+ 17  35  92 | finished  tscc-13-20-0-62cf5c21 glide-dock_HTVS_1-0018 localhost [tscc-13-20]
+ 17  36  91 | launched  tscc-13-20-0-62cf9e4f glide-dock_HTVS_1-0053 localhost [tscc-13-20]
+ 18  35  91 | finished  tscc-13-20-0-62cf5c2d glide-dock_HTVS_1-0022 localhost [tscc-13-20]
+ 18  36  90 | launched  tscc-13-20-0-62cf9f08 glide-dock_HTVS_1-0054 localhost [tscc-13-20]
+ 19  35  90 | finished  tscc-13-20-0-62cf5c2a glide-dock_HTVS_1-0021 localhost [tscc-13-20]
+ 19  36  89 | launched  tscc-13-20-0-62cf9fa8 glide-dock_HTVS_1-0055 localhost [tscc-13-20]
+ 20  35  89 | finished  tscc-13-20-0-62cf5bee glide-dock_HTVS_1-0003 localhost [tscc-13-20]
+ 20  36  88 | launched  tscc-13-20-0-62cfa03c glide-dock_HTVS_1-0056 localhost [tscc-13-20]
+ 21  35  88 | finished  tscc-13-20-0-62cf5c14 glide-dock_HTVS_1-0014 localhost [tscc-13-20]
+ 21  36  87 | launched  tscc-13-20-0-62cfa0a3 glide-dock_HTVS_1-0057 localhost [tscc-13-20]
+ 22  35  87 | finished  tscc-13-20-0-62cf5c06 glide-dock_HTVS_1-0010 localhost [tscc-13-20]
+ 22  36  86 | launched  tscc-13-20-0-62cfa3a3 glide-dock_HTVS_1-0058 localhost [tscc-13-20]
+ 23  35  86 | finished  tscc-13-20-0-62cf5c0f glide-dock_HTVS_1-0013 localhost [tscc-13-20]
+ 23  36  85 | launched  tscc-13-20-0-62cfa47c glide-dock_HTVS_1-0059 localhost [tscc-13-20]
+ 24  35  85 | finished  tscc-13-20-0-62cf5c38 glide-dock_HTVS_1-0026 localhost [tscc-13-20]
+ 24  36  84 | launched  tscc-13-20-0-62cfa676 glide-dock_HTVS_1-0060 localhost [tscc-13-20]
+ 25  35  84 | finished  tscc-13-20-0-62cf5c56 glide-dock_HTVS_1-0035 localhost [tscc-13-20]
+ 25  36  83 | launched  tscc-13-20-0-62cfa7f6 glide-dock_HTVS_1-0061 localhost [tscc-13-20]
+ 26  35  83 | finished  tscc-13-20-0-62cf5c24 glide-dock_HTVS_1-0019 localhost [tscc-13-20]
+ 26  36  82 | launched  tscc-13-20-0-62cfa809 glide-dock_HTVS_1-0062 localhost [tscc-13-20]
+ 27  35  82 | finished  tscc-13-20-0-62cf5bf2 glide-dock_HTVS_1-0004 localhost [tscc-13-20]
+ 27  36  81 | launched  tscc-13-20-0-62cfa881 glide-dock_HTVS_1-0063 localhost [tscc-13-20]
+ 28  35  81 | finished  tscc-13-20-0-62cf5c4b glide-dock_HTVS_1-0032 localhost [tscc-13-20]
+ 28  36  80 | launched  tscc-13-20-0-62cfa91d glide-dock_HTVS_1-0064 localhost [tscc-13-20]
+ 29  35  80 | finished  tscc-13-20-0-62cf5c1b glide-dock_HTVS_1-0016 localhost [tscc-13-20]
+ 29  36  79 | launched  tscc-13-20-0-62cfac47 glide-dock_HTVS_1-0065 localhost [tscc-13-20]
+ 30  35  79 | finished  tscc-13-20-0-62cf5bff glide-dock_HTVS_1-0008 localhost [tscc-13-20]
+ 30  36  78 | launched  tscc-13-20-0-62cfada5 glide-dock_HTVS_1-0066 localhost [tscc-13-20]
+ 31  35  78 | finished  tscc-13-20-0-62cf5c0c glide-dock_HTVS_1-0012 localhost [tscc-13-20]
+ 31  36  77 | launched  tscc-13-20-0-62cfb5bd glide-dock_HTVS_1-0067 localhost [tscc-13-20]
+ 32  35  77 | finished  tscc-13-20-0-62cf5c3b glide-dock_HTVS_1-0027 localhost [tscc-13-20]
+ 32  36  76 | launched  tscc-13-20-0-62cfb7d1 glide-dock_HTVS_1-0068 localhost [tscc-13-20]
+ 33  35  76 | finished  tscc-13-20-0-62cf5be8 glide-dock_HTVS_1-0001 localhost [tscc-13-20]
+ 33  36  75 | launched  tscc-13-20-0-62cfb8e4 glide-dock_HTVS_1-0069 localhost [tscc-13-20]
+ 34  35  75 | finished  tscc-13-20-0-62cf5c48 glide-dock_HTVS_1-0031 localhost [tscc-13-20]
+ 34  36  74 | launched  tscc-13-20-0-62cfb8fe glide-dock_HTVS_1-0070 localhost [tscc-13-20]
+ 35  35  74 | finished  tscc-13-20-0-62cf5bf5 glide-dock_HTVS_1-0005 localhost [tscc-13-20]
+ 35  36  73 | launched  tscc-13-20-0-62cfc03f glide-dock_HTVS_1-0071 localhost [tscc-13-20]
+ 36  35  73 | finished  tscc-13-20-0-62cf9d5d glide-dock_HTVS_1-0050 localhost [tscc-13-20]
+ 36  36  72 | launched  tscc-13-20-0-62cfc16a glide-dock_HTVS_1-0072 localhost [tscc-13-20]
+ 37  35  72 | finished  tscc-13-20-0-62cf5bf8 glide-dock_HTVS_1-0006 localhost [tscc-13-20]
+ 37  36  71 | launched  tscc-13-20-0-62cfc2db glide-dock_HTVS_1-0073 localhost [tscc-13-20]
+ 38  35  71 | finished  tscc-13-20-0-62cf84f7 glide-dock_HTVS_1-0037 localhost [tscc-13-20]
+ 38  36  70 | launched  tscc-13-20-0-62cfc388 glide-dock_HTVS_1-0074 localhost [tscc-13-20]
+ 39  35  70 | finished  tscc-13-20-0-62cf8a4b glide-dock_HTVS_1-0038 localhost [tscc-13-20]
+ 39  36  69 | launched  tscc-13-20-0-62cfc46e glide-dock_HTVS_1-0075 localhost [tscc-13-20]
+ 40  35  69 | finished  tscc-13-20-0-62cf97a3 glide-dock_HTVS_1-0044 localhost [tscc-13-20]
+ 40  36  68 | launched  tscc-13-20-0-62cfcebc glide-dock_HTVS_1-0076 localhost [tscc-13-20]
+ 41  35  68 | finished  tscc-13-20-0-62cfada5 glide-dock_HTVS_1-0066 localhost [tscc-13-20]
+ 41  36  67 | launched  tscc-13-20-0-62cfd0e8 glide-dock_HTVS_1-0077 localhost [tscc-13-20]
+ 42  35  67 | finished  tscc-13-20-0-62cf9e4f glide-dock_HTVS_1-0053 localhost [tscc-13-20]
+ 42  36  66 | launched  tscc-13-20-0-62cfd105 glide-dock_HTVS_1-0078 localhost [tscc-13-20]
+ 43  35  66 | finished  tscc-13-20-0-62cf931e glide-dock_HTVS_1-0041 localhost [tscc-13-20]
+ 43  36  65 | launched  tscc-13-20-0-62cfd383 glide-dock_HTVS_1-0079 localhost [tscc-13-20]
+ 44  35  65 | finished  tscc-13-20-0-62cf9df2 glide-dock_HTVS_1-0051 localhost [tscc-13-20]
+ 44  36  64 | launched  tscc-13-20-0-62cfd67c glide-dock_HTVS_1-0080 localhost [tscc-13-20]
+ 45  35  64 | finished  tscc-13-20-0-62cf92ee glide-dock_HTVS_1-0040 localhost [tscc-13-20]
+ 45  36  63 | launched  tscc-13-20-0-62cfd961 glide-dock_HTVS_1-0081 localhost [tscc-13-20]
+ 46  35  63 | finished  tscc-13-20-0-62cf9b98 glide-dock_HTVS_1-0047 localhost [tscc-13-20]
+ 46  36  62 | launched  tscc-13-20-0-62cfdbf1 glide-dock_HTVS_1-0082 localhost [tscc-13-20]
+ 47  35  62 | finished  tscc-13-20-0-62cf94ee glide-dock_HTVS_1-0042 localhost [tscc-13-20]
+ 47  36  61 | launched  tscc-13-20-0-62cfded8 glide-dock_HTVS_1-0083 localhost [tscc-13-20]
+ 48  35  61 | finished  tscc-13-20-0-62cfa0a3 glide-dock_HTVS_1-0057 localhost [tscc-13-20]
+ 48  36  60 | launched  tscc-13-20-0-62cfdfe6 glide-dock_HTVS_1-0084 localhost [tscc-13-20]
+ 49  35  60 | finished  tscc-13-20-0-62cfa47c glide-dock_HTVS_1-0059 localhost [tscc-13-20]
+ 49  36  59 | launched  tscc-13-20-0-62cfe1a2 glide-dock_HTVS_1-0085 localhost [tscc-13-20]
+ 50  35  59 | finished  tscc-13-20-0-62cfa03c glide-dock_HTVS_1-0056 localhost [tscc-13-20]
+ 50  36  58 | launched  tscc-13-20-0-62cfe21f glide-dock_HTVS_1-0086 localhost [tscc-13-20]
+ 51  35  58 | finished  tscc-13-20-0-62cf9a05 glide-dock_HTVS_1-0046 localhost [tscc-13-20]
+ 51  36  57 | launched  tscc-13-20-0-62cfe2bd glide-dock_HTVS_1-0087 localhost [tscc-13-20]
+ 52  35  57 | finished  tscc-13-20-0-62cfa809 glide-dock_HTVS_1-0062 localhost [tscc-13-20]
+ 52  36  56 | launched  tscc-13-20-0-62cfe498 glide-dock_HTVS_1-0088 localhost [tscc-13-20]
+ 53  35  56 | finished  tscc-13-20-0-62cf978c glide-dock_HTVS_1-0043 localhost [tscc-13-20]
+ 53  36  55 | launched  tscc-13-20-0-62cfe7ae glide-dock_HTVS_1-0089 localhost [tscc-13-20]
+ 54  35  55 | finished  tscc-13-20-0-62cf8bae glide-dock_HTVS_1-0039 localhost [tscc-13-20]
+ 54  36  54 | launched  tscc-13-20-0-62cfe7c0 glide-dock_HTVS_1-0090 localhost [tscc-13-20]
+ 55  35  54 | finished  tscc-13-20-0-62cfac47 glide-dock_HTVS_1-0065 localhost [tscc-13-20]
+ 55  36  53 | launched  tscc-13-20-0-62cfe84c glide-dock_HTVS_1-0091 localhost [tscc-13-20]
+ 56  35  53 | finished  tscc-13-20-0-62cf9e3c glide-dock_HTVS_1-0052 localhost [tscc-13-20]
+ 56  36  52 | launched  tscc-13-20-0-62cfec43 glide-dock_HTVS_1-0092 localhost [tscc-13-20]
+ 57  35  52 | finished  tscc-13-20-0-62cfb5bd glide-dock_HTVS_1-0067 localhost [tscc-13-20]
+ 57  36  51 | launched  tscc-13-20-0-62cfec8d glide-dock_HTVS_1-0093 localhost [tscc-13-20]
+ 58  35  51 | finished  tscc-13-20-0-62cfa7f6 glide-dock_HTVS_1-0061 localhost [tscc-13-20]
+ 58  36  50 | launched  tscc-13-20-0-62cfed38 glide-dock_HTVS_1-0094 localhost [tscc-13-20]
+ 59  35  50 | finished  tscc-13-20-0-62cf9d1c glide-dock_HTVS_1-0049 localhost [tscc-13-20]
+ 59  36  49 | launched  tscc-13-20-0-62cfeff7 glide-dock_HTVS_1-0095 localhost [tscc-13-20]
+ 60  35  49 | finished  tscc-13-20-0-62cf9984 glide-dock_HTVS_1-0045 localhost [tscc-13-20]
+ 60  36  48 | launched  tscc-13-20-0-62cff0a6 glide-dock_HTVS_1-0096 localhost [tscc-13-20]
+ 61  35  48 | finished  tscc-13-20-0-62cf9fa8 glide-dock_HTVS_1-0055 localhost [tscc-13-20]
+ 61  36  47 | launched  tscc-13-20-0-62cff0b9 glide-dock_HTVS_1-0097 localhost [tscc-13-20]
+ 62  35  47 | finished  tscc-13-20-0-62cfa3a3 glide-dock_HTVS_1-0058 localhost [tscc-13-20]
+ 62  36  46 | launched  tscc-13-20-0-62cff0ec glide-dock_HTVS_1-0098 localhost [tscc-13-20]
+ 63  35  46 | finished  tscc-13-20-0-62cfa676 glide-dock_HTVS_1-0060 localhost [tscc-13-20]
+ 63  36  45 | launched  tscc-13-20-0-62cff0ff glide-dock_HTVS_1-0099 localhost [tscc-13-20]
+ 64  35  45 | finished  tscc-13-20-0-62cfa881 glide-dock_HTVS_1-0063 localhost [tscc-13-20]
+ 64  36  44 | launched  tscc-13-20-0-62cff2a8 glide-dock_HTVS_1-0100 localhost [tscc-13-20]
+ 65  35  44 | finished  tscc-13-20-0-62cfb7d1 glide-dock_HTVS_1-0068 localhost [tscc-13-20]
+ 65  36  43 | launched  tscc-13-20-0-62cff86f glide-dock_HTVS_1-0101 localhost [tscc-13-20]
+ 66  35  43 | finished  tscc-13-20-0-62cfc03f glide-dock_HTVS_1-0071 localhost [tscc-13-20]
+ 66  36  42 | launched  tscc-13-20-0-62cff95c glide-dock_HTVS_1-0102 localhost [tscc-13-20]
+ 67  35  42 | finished  tscc-13-20-0-62cfb8fe glide-dock_HTVS_1-0070 localhost [tscc-13-20]
+ 67  36  41 | launched  tscc-13-20-0-62cffbd9 glide-dock_HTVS_1-0103 localhost [tscc-13-20]
+ 68  35  41 | finished  tscc-13-20-0-62cfa91d glide-dock_HTVS_1-0064 localhost [tscc-13-20]
+ 68  36  40 | launched  tscc-13-20-0-62cffc21 glide-dock_HTVS_1-0104 localhost [tscc-13-20]
+ 69  35  40 | finished  tscc-13-20-0-62cf9ce0 glide-dock_HTVS_1-0048 localhost [tscc-13-20]
+ 69  36  39 | launched  tscc-13-20-0-62cffd34 glide-dock_HTVS_1-0105 localhost [tscc-13-20]
+ 70  35  39 | finished  tscc-13-20-0-62cfb8e4 glide-dock_HTVS_1-0069 localhost [tscc-13-20]
+ 70  36  38 | launched  tscc-13-20-0-62cffe5f glide-dock_HTVS_1-0106 localhost [tscc-13-20]
+ 71  35  38 | finished  tscc-13-20-0-62cfc46e glide-dock_HTVS_1-0075 localhost [tscc-13-20]
+ 71  36  37 | launched  tscc-13-20-0-62cfffae glide-dock_HTVS_1-0107 localhost [tscc-13-20]
+ 72  35  37 | finished  tscc-13-20-0-62cfc2db glide-dock_HTVS_1-0073 localhost [tscc-13-20]
+ 72  36  36 | launched  tscc-13-20-0-62cfffbf glide-dock_HTVS_1-0108 localhost [tscc-13-20]
+ 73  35  36 | finished  tscc-13-20-0-62cfc388 glide-dock_HTVS_1-0074 localhost [tscc-13-20]
+ 73  36  35 | launched  tscc-13-20-0-62d00226 glide-dock_HTVS_1-0109 localhost [tscc-13-20]
+ 74  35  35 | finished  tscc-13-20-0-62cfc16a glide-dock_HTVS_1-0072 localhost [tscc-13-20]
+ 74  36  34 | launched  tscc-13-20-0-62d00461 glide-dock_HTVS_1-0110 localhost [tscc-13-20]
+ 75  35  34 | finished  tscc-13-20-0-62cfd383 glide-dock_HTVS_1-0079 localhost [tscc-13-20]
+ 75  36  33 | launched  tscc-13-20-0-62d00744 glide-dock_HTVS_1-0111 localhost [tscc-13-20]
+ 76  35  33 | finished  tscc-13-20-0-62cfd67c glide-dock_HTVS_1-0080 localhost [tscc-13-20]
+ 76  36  32 | launched  tscc-13-20-0-62d007c9 glide-dock_HTVS_1-0112 localhost [tscc-13-20]
+ 77  35  32 | finished  tscc-13-20-0-62cf9f08 glide-dock_HTVS_1-0054 localhost [tscc-13-20]
+ 77  36  31 | launched  tscc-13-20-0-62d00d6e glide-dock_HTVS_1-0113 localhost [tscc-13-20]
+ 78  35  31 | finished  tscc-13-20-0-62cfcebc glide-dock_HTVS_1-0076 localhost [tscc-13-20]
+ 78  36  30 | launched  tscc-13-20-0-62d00e62 glide-dock_HTVS_1-0114 localhost [tscc-13-20]
+ 79  35  30 | finished  tscc-13-20-0-62cfd0e8 glide-dock_HTVS_1-0077 localhost [tscc-13-20]
+ 79  36  29 | launched  tscc-13-20-0-62d01509 glide-dock_HTVS_1-0115 localhost [tscc-13-20]
+ 80  35  29 | finished  tscc-13-20-0-62cfdbf1 glide-dock_HTVS_1-0082 localhost [tscc-13-20]
+ 80  36  28 | launched  tscc-13-20-0-62d017bf glide-dock_HTVS_1-0116 localhost [tscc-13-20]
+ 81  35  28 | finished  tscc-13-20-0-62cfd105 glide-dock_HTVS_1-0078 localhost [tscc-13-20]
+ 81  36  27 | launched  tscc-13-20-0-62d01b1e glide-dock_HTVS_1-0117 localhost [tscc-13-20]
+ 82  35  27 | finished  tscc-13-20-0-62cfe498 glide-dock_HTVS_1-0088 localhost [tscc-13-20]
+ 82  36  26 | launched  tscc-13-20-0-62d01fff glide-dock_HTVS_1-0118 localhost [tscc-13-20]
+ 83  35  26 | finished  tscc-13-20-0-62cfe1a2 glide-dock_HTVS_1-0085 localhost [tscc-13-20]
+ 83  36  25 | launched  tscc-13-20-0-62d0233a glide-dock_HTVS_1-0119 localhost [tscc-13-20]
+ 84  35  25 | finished  tscc-13-20-0-62cfded8 glide-dock_HTVS_1-0083 localhost [tscc-13-20]
+ 84  36  24 | launched  tscc-13-20-0-62d023d1 glide-dock_HTVS_1-0120 localhost [tscc-13-20]
+ 85  35  24 | finished  tscc-13-20-0-62cfdfe6 glide-dock_HTVS_1-0084 localhost [tscc-13-20]
+ 85  36  23 | launched  tscc-13-20-0-62d02788 glide-dock_HTVS_1-0121 localhost [tscc-13-20]
+ 86  35  23 | finished  tscc-13-20-0-62cff0ec glide-dock_HTVS_1-0098 localhost [tscc-13-20]
+ 86  36  22 | launched  tscc-13-20-0-62d029c2 glide-dock_HTVS_1-0122 localhost [tscc-13-20]
+ 87  35  22 | finished  tscc-13-20-0-62cff86f glide-dock_HTVS_1-0101 localhost [tscc-13-20]
+ 87  36  21 | launched  tscc-13-20-0-62d02bff glide-dock_HTVS_1-0123 localhost [tscc-13-20]
+ 88  35  21 | finished  tscc-13-20-0-62cff95c glide-dock_HTVS_1-0102 localhost [tscc-13-20]
+ 88  36  20 | launched  tscc-13-20-0-62d02cc7 glide-dock_HTVS_1-0124 localhost [tscc-13-20]
+ 89  35  20 | finished  tscc-13-20-0-62cff0b9 glide-dock_HTVS_1-0097 localhost [tscc-13-20]
+ 89  36  19 | launched  tscc-13-20-0-62d02e41 glide-dock_HTVS_1-0125 localhost [tscc-13-20]
+ 90  35  19 | finished  tscc-13-20-0-62cfe7ae glide-dock_HTVS_1-0089 localhost [tscc-13-20]
+ 90  36  18 | launched  tscc-13-20-0-62d032b1 glide-dock_HTVS_1-0126 localhost [tscc-13-20]
+ 91  35  18 | finished  tscc-13-20-0-62cfd961 glide-dock_HTVS_1-0081 localhost [tscc-13-20]
+ 91  36  17 | launched  tscc-13-20-0-62d032d8 glide-dock_HTVS_1-0127 localhost [tscc-13-20]
+ 92  35  17 | finished  tscc-13-20-0-62cfffbf glide-dock_HTVS_1-0108 localhost [tscc-13-20]
+ 92  36  16 | launched  tscc-13-20-0-62d03301 glide-dock_HTVS_1-0128 localhost [tscc-13-20]
+ 93  35  16 | finished  tscc-13-20-0-62cfe21f glide-dock_HTVS_1-0086 localhost [tscc-13-20]
+ 93  36  15 | launched  tscc-13-20-0-62d0348c glide-dock_HTVS_1-0129 localhost [tscc-13-20]
+ 94  35  15 | finished  tscc-13-20-0-62cfe7c0 glide-dock_HTVS_1-0090 localhost [tscc-13-20]
+ 94  36  14 | launched  tscc-13-20-0-62d034f0 glide-dock_HTVS_1-0130 localhost [tscc-13-20]
+ 95  35  14 | finished  tscc-13-20-0-62cffc21 glide-dock_HTVS_1-0104 localhost [tscc-13-20]
+ 95  36  13 | launched  tscc-13-20-0-62d035d7 glide-dock_HTVS_1-0131 localhost [tscc-13-20]
+ 96  35  13 | finished  tscc-13-20-0-62cffe5f glide-dock_HTVS_1-0106 localhost [tscc-13-20]
+ 96  36  12 | launched  tscc-13-20-0-62d03662 glide-dock_HTVS_1-0132 localhost [tscc-13-20]
+ 97  35  12 | finished  tscc-13-20-0-62cfe84c glide-dock_HTVS_1-0091 localhost [tscc-13-20]
+ 97  36  11 | launched  tscc-13-20-0-62d03708 glide-dock_HTVS_1-0133 localhost [tscc-13-20]
+ 98  35  11 | finished  tscc-13-20-0-62cffd34 glide-dock_HTVS_1-0105 localhost [tscc-13-20]
+ 98  36  10 | launched  tscc-13-20-0-62d03726 glide-dock_HTVS_1-0134 localhost [tscc-13-20]
+ 99  35  10 | finished  tscc-13-20-0-62cff0ff glide-dock_HTVS_1-0099 localhost [tscc-13-20]
+ 99  36   9 | launched  tscc-13-20-0-62d03912 glide-dock_HTVS_1-0135 localhost [tscc-13-20]
+100  35   9 | finished  tscc-13-20-0-62cfec43 glide-dock_HTVS_1-0092 localhost [tscc-13-20]
+100  36   8 | launched  tscc-13-20-0-62d03954 glide-dock_HTVS_1-0136 localhost [tscc-13-20]
+101  35   8 | finished  tscc-13-20-0-62cff0a6 glide-dock_HTVS_1-0096 localhost [tscc-13-20]
+101  36   7 | launched  tscc-13-20-0-62d03b0f glide-dock_HTVS_1-0137 localhost [tscc-13-20]
+102  35   7 | finished  tscc-13-20-0-62cff2a8 glide-dock_HTVS_1-0100 localhost [tscc-13-20]
+102  36   6 | launched  tscc-13-20-0-62d03bc7 glide-dock_HTVS_1-0138 localhost [tscc-13-20]
+103  35   6 | finished  tscc-13-20-0-62cfe2bd glide-dock_HTVS_1-0087 localhost [tscc-13-20]
+103  36   5 | launched  tscc-13-20-0-62d03c7e glide-dock_HTVS_1-0139 localhost [tscc-13-20]
+104  35   5 | finished  tscc-13-20-0-62cffbd9 glide-dock_HTVS_1-0103 localhost [tscc-13-20]
+104  36   4 | launched  tscc-13-20-0-62d03d67 glide-dock_HTVS_1-0140 localhost [tscc-13-20]
+105  35   4 | finished  tscc-13-20-0-62d00226 glide-dock_HTVS_1-0109 localhost [tscc-13-20]
+105  36   3 | launched  tscc-13-20-0-62d03dd2 glide-dock_HTVS_1-0141 localhost [tscc-13-20]
+106  35   3 | finished  tscc-13-20-0-62d00744 glide-dock_HTVS_1-0111 localhost [tscc-13-20]
+106  36   2 | launched  tscc-13-20-0-62d03f1f glide-dock_HTVS_1-0142 localhost [tscc-13-20]
+107  35   2 | finished  tscc-13-20-0-62cfffae glide-dock_HTVS_1-0107 localhost [tscc-13-20]
+107  36   1 | launched  tscc-13-20-0-62d040c3 glide-dock_HTVS_1-0143 localhost [tscc-13-20]
+108  35   1 | finished  tscc-13-20-0-62d00e62 glide-dock_HTVS_1-0114 localhost [tscc-13-20]
+108  36   0 | launched  tscc-13-20-0-62d04175 glide-dock_HTVS_1-0144 localhost [tscc-13-20]
+109  35   0 | finished  tscc-13-20-0-62cfec8d glide-dock_HTVS_1-0093 localhost [tscc-13-20]
+110  34   0 | finished  tscc-13-20-0-62d017bf glide-dock_HTVS_1-0116 localhost [tscc-13-20]
+111  33   0 | finished  tscc-13-20-0-62cfed38 glide-dock_HTVS_1-0094 localhost [tscc-13-20]
+112  32   0 | finished  tscc-13-20-0-62d007c9 glide-dock_HTVS_1-0112 localhost [tscc-13-20]
+113  31   0 | finished  tscc-13-20-0-62d00461 glide-dock_HTVS_1-0110 localhost [tscc-13-20]
+114  30   0 | finished  tscc-13-20-0-62d01509 glide-dock_HTVS_1-0115 localhost [tscc-13-20]
+115  29   0 | finished  tscc-13-20-0-62cfeff7 glide-dock_HTVS_1-0095 localhost [tscc-13-20]
+116  28   0 | finished  tscc-13-20-0-62d01fff glide-dock_HTVS_1-0118 localhost [tscc-13-20]
+117  27   0 | finished  tscc-13-20-0-62d0233a glide-dock_HTVS_1-0119 localhost [tscc-13-20]
+118  26   0 | finished  tscc-13-20-0-62d00d6e glide-dock_HTVS_1-0113 localhost [tscc-13-20]
+119  25   0 | finished  tscc-13-20-0-62d032d8 glide-dock_HTVS_1-0127 localhost [tscc-13-20]
+120  24   0 | finished  tscc-13-20-0-62d023d1 glide-dock_HTVS_1-0120 localhost [tscc-13-20]
+121  23   0 | finished  tscc-13-20-0-62d034f0 glide-dock_HTVS_1-0130 localhost [tscc-13-20]
+122  22   0 | finished  tscc-13-20-0-62d03912 glide-dock_HTVS_1-0135 localhost [tscc-13-20]
+123  21   0 | finished  tscc-13-20-0-62d03d67 glide-dock_HTVS_1-0140 localhost [tscc-13-20]
+124  20   0 | finished  tscc-13-20-0-62d03dd2 glide-dock_HTVS_1-0141 localhost [tscc-13-20]
+125  19   0 | finished  tscc-13-20-0-62d03301 glide-dock_HTVS_1-0128 localhost [tscc-13-20]
+126  18   0 | finished  tscc-13-20-0-62d032b1 glide-dock_HTVS_1-0126 localhost [tscc-13-20]
+127  17   0 | finished  tscc-13-20-0-62d02e41 glide-dock_HTVS_1-0125 localhost [tscc-13-20]
+128  16   0 | finished  tscc-13-20-0-62d03954 glide-dock_HTVS_1-0136 localhost [tscc-13-20]
+129  15   0 | finished  tscc-13-20-0-62d02788 glide-dock_HTVS_1-0121 localhost [tscc-13-20]
+130  14   0 | finished  tscc-13-20-0-62d02bff glide-dock_HTVS_1-0123 localhost [tscc-13-20]
+131  13   0 | finished  tscc-13-20-0-62d035d7 glide-dock_HTVS_1-0131 localhost [tscc-13-20]
+132  12   0 | finished  tscc-13-20-0-62d03708 glide-dock_HTVS_1-0133 localhost [tscc-13-20]
+133  11   0 | finished  tscc-13-20-0-62d03726 glide-dock_HTVS_1-0134 localhost [tscc-13-20]
+134  10   0 | finished  tscc-13-20-0-62d03662 glide-dock_HTVS_1-0132 localhost [tscc-13-20]
+135   9   0 | finished  tscc-13-20-0-62d0348c glide-dock_HTVS_1-0129 localhost [tscc-13-20]
+136   8   0 | finished  tscc-13-20-0-62d040c3 glide-dock_HTVS_1-0143 localhost [tscc-13-20]
+137   7   0 | finished  tscc-13-20-0-62d03b0f glide-dock_HTVS_1-0137 localhost [tscc-13-20]
+138   6   0 | finished  tscc-13-20-0-62d02cc7 glide-dock_HTVS_1-0124 localhost [tscc-13-20]
+139   5   0 | finished  tscc-13-20-0-62d03c7e glide-dock_HTVS_1-0139 localhost [tscc-13-20]
+140   4   0 | finished  tscc-13-20-0-62d03f1f glide-dock_HTVS_1-0142 localhost [tscc-13-20]
+141   3   0 | finished  tscc-13-20-0-62d04175 glide-dock_HTVS_1-0144 localhost [tscc-13-20]
+142   2   0 | finished  tscc-13-20-0-62d029c2 glide-dock_HTVS_1-0122 localhost [tscc-13-20]
+143   1   0 | finished  tscc-13-20-0-62d03bc7 glide-dock_HTVS_1-0138 localhost [tscc-13-20]
+144   0   0 | finished  tscc-13-20-0-62d01b1e glide-dock_HTVS_1-0117 localhost [tscc-13-20]
+
+All jobs have completed.
+
+144 of 144 job(s) succeeded; 0 job(s) failed.
+
+All jobs succeeded: 930464 ligands done.
+Writing poses to glide-dock_HTVS_1_pv.maegz
+Combining log files to glide-dock_HTVS_1_subjobs.log
+Archiving subjob pose files in glide-dock_HTVS_1_subjob_poses.zip
+Archiving subjob input and log files in glide-dock_HTVS_1_subjobs.tar.gz
+Cleaning up...
+
+Elapsed times:
+- preprocessing: 409.1 s
+- running subjobs: 75490.9 s
+- postprocessing: 1180.2 s
+- cleanup: 825.8 s
+
+All Glide docking subjobs: Total CPU time = 2172982 seconds (25 d 3 h 36 min 22 s)
+
+Finished at: Thu Jul 14 14:28:56 2022
+Total elapsed time for Glide script = 77954 seconds (21 h 39 min 14 s)
