@@ -1,0 +1,5 @@
+GRIDFILE   ../glide-grid_1/glide-grid_1.zip
+LIGANDFILE   ../../../../../mpro/lifechemicals/ligprep/ligprep_1-out.maegz
+MACROCYCLE   False
+PRECISION   HTVS
+WRITE_RES_INTERACTION   True
