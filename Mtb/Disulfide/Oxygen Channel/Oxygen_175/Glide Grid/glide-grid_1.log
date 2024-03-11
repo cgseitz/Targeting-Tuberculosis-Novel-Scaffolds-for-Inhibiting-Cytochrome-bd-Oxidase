@@ -1,0 +1,59 @@
+Glide version 94137 (mmshare version 57137)
+mmshare         56fa262a4f
+glide-src       6aa12c1f3a
+psp-src         e3d915fa9a
+macromodel-src  bffb51b397
+epik-src        4b6a77e971
+
+Copyright (c) Schrodinger, LLC.
+All Rights Reserved.
+
+--------------------------------------------------------------------------------
+JobId          : arizona-0-62969ac0
+Name           : glide-grid_1
+Program        : Glide
+Version        : 2022-1 build 137
+Host           : arizona.amaro.ucsd.edu
+Dir            : /net/gpfs-amarolab/cseitz/from_jam/projects/bdoxidase/mtb/2_docking/disulfide/oxygen_channel/oxygen_175/glide-grid_1
+HostEntry      : localhost
+JobHost        : arizona.amaro.ucsd.edu
+JobDir         : /scratch/tmp.SCHR.gS7LhAWu/cseitz/glide-grid_1
+JobSchrodinger : /software/repo/moleculardynamics/schrodinger/2022u1
+Commandline    : /software/repo/moleculardynamics/schrodinger/2022u1/glide glide-grid_1.in -OVERWRITE -HOST localhost -PROJ /scratch/tmp.SCHR.gS7LhAWu/Tmp_31May2022_1540_42868 -DISP ignore -VIEWNAME glide_gridgen_gui.GridGenPanel -TMPLAUNCHDIR
+StartTime      : 2022-05-31-15:46:24
+--------------------------------------------------------------------------------
+
+[running at reduced cpu priority]
+Glide: WARNING mmlewis warning: Wrong Lewis structure in structure input file
+mmlewis warning: with title: oxygen_175 - prepared
+mmlewis warning: Problems were identified with the following atoms:
+mmlewis warning:  7645 
+mmlewis warning: Now attempting to fix the lewis structure.
+Glide: WARNING mmlewis warning: A valid lewis structure was successfully generated.
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ VdW radii of protein atoms scaled by    1.00000000000000     
+ Charge cutoff for polarity  0.250000000000000     
+GLIDE WARNING: No pattern matches protein atom 1174; assigning "polar non-Hbonding" atomtype.
+GLIDE WARNING: No pattern matches protein atom 1183; assigning "polar non-Hbonding" atomtype.
+GLIDE WARNING: No pattern matches protein atom 1558; assigning "polar non-Hbonding" atomtype.
+GLIDE WARNING: No pattern matches protein atom 1567; assigning "polar non-Hbonding" atomtype.
+GLIDE WARNING: No pattern matches protein atom 1679; assigning "polar non-Hbonding" atomtype.
+GLIDE WARNING: No pattern matches protein atom 1688; assigning "polar non-Hbonding" atomtype.
+GLIDE WARNING: No pattern matches protein atom 8002; assigning "polar non-Hbonding" atomtype.
+GLIDE WARNING: No pattern matches protein atom 8011; assigning "polar non-Hbonding" atomtype.
+GLIDE WARNING: No pattern matches protein atom 8581; assigning "polar non-Hbonding" atomtype.
+GLIDE WARNING: No pattern matches protein atom 8590; assigning "polar non-Hbonding" atomtype.
+  Receptor setup: (nsites, nx, ny, nz, bsize)=(         512 ,           35 , 
+          35 ,           35 ,    1.00000000000000      ).
+ Screening setup finished.
+ DOCKMAIN: getting receptor.
+  DOCKMAIN after grid: (nx, ny, nz) = (          96 ,           96 , 
+          96 ).
+Creating output grid archive 'glide-grid_1.zip'
+
+Exiting Glide
+Date: Tuesday, May 31 2022, at 15:49:02 PDT
+CPU time (s): 154.0 user, 1.0 system, 155.2 real
+Total elapsed time = 155 seconds (2 minutes, 35 seconds)
+[running at reduced cpu priority]
