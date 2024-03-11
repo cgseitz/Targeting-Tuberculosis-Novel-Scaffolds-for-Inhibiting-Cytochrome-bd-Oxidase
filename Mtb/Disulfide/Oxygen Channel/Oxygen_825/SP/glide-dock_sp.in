@@ -1,0 +1,5 @@
+GRIDFILE   ../../glide-grid_1/glide-grid_1.zip
+LIGANDFILE   glide-dock_HTVS_20000.maegz
+MACROCYCLE   False
+PRECISION   SP
+WRITE_RES_INTERACTION   True
