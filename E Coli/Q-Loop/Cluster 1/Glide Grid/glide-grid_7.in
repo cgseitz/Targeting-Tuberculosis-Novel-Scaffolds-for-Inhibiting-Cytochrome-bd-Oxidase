@@ -1,0 +1,6 @@
+FORCEFIELD   OPLS_2005
+GRID_CENTER   53.31, 59.33, 55.55
+GRIDFILE   glide-grid_7.zip
+INNERBOX   40, 40, 28
+OUTERBOX   58, 58, 46
+RECEP_FILE   glide-grid_7.maegz
