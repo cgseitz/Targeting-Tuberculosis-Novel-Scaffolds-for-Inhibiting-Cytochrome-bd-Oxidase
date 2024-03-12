@@ -1,0 +1,2691 @@
+
+====================================
+            Glide Script            
+====================================
+
+mmshare         2cb27f0eb7
+glide-src       1e5ffd4733
+psp-src         6c93e2fe77
+macromodel-src  d47a6cf2e1
+epik-src        46d635d642
+
+--------------------------------------------------------------------------------
+JobId          : tscc-13-14-0-6373e6aa
+Name           : glide-dock_HTVS_1
+Program        : Glide
+Host           : tscc-13-14.sdsc.edu
+Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/cluster3/lifechemicals/htvs
+HostEntry      : localhost
+JobHost        : tscc-13-14.sdsc.edu
+JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -WAIT glide-dock_HTVS_1.in -OVERWRITE -adjust -HOST localhost:32 -NJOBS 128 -NOLOCAL
+StartTime      : 2022-11-15-11:21:36
+--------------------------------------------------------------------------------
+
+Running locally: False
+Max retries: 2
+Input file: glide-dock_HTVS_1.in
+
+Setting up docking job
+Separating ligands...
+..................................................     50000
+..................................................    100000
+..................................................    150000
+..................................................    200000
+..................................................    250000
+..................................................    300000
+..................................................    350000
+..................................................    400000
+..................................................    450000
+..................................................    500000
+..................................................    550000
+..................................................    600000
+..................................................    650000
+..................................................    700000
+..................................................    750000
+..................................................    800000
+..................................................    850000
+..................................................    900000
+..............................                        930464
+Number of structures that are to be docked: 930464
+Setting up Glide docking jobs...
+
+Running subjobs on hosts:
+  localhost (Max: 32)
+Number of jobs:       128
+Max retries per job:  2
+Max allowed failures: unlimited
+Verbosity:            normal
+
+Starting JobDJ...
+
+Keep one job on driver host: False
+JobDJ columns:
+  C: Number of completed subjobs
+  A: Number of active subjobs (e.g., submitted, running)
+  W: Number of waiting/pending subjobs
+
+  C   A   W | Activity  JobId  JobName  JobHost
+--- --- --- | --------- -----------------------
+  0   1 127 | launched  tscc-13-14-0-6373e900 glide-dock_HTVS_1-0001 localhost [tscc-13-14]
+  0   2 126 | launched  tscc-13-14-0-6373e903 glide-dock_HTVS_1-0002 localhost [tscc-13-14]
+  0   3 125 | launched  tscc-13-14-0-6373e905 glide-dock_HTVS_1-0003 localhost [tscc-13-14]
+  0   4 124 | launched  tscc-13-14-0-6373e908 glide-dock_HTVS_1-0004 localhost [tscc-13-14]
+  0   5 123 | launched  tscc-13-14-0-6373e90c glide-dock_HTVS_1-0005 localhost [tscc-13-14]
+  0   6 122 | launched  tscc-13-14-0-6373e914 glide-dock_HTVS_1-0006 localhost [tscc-13-14]
+  0   7 121 | launched  tscc-13-14-0-6373e917 glide-dock_HTVS_1-0007 localhost [tscc-13-14]
+  0   8 120 | launched  tscc-13-14-0-6373e91a glide-dock_HTVS_1-0008 localhost [tscc-13-14]
+  0   9 119 | launched  tscc-13-14-0-6373e91d glide-dock_HTVS_1-0009 localhost [tscc-13-14]
+  0  10 118 | launched  tscc-13-14-0-6373e921 glide-dock_HTVS_1-0010 localhost [tscc-13-14]
+  0  11 117 | launched  tscc-13-14-0-6373e924 glide-dock_HTVS_1-0011 localhost [tscc-13-14]
+  0  12 116 | launched  tscc-13-14-0-6373e928 glide-dock_HTVS_1-0012 localhost [tscc-13-14]
+  0  13 115 | launched  tscc-13-14-0-6373e92c glide-dock_HTVS_1-0013 localhost [tscc-13-14]
+  0  14 114 | launched  tscc-13-14-0-6373e930 glide-dock_HTVS_1-0014 localhost [tscc-13-14]
+  0  15 113 | launched  tscc-13-14-0-6373e936 glide-dock_HTVS_1-0015 localhost [tscc-13-14]
+  0  16 112 | launched  tscc-13-14-0-6373e93a glide-dock_HTVS_1-0016 localhost [tscc-13-14]
+  0  17 111 | launched  tscc-13-14-0-6373e93f glide-dock_HTVS_1-0017 localhost [tscc-13-14]
+  0  18 110 | launched  tscc-13-14-0-6373e942 glide-dock_HTVS_1-0018 localhost [tscc-13-14]
+  0  19 109 | launched  tscc-13-14-0-6373e947 glide-dock_HTVS_1-0019 localhost [tscc-13-14]
+  0  20 108 | launched  tscc-13-14-0-6373e94b glide-dock_HTVS_1-0020 localhost [tscc-13-14]
+  0  21 107 | launched  tscc-13-14-0-6373e94f glide-dock_HTVS_1-0021 localhost [tscc-13-14]
+  0  22 106 | launched  tscc-13-14-0-6373e955 glide-dock_HTVS_1-0022 localhost [tscc-13-14]
+  0  23 105 | launched  tscc-13-14-0-6373e958 glide-dock_HTVS_1-0023 localhost [tscc-13-14]
+  0  24 104 | launched  tscc-13-14-0-6373e95d glide-dock_HTVS_1-0024 localhost [tscc-13-14]
+  0  25 103 | launched  tscc-13-14-0-6373e962 glide-dock_HTVS_1-0025 localhost [tscc-13-14]
+  0  26 102 | launched  tscc-13-14-0-6373e967 glide-dock_HTVS_1-0026 localhost [tscc-13-14]
+  0  27 101 | launched  tscc-13-14-0-6373e96b glide-dock_HTVS_1-0027 localhost [tscc-13-14]
+  0  28 100 | launched  tscc-13-14-0-6373e96f glide-dock_HTVS_1-0028 localhost [tscc-13-14]
+  0  29  99 | launched  tscc-13-14-0-6373e972 glide-dock_HTVS_1-0029 localhost [tscc-13-14]
+  0  30  98 | launched  tscc-13-14-0-6373e974 glide-dock_HTVS_1-0030 localhost [tscc-13-14]
+  0  31  97 | launched  tscc-13-14-0-6373e977 glide-dock_HTVS_1-0031 localhost [tscc-13-14]
+  0  32  96 | launched  tscc-13-14-0-6373e97a glide-dock_HTVS_1-0032 localhost [tscc-13-14]
+  1  31  96 | finished  tscc-13-14-0-6373e91a glide-dock_HTVS_1-0008 localhost [tscc-13-14]
+  1  32  95 | launched  tscc-13-14-0-6374260f glide-dock_HTVS_1-0033 localhost [tscc-13-14]
+  2  31  95 | finished  tscc-13-14-0-6373e97a glide-dock_HTVS_1-0032 localhost [tscc-13-14]
+  2  32  94 | launched  tscc-13-14-0-63742bd2 glide-dock_HTVS_1-0034 localhost [tscc-13-14]
+  3  31  94 | finished  tscc-13-14-0-6373e94f glide-dock_HTVS_1-0021 localhost [tscc-13-14]
+  3  32  93 | launched  tscc-13-14-0-63743b65 glide-dock_HTVS_1-0035 localhost [tscc-13-14]
+  4  31  93 | finished  tscc-13-14-0-6373e921 glide-dock_HTVS_1-0010 localhost [tscc-13-14]
+  4  32  92 | launched  tscc-13-14-0-63743f46 glide-dock_HTVS_1-0036 localhost [tscc-13-14]
+  5  31  92 | finished  tscc-13-14-0-6373e958 glide-dock_HTVS_1-0023 localhost [tscc-13-14]
+  5  32  91 | launched  tscc-13-14-0-637440ff glide-dock_HTVS_1-0037 localhost [tscc-13-14]
+  6  31  91 | finished  tscc-13-14-0-6373e96b glide-dock_HTVS_1-0027 localhost [tscc-13-14]
+  6  32  90 | launched  tscc-13-14-0-637442fe glide-dock_HTVS_1-0038 localhost [tscc-13-14]
+  7  31  90 | finished  tscc-13-14-0-6373e967 glide-dock_HTVS_1-0026 localhost [tscc-13-14]
+  7  32  89 | launched  tscc-13-14-0-63744704 glide-dock_HTVS_1-0039 localhost [tscc-13-14]
+  8  31  89 | finished  tscc-13-14-0-6373e936 glide-dock_HTVS_1-0015 localhost [tscc-13-14]
+  8  32  88 | launched  tscc-13-14-0-6374481a glide-dock_HTVS_1-0040 localhost [tscc-13-14]
+  9  31  88 | finished  tscc-13-14-0-6373e955 glide-dock_HTVS_1-0022 localhost [tscc-13-14]
+  9  32  87 | launched  tscc-13-14-0-63744a33 glide-dock_HTVS_1-0041 localhost [tscc-13-14]
+ 10  31  87 | finished  tscc-13-14-0-6373e91d glide-dock_HTVS_1-0009 localhost [tscc-13-14]
+ 10  32  86 | launched  tscc-13-14-0-63744ad3 glide-dock_HTVS_1-0042 localhost [tscc-13-14]
+ 11  31  86 | finished  tscc-13-14-0-6373e94b glide-dock_HTVS_1-0020 localhost [tscc-13-14]
+ 11  32  85 | launched  tscc-13-14-0-63744d42 glide-dock_HTVS_1-0043 localhost [tscc-13-14]
+ 12  31  85 | finished  tscc-13-14-0-6373e962 glide-dock_HTVS_1-0025 localhost [tscc-13-14]
+ 12  32  84 | launched  tscc-13-14-0-63744d7a glide-dock_HTVS_1-0044 localhost [tscc-13-14]
+ 13  31  84 | finished  tscc-13-14-0-6373e93f glide-dock_HTVS_1-0017 localhost [tscc-13-14]
+ 13  32  83 | launched  tscc-13-14-0-63744eb2 glide-dock_HTVS_1-0045 localhost [tscc-13-14]
+ 14  31  83 | finished  tscc-13-14-0-6373e974 glide-dock_HTVS_1-0030 localhost [tscc-13-14]
+ 14  32  82 | launched  tscc-13-14-0-63744f16 glide-dock_HTVS_1-0046 localhost [tscc-13-14]
+ 15  31  82 | finished  tscc-13-14-0-6373e942 glide-dock_HTVS_1-0018 localhost [tscc-13-14]
+ 15  32  81 | launched  tscc-13-14-0-63744f74 glide-dock_HTVS_1-0047 localhost [tscc-13-14]
+ 16  31  81 | finished  tscc-13-14-0-6373e903 glide-dock_HTVS_1-0002 localhost [tscc-13-14]
+ 16  32  80 | launched  tscc-13-14-0-63745289 glide-dock_HTVS_1-0048 localhost [tscc-13-14]
+ 17  31  80 | finished  tscc-13-14-0-6373e977 glide-dock_HTVS_1-0031 localhost [tscc-13-14]
+ 17  32  79 | launched  tscc-13-14-0-63745614 glide-dock_HTVS_1-0049 localhost [tscc-13-14]
+ 18  31  79 | finished  tscc-13-14-0-6373e928 glide-dock_HTVS_1-0012 localhost [tscc-13-14]
+ 18  32  78 | launched  tscc-13-14-0-637457fd glide-dock_HTVS_1-0050 localhost [tscc-13-14]
+ 19  31  78 | finished  tscc-13-14-0-6373e947 glide-dock_HTVS_1-0019 localhost [tscc-13-14]
+ 19  32  77 | launched  tscc-13-14-0-63745b23 glide-dock_HTVS_1-0051 localhost [tscc-13-14]
+ 20  31  77 | finished  tscc-13-14-0-6373e972 glide-dock_HTVS_1-0029 localhost [tscc-13-14]
+ 20  32  76 | launched  tscc-13-14-0-63745d59 glide-dock_HTVS_1-0052 localhost [tscc-13-14]
+ 21  31  76 | finished  tscc-13-14-0-6373e92c glide-dock_HTVS_1-0013 localhost [tscc-13-14]
+ 21  32  75 | launched  tscc-13-14-0-63746189 glide-dock_HTVS_1-0053 localhost [tscc-13-14]
+ 22  31  75 | finished  tscc-13-14-0-6373e93a glide-dock_HTVS_1-0016 localhost [tscc-13-14]
+ 22  32  74 | launched  tscc-13-14-0-637461bf glide-dock_HTVS_1-0054 localhost [tscc-13-14]
+ 23  31  74 | finished  tscc-13-14-0-6373e900 glide-dock_HTVS_1-0001 localhost [tscc-13-14]
+ 23  32  73 | launched  tscc-13-14-0-637462c7 glide-dock_HTVS_1-0055 localhost [tscc-13-14]
+ 24  31  73 | finished  tscc-13-14-0-6373e914 glide-dock_HTVS_1-0006 localhost [tscc-13-14]
+ 24  32  72 | launched  tscc-13-14-0-6374635c glide-dock_HTVS_1-0056 localhost [tscc-13-14]
+ 25  31  72 | finished  tscc-13-14-0-6373e930 glide-dock_HTVS_1-0014 localhost [tscc-13-14]
+ 25  32  71 | launched  tscc-13-14-0-6374653b glide-dock_HTVS_1-0057 localhost [tscc-13-14]
+ 26  31  71 | finished  tscc-13-14-0-6373e905 glide-dock_HTVS_1-0003 localhost [tscc-13-14]
+ 26  32  70 | launched  tscc-13-14-0-637465b0 glide-dock_HTVS_1-0058 localhost [tscc-13-14]
+ 27  31  70 | finished  tscc-13-14-0-6373e917 glide-dock_HTVS_1-0007 localhost [tscc-13-14]
+ 27  32  69 | launched  tscc-13-14-0-637466b5 glide-dock_HTVS_1-0059 localhost [tscc-13-14]
+ 28  31  69 | finished  tscc-13-14-0-6373e924 glide-dock_HTVS_1-0011 localhost [tscc-13-14]
+ 28  32  68 | launched  tscc-13-14-0-637474e5 glide-dock_HTVS_1-0060 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0060' died (died) [jobid tscc-13-14-0-637474e5]
+ 28  31  69 | died      tscc-13-14-0-637474e5 glide-dock_HTVS_1-0060 localhost [tscc-13-14]
+ 28  32  68 | restarted tscc-13-14-0-63747508 glide-dock_HTVS_1-0060 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0060' died (died) [jobid tscc-13-14-0-63747508]
+ 28  31  69 | died      tscc-13-14-0-63747508 glide-dock_HTVS_1-0060 localhost [tscc-13-14]
+ 28  32  68 | restarted tscc-13-14-0-6374752b glide-dock_HTVS_1-0060 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0060' died (died) [jobid tscc-13-14-0-6374752b]
+ 29  31  68 | died      tscc-13-14-0-6374752b glide-dock_HTVS_1-0060 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0060' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0060.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0060
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0060.inp -HOST localhost
+  StartTime      : 2022-11-15-21:29:16
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 29  31  68 | died      tscc-13-14-0-6374752b glide-dock_HTVS_1-0060 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0060 produced no pose file: glide-dock_HTVS_1-0060_raw.maegz
+ 29  32  67 | launched  tscc-13-14-0-6374754e glide-dock_HTVS_1-0061 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0061' died (died) [jobid tscc-13-14-0-6374754e]
+ 29  31  68 | died      tscc-13-14-0-6374754e glide-dock_HTVS_1-0061 localhost [tscc-13-14]
+ 29  32  67 | restarted tscc-13-14-0-63747571 glide-dock_HTVS_1-0061 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0061' died (died) [jobid tscc-13-14-0-63747571]
+ 29  31  68 | died      tscc-13-14-0-63747571 glide-dock_HTVS_1-0061 localhost [tscc-13-14]
+ 29  32  67 | restarted tscc-13-14-0-63747595 glide-dock_HTVS_1-0061 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0061' died (died) [jobid tscc-13-14-0-63747595]
+ 30  31  67 | died      tscc-13-14-0-63747595 glide-dock_HTVS_1-0061 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0061' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0061.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0061
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0061.inp -HOST localhost
+  StartTime      : 2022-11-15-21:31:01
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 30  31  67 | died      tscc-13-14-0-63747595 glide-dock_HTVS_1-0061 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0061 produced no pose file: glide-dock_HTVS_1-0061_raw.maegz
+ 30  32  66 | launched  tscc-13-14-0-637475b8 glide-dock_HTVS_1-0062 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0062' died (died) [jobid tscc-13-14-0-637475b8]
+ 30  31  67 | died      tscc-13-14-0-637475b8 glide-dock_HTVS_1-0062 localhost [tscc-13-14]
+ 30  32  66 | restarted tscc-13-14-0-637475dc glide-dock_HTVS_1-0062 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0062' died (died) [jobid tscc-13-14-0-637475dc]
+ 30  31  67 | died      tscc-13-14-0-637475dc glide-dock_HTVS_1-0062 localhost [tscc-13-14]
+ 30  32  66 | restarted tscc-13-14-0-637475ff glide-dock_HTVS_1-0062 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0062' died (died) [jobid tscc-13-14-0-637475ff]
+ 31  31  66 | died      tscc-13-14-0-637475ff glide-dock_HTVS_1-0062 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0062' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0062.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0062
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0062.inp -HOST localhost
+  StartTime      : 2022-11-15-21:32:48
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 31  31  66 | died      tscc-13-14-0-637475ff glide-dock_HTVS_1-0062 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0062 produced no pose file: glide-dock_HTVS_1-0062_raw.maegz
+ 31  32  65 | launched  tscc-13-14-0-63747622 glide-dock_HTVS_1-0063 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0063' died (died) [jobid tscc-13-14-0-63747622]
+ 31  31  66 | died      tscc-13-14-0-63747622 glide-dock_HTVS_1-0063 localhost [tscc-13-14]
+ 31  32  65 | restarted tscc-13-14-0-6374764c glide-dock_HTVS_1-0063 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0063' died (died) [jobid tscc-13-14-0-6374764c]
+ 31  31  66 | died      tscc-13-14-0-6374764c glide-dock_HTVS_1-0063 localhost [tscc-13-14]
+ 31  32  65 | restarted tscc-13-14-0-6374766e glide-dock_HTVS_1-0063 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0063' died (died) [jobid tscc-13-14-0-6374766e]
+ 32  31  65 | died      tscc-13-14-0-6374766e glide-dock_HTVS_1-0063 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0063' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0063.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0063
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0063.inp -HOST localhost
+  StartTime      : 2022-11-15-21:34:39
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 32  31  65 | died      tscc-13-14-0-6374766e glide-dock_HTVS_1-0063 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0063 produced no pose file: glide-dock_HTVS_1-0063_raw.maegz
+ 32  32  64 | launched  tscc-13-14-0-63747691 glide-dock_HTVS_1-0064 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0064' died (died) [jobid tscc-13-14-0-63747691]
+ 32  31  65 | died      tscc-13-14-0-63747691 glide-dock_HTVS_1-0064 localhost [tscc-13-14]
+ 32  32  64 | restarted tscc-13-14-0-637476b4 glide-dock_HTVS_1-0064 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0064' died (died) [jobid tscc-13-14-0-637476b4]
+ 32  31  65 | died      tscc-13-14-0-637476b4 glide-dock_HTVS_1-0064 localhost [tscc-13-14]
+ 32  32  64 | restarted tscc-13-14-0-637476d8 glide-dock_HTVS_1-0064 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0064' died (died) [jobid tscc-13-14-0-637476d8]
+ 33  31  64 | died      tscc-13-14-0-637476d8 glide-dock_HTVS_1-0064 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0064' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0064.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0064
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0064.inp -HOST localhost
+  StartTime      : 2022-11-15-21:36:24
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 33  31  64 | died      tscc-13-14-0-637476d8 glide-dock_HTVS_1-0064 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0064 produced no pose file: glide-dock_HTVS_1-0064_raw.maegz
+ 33  32  63 | launched  tscc-13-14-0-637476fa glide-dock_HTVS_1-0065 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0065' died (died) [jobid tscc-13-14-0-637476fa]
+ 33  31  64 | died      tscc-13-14-0-637476fa glide-dock_HTVS_1-0065 localhost [tscc-13-14]
+ 33  32  63 | restarted tscc-13-14-0-6374771e glide-dock_HTVS_1-0065 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0065' died (died) [jobid tscc-13-14-0-6374771e]
+ 33  31  64 | died      tscc-13-14-0-6374771e glide-dock_HTVS_1-0065 localhost [tscc-13-14]
+ 33  32  63 | restarted tscc-13-14-0-63747741 glide-dock_HTVS_1-0065 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0065' died (died) [jobid tscc-13-14-0-63747741]
+ 34  31  63 | died      tscc-13-14-0-63747741 glide-dock_HTVS_1-0065 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0065' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0065.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0065
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0065.inp -HOST localhost
+  StartTime      : 2022-11-15-21:38:10
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 34  31  63 | died      tscc-13-14-0-63747741 glide-dock_HTVS_1-0065 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0065 produced no pose file: glide-dock_HTVS_1-0065_raw.maegz
+ 34  32  62 | launched  tscc-13-14-0-63747764 glide-dock_HTVS_1-0066 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0066' died (died) [jobid tscc-13-14-0-63747764]
+ 34  31  63 | died      tscc-13-14-0-63747764 glide-dock_HTVS_1-0066 localhost [tscc-13-14]
+ 34  32  62 | restarted tscc-13-14-0-63747788 glide-dock_HTVS_1-0066 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0066' died (died) [jobid tscc-13-14-0-63747788]
+ 34  31  63 | died      tscc-13-14-0-63747788 glide-dock_HTVS_1-0066 localhost [tscc-13-14]
+ 34  32  62 | restarted tscc-13-14-0-637477aa glide-dock_HTVS_1-0066 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0066' died (died) [jobid tscc-13-14-0-637477aa]
+ 35  31  62 | died      tscc-13-14-0-637477aa glide-dock_HTVS_1-0066 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0066' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0066.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0066
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0066.inp -HOST localhost
+  StartTime      : 2022-11-15-21:39:54
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 35  31  62 | died      tscc-13-14-0-637477aa glide-dock_HTVS_1-0066 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0066 produced no pose file: glide-dock_HTVS_1-0066_raw.maegz
+ 35  32  61 | launched  tscc-13-14-0-637477ce glide-dock_HTVS_1-0067 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0067' died (died) [jobid tscc-13-14-0-637477ce]
+ 35  31  62 | died      tscc-13-14-0-637477ce glide-dock_HTVS_1-0067 localhost [tscc-13-14]
+ 35  32  61 | restarted tscc-13-14-0-637477f1 glide-dock_HTVS_1-0067 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0067' died (died) [jobid tscc-13-14-0-637477f1]
+ 35  31  62 | died      tscc-13-14-0-637477f1 glide-dock_HTVS_1-0067 localhost [tscc-13-14]
+ 35  32  61 | restarted tscc-13-14-0-63747814 glide-dock_HTVS_1-0067 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0067' died (died) [jobid tscc-13-14-0-63747814]
+ 36  31  61 | died      tscc-13-14-0-63747814 glide-dock_HTVS_1-0067 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0067' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0067.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0067
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0067.inp -HOST localhost
+  StartTime      : 2022-11-15-21:41:40
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 36  31  61 | died      tscc-13-14-0-63747814 glide-dock_HTVS_1-0067 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0067 produced no pose file: glide-dock_HTVS_1-0067_raw.maegz
+ 36  32  60 | launched  tscc-13-14-0-63747836 glide-dock_HTVS_1-0068 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0068' died (died) [jobid tscc-13-14-0-63747836]
+ 36  31  61 | died      tscc-13-14-0-63747836 glide-dock_HTVS_1-0068 localhost [tscc-13-14]
+ 36  32  60 | restarted tscc-13-14-0-63747859 glide-dock_HTVS_1-0068 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0068' died (died) [jobid tscc-13-14-0-63747859]
+ 36  31  61 | died      tscc-13-14-0-63747859 glide-dock_HTVS_1-0068 localhost [tscc-13-14]
+ 36  32  60 | restarted tscc-13-14-0-6374787d glide-dock_HTVS_1-0068 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0068' died (died) [jobid tscc-13-14-0-6374787d]
+ 37  31  60 | died      tscc-13-14-0-6374787d glide-dock_HTVS_1-0068 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0068' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0068.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0068
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0068.inp -HOST localhost
+  StartTime      : 2022-11-15-21:43:25
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 37  31  60 | died      tscc-13-14-0-6374787d glide-dock_HTVS_1-0068 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0068 produced no pose file: glide-dock_HTVS_1-0068_raw.maegz
+ 37  32  59 | launched  tscc-13-14-0-637478a0 glide-dock_HTVS_1-0069 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0069' died (died) [jobid tscc-13-14-0-637478a0]
+ 37  31  60 | died      tscc-13-14-0-637478a0 glide-dock_HTVS_1-0069 localhost [tscc-13-14]
+ 37  32  59 | restarted tscc-13-14-0-637478c4 glide-dock_HTVS_1-0069 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0069' died (died) [jobid tscc-13-14-0-637478c4]
+ 37  31  60 | died      tscc-13-14-0-637478c4 glide-dock_HTVS_1-0069 localhost [tscc-13-14]
+ 37  32  59 | restarted tscc-13-14-0-637478e7 glide-dock_HTVS_1-0069 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0069' died (died) [jobid tscc-13-14-0-637478e7]
+ 38  31  59 | died      tscc-13-14-0-637478e7 glide-dock_HTVS_1-0069 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0069' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0069.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0069
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0069.inp -HOST localhost
+  StartTime      : 2022-11-15-21:45:11
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 38  31  59 | died      tscc-13-14-0-637478e7 glide-dock_HTVS_1-0069 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0069 produced no pose file: glide-dock_HTVS_1-0069_raw.maegz
+ 38  32  58 | launched  tscc-13-14-0-6374790a glide-dock_HTVS_1-0070 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0070' died (died) [jobid tscc-13-14-0-6374790a]
+ 38  31  59 | died      tscc-13-14-0-6374790a glide-dock_HTVS_1-0070 localhost [tscc-13-14]
+ 38  32  58 | restarted tscc-13-14-0-6374792d glide-dock_HTVS_1-0070 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0070' died (died) [jobid tscc-13-14-0-6374792d]
+ 38  31  59 | died      tscc-13-14-0-6374792d glide-dock_HTVS_1-0070 localhost [tscc-13-14]
+ 38  32  58 | restarted tscc-13-14-0-63747951 glide-dock_HTVS_1-0070 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0070' died (died) [jobid tscc-13-14-0-63747951]
+ 39  31  58 | died      tscc-13-14-0-63747951 glide-dock_HTVS_1-0070 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0070' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0070.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0070
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0070.inp -HOST localhost
+  StartTime      : 2022-11-15-21:46:58
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 39  31  58 | died      tscc-13-14-0-63747951 glide-dock_HTVS_1-0070 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0070 produced no pose file: glide-dock_HTVS_1-0070_raw.maegz
+ 39  32  57 | launched  tscc-13-14-0-63747973 glide-dock_HTVS_1-0071 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0071' died (died) [jobid tscc-13-14-0-63747973]
+ 39  31  58 | died      tscc-13-14-0-63747973 glide-dock_HTVS_1-0071 localhost [tscc-13-14]
+ 39  32  57 | restarted tscc-13-14-0-63747997 glide-dock_HTVS_1-0071 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0071' died (died) [jobid tscc-13-14-0-63747997]
+ 39  31  58 | died      tscc-13-14-0-63747997 glide-dock_HTVS_1-0071 localhost [tscc-13-14]
+ 39  32  57 | restarted tscc-13-14-0-637479ba glide-dock_HTVS_1-0071 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0071' died (died) [jobid tscc-13-14-0-637479ba]
+ 40  31  57 | died      tscc-13-14-0-637479ba glide-dock_HTVS_1-0071 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0071' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0071.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0071
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0071.inp -HOST localhost
+  StartTime      : 2022-11-15-21:48:42
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 40  31  57 | died      tscc-13-14-0-637479ba glide-dock_HTVS_1-0071 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0071 produced no pose file: glide-dock_HTVS_1-0071_raw.maegz
+ 40  32  56 | launched  tscc-13-14-0-637479dd glide-dock_HTVS_1-0072 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0072' died (died) [jobid tscc-13-14-0-637479dd]
+ 40  31  57 | died      tscc-13-14-0-637479dd glide-dock_HTVS_1-0072 localhost [tscc-13-14]
+ 40  32  56 | restarted tscc-13-14-0-63747a00 glide-dock_HTVS_1-0072 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0072' died (died) [jobid tscc-13-14-0-63747a00]
+ 40  31  57 | died      tscc-13-14-0-63747a00 glide-dock_HTVS_1-0072 localhost [tscc-13-14]
+ 40  32  56 | restarted tscc-13-14-0-63747a25 glide-dock_HTVS_1-0072 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0072' died (died) [jobid tscc-13-14-0-63747a25]
+ 41  31  56 | died      tscc-13-14-0-63747a25 glide-dock_HTVS_1-0072 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0072' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0072.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0072
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0072.inp -HOST localhost
+  StartTime      : 2022-11-15-21:50:29
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 41  31  56 | died      tscc-13-14-0-63747a25 glide-dock_HTVS_1-0072 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0072 produced no pose file: glide-dock_HTVS_1-0072_raw.maegz
+ 41  32  55 | launched  tscc-13-14-0-63747a48 glide-dock_HTVS_1-0073 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0073' died (died) [jobid tscc-13-14-0-63747a48]
+ 41  31  56 | died      tscc-13-14-0-63747a48 glide-dock_HTVS_1-0073 localhost [tscc-13-14]
+ 41  32  55 | restarted tscc-13-14-0-63747a6c glide-dock_HTVS_1-0073 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0073' died (died) [jobid tscc-13-14-0-63747a6c]
+ 41  31  56 | died      tscc-13-14-0-63747a6c glide-dock_HTVS_1-0073 localhost [tscc-13-14]
+ 41  32  55 | restarted tscc-13-14-0-63747a90 glide-dock_HTVS_1-0073 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0073' died (died) [jobid tscc-13-14-0-63747a90]
+ 42  31  55 | died      tscc-13-14-0-63747a90 glide-dock_HTVS_1-0073 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0073' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0073.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0073
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0073.inp -HOST localhost
+  StartTime      : 2022-11-15-21:52:17
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 42  31  55 | died      tscc-13-14-0-63747a90 glide-dock_HTVS_1-0073 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0073 produced no pose file: glide-dock_HTVS_1-0073_raw.maegz
+ 42  32  54 | launched  tscc-13-14-0-63747ab5 glide-dock_HTVS_1-0074 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0074' died (died) [jobid tscc-13-14-0-63747ab5]
+ 42  31  55 | died      tscc-13-14-0-63747ab5 glide-dock_HTVS_1-0074 localhost [tscc-13-14]
+ 42  32  54 | restarted tscc-13-14-0-63747ad8 glide-dock_HTVS_1-0074 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0074' died (died) [jobid tscc-13-14-0-63747ad8]
+ 42  31  55 | died      tscc-13-14-0-63747ad8 glide-dock_HTVS_1-0074 localhost [tscc-13-14]
+ 42  32  54 | restarted tscc-13-14-0-63747afb glide-dock_HTVS_1-0074 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0074' died (died) [jobid tscc-13-14-0-63747afb]
+ 43  31  54 | died      tscc-13-14-0-63747afb glide-dock_HTVS_1-0074 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0074' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0074.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0074
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0074.inp -HOST localhost
+  StartTime      : 2022-11-15-21:54:04
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 43  31  54 | died      tscc-13-14-0-63747afb glide-dock_HTVS_1-0074 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0074 produced no pose file: glide-dock_HTVS_1-0074_raw.maegz
+ 43  32  53 | launched  tscc-13-14-0-63747b1e glide-dock_HTVS_1-0075 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0075' died (died) [jobid tscc-13-14-0-63747b1e]
+ 43  31  54 | died      tscc-13-14-0-63747b1e glide-dock_HTVS_1-0075 localhost [tscc-13-14]
+ 43  32  53 | restarted tscc-13-14-0-63747b42 glide-dock_HTVS_1-0075 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0075' died (died) [jobid tscc-13-14-0-63747b42]
+ 43  31  54 | died      tscc-13-14-0-63747b42 glide-dock_HTVS_1-0075 localhost [tscc-13-14]
+ 43  32  53 | restarted tscc-13-14-0-63747b64 glide-dock_HTVS_1-0075 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0075' died (died) [jobid tscc-13-14-0-63747b64]
+ 44  31  53 | died      tscc-13-14-0-63747b64 glide-dock_HTVS_1-0075 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0075' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0075.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0075
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0075.inp -HOST localhost
+  StartTime      : 2022-11-15-21:55:49
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 44  31  53 | died      tscc-13-14-0-63747b64 glide-dock_HTVS_1-0075 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0075 produced no pose file: glide-dock_HTVS_1-0075_raw.maegz
+ 44  32  52 | launched  tscc-13-14-0-63747b87 glide-dock_HTVS_1-0076 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0076' died (died) [jobid tscc-13-14-0-63747b87]
+ 44  31  53 | died      tscc-13-14-0-63747b87 glide-dock_HTVS_1-0076 localhost [tscc-13-14]
+ 44  32  52 | restarted tscc-13-14-0-63747bab glide-dock_HTVS_1-0076 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0076' died (died) [jobid tscc-13-14-0-63747bab]
+ 44  31  53 | died      tscc-13-14-0-63747bab glide-dock_HTVS_1-0076 localhost [tscc-13-14]
+ 44  32  52 | restarted tscc-13-14-0-63747bce glide-dock_HTVS_1-0076 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0076' died (died) [jobid tscc-13-14-0-63747bce]
+ 45  31  52 | died      tscc-13-14-0-63747bce glide-dock_HTVS_1-0076 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0076' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0076.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0076
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0076.inp -HOST localhost
+  StartTime      : 2022-11-15-21:57:34
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 45  31  52 | died      tscc-13-14-0-63747bce glide-dock_HTVS_1-0076 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0076 produced no pose file: glide-dock_HTVS_1-0076_raw.maegz
+ 45  32  51 | launched  tscc-13-14-0-63747bf2 glide-dock_HTVS_1-0077 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0077' died (died) [jobid tscc-13-14-0-63747bf2]
+ 45  31  52 | died      tscc-13-14-0-63747bf2 glide-dock_HTVS_1-0077 localhost [tscc-13-14]
+ 45  32  51 | restarted tscc-13-14-0-63747c16 glide-dock_HTVS_1-0077 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0077' died (died) [jobid tscc-13-14-0-63747c16]
+ 45  31  52 | died      tscc-13-14-0-63747c16 glide-dock_HTVS_1-0077 localhost [tscc-13-14]
+ 45  32  51 | restarted tscc-13-14-0-63747c3a glide-dock_HTVS_1-0077 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0077' died (died) [jobid tscc-13-14-0-63747c3a]
+ 46  31  51 | died      tscc-13-14-0-63747c3a glide-dock_HTVS_1-0077 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0077' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0077.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0077
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0077.inp -HOST localhost
+  StartTime      : 2022-11-15-21:59:22
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 46  31  51 | died      tscc-13-14-0-63747c3a glide-dock_HTVS_1-0077 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0077 produced no pose file: glide-dock_HTVS_1-0077_raw.maegz
+ 46  32  50 | launched  tscc-13-14-0-63747c5d glide-dock_HTVS_1-0078 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0078' died (died) [jobid tscc-13-14-0-63747c5d]
+ 46  31  51 | died      tscc-13-14-0-63747c5d glide-dock_HTVS_1-0078 localhost [tscc-13-14]
+ 46  32  50 | restarted tscc-13-14-0-63747c81 glide-dock_HTVS_1-0078 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0078' died (died) [jobid tscc-13-14-0-63747c81]
+ 46  31  51 | died      tscc-13-14-0-63747c81 glide-dock_HTVS_1-0078 localhost [tscc-13-14]
+ 46  32  50 | restarted tscc-13-14-0-63747ca4 glide-dock_HTVS_1-0078 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0078' died (died) [jobid tscc-13-14-0-63747ca4]
+ 47  31  50 | died      tscc-13-14-0-63747ca4 glide-dock_HTVS_1-0078 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0078' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0078.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0078
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0078.inp -HOST localhost
+  StartTime      : 2022-11-15-22:01:09
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 47  31  50 | died      tscc-13-14-0-63747ca4 glide-dock_HTVS_1-0078 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0078 produced no pose file: glide-dock_HTVS_1-0078_raw.maegz
+ 47  32  49 | launched  tscc-13-14-0-63747cc7 glide-dock_HTVS_1-0079 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0079' died (died) [jobid tscc-13-14-0-63747cc7]
+ 47  31  50 | died      tscc-13-14-0-63747cc7 glide-dock_HTVS_1-0079 localhost [tscc-13-14]
+ 47  32  49 | restarted tscc-13-14-0-63747ceb glide-dock_HTVS_1-0079 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0079' died (died) [jobid tscc-13-14-0-63747ceb]
+ 47  31  50 | died      tscc-13-14-0-63747ceb glide-dock_HTVS_1-0079 localhost [tscc-13-14]
+ 47  32  49 | restarted tscc-13-14-0-63747d0e glide-dock_HTVS_1-0079 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0079' died (died) [jobid tscc-13-14-0-63747d0e]
+ 48  31  49 | died      tscc-13-14-0-63747d0e glide-dock_HTVS_1-0079 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0079' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0079.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0079
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0079.inp -HOST localhost
+  StartTime      : 2022-11-15-22:02:54
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 48  31  49 | died      tscc-13-14-0-63747d0e glide-dock_HTVS_1-0079 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0079 produced no pose file: glide-dock_HTVS_1-0079_raw.maegz
+ 48  32  48 | launched  tscc-13-14-0-63747d31 glide-dock_HTVS_1-0080 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0080' died (died) [jobid tscc-13-14-0-63747d31]
+ 48  31  49 | died      tscc-13-14-0-63747d31 glide-dock_HTVS_1-0080 localhost [tscc-13-14]
+ 48  32  48 | restarted tscc-13-14-0-63747d54 glide-dock_HTVS_1-0080 localhost [tscc-13-14]
+ 49  31  48 | finished  tscc-13-14-0-6373e96f glide-dock_HTVS_1-0028 localhost [tscc-13-14]
+ 49  32  47 | launched  tscc-13-14-0-63747d9c glide-dock_HTVS_1-0081 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0080' died (died) [jobid tscc-13-14-0-63747d54]
+ 49  31  48 | died      tscc-13-14-0-63747d54 glide-dock_HTVS_1-0080 localhost [tscc-13-14]
+ 49  32  47 | restarted tscc-13-14-0-63747d9e glide-dock_HTVS_1-0080 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0081' died (died) [jobid tscc-13-14-0-63747d9c]
+ 49  31  48 | died      tscc-13-14-0-63747d9c glide-dock_HTVS_1-0081 localhost [tscc-13-14]
+ 49  32  47 | restarted tscc-13-14-0-63747dc1 glide-dock_HTVS_1-0081 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0080' died (died) [jobid tscc-13-14-0-63747d9e]
+ 50  31  47 | died      tscc-13-14-0-63747d9e glide-dock_HTVS_1-0080 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0080' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0080.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0080
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0080.inp -HOST localhost
+  StartTime      : 2022-11-15-22:05:19
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 50  31  47 | died      tscc-13-14-0-63747d9e glide-dock_HTVS_1-0080 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0080 produced no pose file: glide-dock_HTVS_1-0080_raw.maegz
+ 50  32  46 | launched  tscc-13-14-0-63747dc3 glide-dock_HTVS_1-0082 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0081' died (died) [jobid tscc-13-14-0-63747dc1]
+ 50  31  47 | died      tscc-13-14-0-63747dc1 glide-dock_HTVS_1-0081 localhost [tscc-13-14]
+ 50  32  46 | restarted tscc-13-14-0-63747de4 glide-dock_HTVS_1-0081 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0082' died (died) [jobid tscc-13-14-0-63747dc3]
+ 50  31  47 | died      tscc-13-14-0-63747dc3 glide-dock_HTVS_1-0082 localhost [tscc-13-14]
+ 50  32  46 | restarted tscc-13-14-0-63747de7 glide-dock_HTVS_1-0082 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0081' died (died) [jobid tscc-13-14-0-63747de4]
+ 51  31  46 | died      tscc-13-14-0-63747de4 glide-dock_HTVS_1-0081 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0081' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0081.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0081
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0081.inp -HOST localhost
+  StartTime      : 2022-11-15-22:06:29
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 51  31  46 | died      tscc-13-14-0-63747de4 glide-dock_HTVS_1-0081 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0081 produced no pose file: glide-dock_HTVS_1-0081_raw.maegz
+ 51  32  45 | launched  tscc-13-14-0-63747e07 glide-dock_HTVS_1-0083 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0082' died (died) [jobid tscc-13-14-0-63747de7]
+ 51  31  46 | died      tscc-13-14-0-63747de7 glide-dock_HTVS_1-0082 localhost [tscc-13-14]
+ 51  32  45 | restarted tscc-13-14-0-63747e0a glide-dock_HTVS_1-0082 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0083' died (died) [jobid tscc-13-14-0-63747e07]
+ 51  31  46 | died      tscc-13-14-0-63747e07 glide-dock_HTVS_1-0083 localhost [tscc-13-14]
+ 51  32  45 | restarted tscc-13-14-0-63747e2b glide-dock_HTVS_1-0083 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0082' died (died) [jobid tscc-13-14-0-63747e0a]
+ 52  31  45 | died      tscc-13-14-0-63747e0a glide-dock_HTVS_1-0082 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0082' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0082.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0082
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0082.inp -HOST localhost
+  StartTime      : 2022-11-15-22:07:07
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 52  31  45 | died      tscc-13-14-0-63747e0a glide-dock_HTVS_1-0082 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0082 produced no pose file: glide-dock_HTVS_1-0082_raw.maegz
+ 52  32  44 | launched  tscc-13-14-0-63747e2e glide-dock_HTVS_1-0084 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0083' died (died) [jobid tscc-13-14-0-63747e2b]
+ 52  31  45 | died      tscc-13-14-0-63747e2b glide-dock_HTVS_1-0083 localhost [tscc-13-14]
+ 52  32  44 | restarted tscc-13-14-0-63747e4e glide-dock_HTVS_1-0083 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0084' died (died) [jobid tscc-13-14-0-63747e2e]
+ 52  31  45 | died      tscc-13-14-0-63747e2e glide-dock_HTVS_1-0084 localhost [tscc-13-14]
+ 52  32  44 | restarted tscc-13-14-0-63747e50 glide-dock_HTVS_1-0084 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0083' died (died) [jobid tscc-13-14-0-63747e4e]
+ 53  31  44 | died      tscc-13-14-0-63747e4e glide-dock_HTVS_1-0083 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0083' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0083.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0083
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0083.inp -HOST localhost
+  StartTime      : 2022-11-15-22:08:14
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 53  31  44 | died      tscc-13-14-0-63747e4e glide-dock_HTVS_1-0083 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0083 produced no pose file: glide-dock_HTVS_1-0083_raw.maegz
+ 53  32  43 | launched  tscc-13-14-0-63747e71 glide-dock_HTVS_1-0085 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0084' died (died) [jobid tscc-13-14-0-63747e50]
+ 53  31  44 | died      tscc-13-14-0-63747e50 glide-dock_HTVS_1-0084 localhost [tscc-13-14]
+ 53  32  43 | restarted tscc-13-14-0-63747e73 glide-dock_HTVS_1-0084 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0085' died (died) [jobid tscc-13-14-0-63747e71]
+ 53  31  44 | died      tscc-13-14-0-63747e71 glide-dock_HTVS_1-0085 localhost [tscc-13-14]
+ 53  32  43 | restarted tscc-13-14-0-63747e94 glide-dock_HTVS_1-0085 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0084' died (died) [jobid tscc-13-14-0-63747e73]
+ 54  31  43 | died      tscc-13-14-0-63747e73 glide-dock_HTVS_1-0084 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0084' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0084.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0084
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0084.inp -HOST localhost
+  StartTime      : 2022-11-15-22:08:51
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 54  31  43 | died      tscc-13-14-0-63747e73 glide-dock_HTVS_1-0084 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0084 produced no pose file: glide-dock_HTVS_1-0084_raw.maegz
+ 54  32  42 | launched  tscc-13-14-0-63747e96 glide-dock_HTVS_1-0086 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0085' died (died) [jobid tscc-13-14-0-63747e94]
+ 54  31  43 | died      tscc-13-14-0-63747e94 glide-dock_HTVS_1-0085 localhost [tscc-13-14]
+ 54  32  42 | restarted tscc-13-14-0-63747eb7 glide-dock_HTVS_1-0085 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0086' died (died) [jobid tscc-13-14-0-63747e96]
+ 54  31  43 | died      tscc-13-14-0-63747e96 glide-dock_HTVS_1-0086 localhost [tscc-13-14]
+ 54  32  42 | restarted tscc-13-14-0-63747eb9 glide-dock_HTVS_1-0086 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0085' died (died) [jobid tscc-13-14-0-63747eb7]
+ 55  31  42 | died      tscc-13-14-0-63747eb7 glide-dock_HTVS_1-0085 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0085' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0085.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0085
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0085.inp -HOST localhost
+  StartTime      : 2022-11-15-22:09:59
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 55  31  42 | died      tscc-13-14-0-63747eb7 glide-dock_HTVS_1-0085 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0085 produced no pose file: glide-dock_HTVS_1-0085_raw.maegz
+ 55  32  41 | launched  tscc-13-14-0-63747eda glide-dock_HTVS_1-0087 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0086' died (died) [jobid tscc-13-14-0-63747eb9]
+ 55  31  42 | died      tscc-13-14-0-63747eb9 glide-dock_HTVS_1-0086 localhost [tscc-13-14]
+ 55  32  41 | restarted tscc-13-14-0-63747edc glide-dock_HTVS_1-0086 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0087' died (died) [jobid tscc-13-14-0-63747eda]
+ 55  31  42 | died      tscc-13-14-0-63747eda glide-dock_HTVS_1-0087 localhost [tscc-13-14]
+ 55  32  41 | restarted tscc-13-14-0-63747efe glide-dock_HTVS_1-0087 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0086' died (died) [jobid tscc-13-14-0-63747edc]
+ 56  31  41 | died      tscc-13-14-0-63747edc glide-dock_HTVS_1-0086 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0086' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0086.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0086
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0086.inp -HOST localhost
+  StartTime      : 2022-11-15-22:10:37
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 56  31  41 | died      tscc-13-14-0-63747edc glide-dock_HTVS_1-0086 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0086 produced no pose file: glide-dock_HTVS_1-0086_raw.maegz
+ 56  32  40 | launched  tscc-13-14-0-63747f01 glide-dock_HTVS_1-0088 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0087' died (died) [jobid tscc-13-14-0-63747efe]
+ 56  31  41 | died      tscc-13-14-0-63747efe glide-dock_HTVS_1-0087 localhost [tscc-13-14]
+ 56  32  40 | restarted tscc-13-14-0-63747f20 glide-dock_HTVS_1-0087 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0088' died (died) [jobid tscc-13-14-0-63747f01]
+ 56  31  41 | died      tscc-13-14-0-63747f01 glide-dock_HTVS_1-0088 localhost [tscc-13-14]
+ 56  32  40 | restarted tscc-13-14-0-63747f23 glide-dock_HTVS_1-0088 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0087' died (died) [jobid tscc-13-14-0-63747f20]
+ 57  31  40 | died      tscc-13-14-0-63747f20 glide-dock_HTVS_1-0087 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0087' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0087.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0087
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0087.inp -HOST localhost
+  StartTime      : 2022-11-15-22:11:45
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 57  31  40 | died      tscc-13-14-0-63747f20 glide-dock_HTVS_1-0087 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0087 produced no pose file: glide-dock_HTVS_1-0087_raw.maegz
+ 57  32  39 | launched  tscc-13-14-0-63747f44 glide-dock_HTVS_1-0089 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0088' died (died) [jobid tscc-13-14-0-63747f23]
+ 57  31  40 | died      tscc-13-14-0-63747f23 glide-dock_HTVS_1-0088 localhost [tscc-13-14]
+ 57  32  39 | restarted tscc-13-14-0-63747f46 glide-dock_HTVS_1-0088 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0088' died (died) [jobid tscc-13-14-0-63747f46]
+ 58  31  39 | died      tscc-13-14-0-63747f46 glide-dock_HTVS_1-0088 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0088' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0088.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0088
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0088.inp -HOST localhost
+  StartTime      : 2022-11-15-22:12:23
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 58  31  39 | died      tscc-13-14-0-63747f46 glide-dock_HTVS_1-0088 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0088 produced no pose file: glide-dock_HTVS_1-0088_raw.maegz
+ 58  32  38 | launched  tscc-13-14-0-63747f6a glide-dock_HTVS_1-0090 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0089' died (died) [jobid tscc-13-14-0-63747f44]
+ 58  31  39 | died      tscc-13-14-0-63747f44 glide-dock_HTVS_1-0089 localhost [tscc-13-14]
+ 58  32  38 | restarted tscc-13-14-0-63747f6f glide-dock_HTVS_1-0089 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0090' died (died) [jobid tscc-13-14-0-63747f6a]
+ 58  31  39 | died      tscc-13-14-0-63747f6a glide-dock_HTVS_1-0090 localhost [tscc-13-14]
+ 58  32  38 | restarted tscc-13-14-0-63747f8e glide-dock_HTVS_1-0090 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0089' died (died) [jobid tscc-13-14-0-63747f6f]
+ 58  31  39 | died      tscc-13-14-0-63747f6f glide-dock_HTVS_1-0089 localhost [tscc-13-14]
+ 58  32  38 | restarted tscc-13-14-0-63747f93 glide-dock_HTVS_1-0089 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0090' died (died) [jobid tscc-13-14-0-63747f8e]
+ 58  31  39 | died      tscc-13-14-0-63747f8e glide-dock_HTVS_1-0090 localhost [tscc-13-14]
+ 58  32  38 | restarted tscc-13-14-0-63747fb1 glide-dock_HTVS_1-0090 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0089' died (died) [jobid tscc-13-14-0-63747f93]
+ 59  31  38 | died      tscc-13-14-0-63747f93 glide-dock_HTVS_1-0089 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0089' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0089.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0089
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0089.inp -HOST localhost
+  StartTime      : 2022-11-15-22:13:39
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 59  31  38 | died      tscc-13-14-0-63747f93 glide-dock_HTVS_1-0089 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0089 produced no pose file: glide-dock_HTVS_1-0089_raw.maegz
+ 59  32  37 | launched  tscc-13-14-0-63747fb5 glide-dock_HTVS_1-0091 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0090' died (died) [jobid tscc-13-14-0-63747fb1]
+ 60  31  37 | died      tscc-13-14-0-63747fb1 glide-dock_HTVS_1-0090 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0090' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0090.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0090
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0090.inp -HOST localhost
+  StartTime      : 2022-11-15-22:14:09
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 60  31  37 | died      tscc-13-14-0-63747fb1 glide-dock_HTVS_1-0090 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0090 produced no pose file: glide-dock_HTVS_1-0090_raw.maegz
+ 60  32  36 | launched  tscc-13-14-0-63747fd4 glide-dock_HTVS_1-0092 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0091' died (died) [jobid tscc-13-14-0-63747fb5]
+ 60  31  37 | died      tscc-13-14-0-63747fb5 glide-dock_HTVS_1-0091 localhost [tscc-13-14]
+ 60  32  36 | restarted tscc-13-14-0-63747fd8 glide-dock_HTVS_1-0091 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0092' died (died) [jobid tscc-13-14-0-63747fd4]
+ 60  31  37 | died      tscc-13-14-0-63747fd4 glide-dock_HTVS_1-0092 localhost [tscc-13-14]
+ 60  32  36 | restarted tscc-13-14-0-63747ff7 glide-dock_HTVS_1-0092 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0091' died (died) [jobid tscc-13-14-0-63747fd8]
+ 60  31  37 | died      tscc-13-14-0-63747fd8 glide-dock_HTVS_1-0091 localhost [tscc-13-14]
+ 60  32  36 | restarted tscc-13-14-0-63747ffb glide-dock_HTVS_1-0091 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0092' died (died) [jobid tscc-13-14-0-63747ff7]
+ 60  31  37 | died      tscc-13-14-0-63747ff7 glide-dock_HTVS_1-0092 localhost [tscc-13-14]
+ 60  32  36 | restarted tscc-13-14-0-63748019 glide-dock_HTVS_1-0092 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0091' died (died) [jobid tscc-13-14-0-63747ffb]
+ 61  31  36 | died      tscc-13-14-0-63747ffb glide-dock_HTVS_1-0091 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0091' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0091.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0091
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0091.inp -HOST localhost
+  StartTime      : 2022-11-15-22:15:24
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 61  31  36 | died      tscc-13-14-0-63747ffb glide-dock_HTVS_1-0091 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0091 produced no pose file: glide-dock_HTVS_1-0091_raw.maegz
+ 61  32  35 | launched  tscc-13-14-0-6374801f glide-dock_HTVS_1-0093 localhost [tscc-13-14]
+ 62  31  35 | finished  tscc-13-14-0-6374260f glide-dock_HTVS_1-0033 localhost [tscc-13-14]
+ 62  32  34 | launched  tscc-13-14-0-6374806c glide-dock_HTVS_1-0094 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0092' died (died) [jobid tscc-13-14-0-63748019]
+ 63  31  34 | died      tscc-13-14-0-63748019 glide-dock_HTVS_1-0092 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0092' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0092.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0092
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0092.inp -HOST localhost
+  StartTime      : 2022-11-15-22:15:54
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 63  31  34 | died      tscc-13-14-0-63748019 glide-dock_HTVS_1-0092 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0092 produced no pose file: glide-dock_HTVS_1-0092_raw.maegz
+Subjob 'glide-dock_HTVS_1-0093' died (died) [jobid tscc-13-14-0-6374801f]
+ 63  30  35 | died      tscc-13-14-0-6374801f glide-dock_HTVS_1-0093 localhost [tscc-13-14]
+ 63  31  34 | restarted tscc-13-14-0-6374806e glide-dock_HTVS_1-0093 localhost [tscc-13-14]
+ 63  32  33 | launched  tscc-13-14-0-63748070 glide-dock_HTVS_1-0095 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0094' died (died) [jobid tscc-13-14-0-6374806c]
+ 63  31  34 | died      tscc-13-14-0-6374806c glide-dock_HTVS_1-0094 localhost [tscc-13-14]
+ 63  32  33 | restarted tscc-13-14-0-6374808f glide-dock_HTVS_1-0094 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0093' died (died) [jobid tscc-13-14-0-6374806e]
+ 63  31  34 | died      tscc-13-14-0-6374806e glide-dock_HTVS_1-0093 localhost [tscc-13-14]
+ 63  32  33 | restarted tscc-13-14-0-63748091 glide-dock_HTVS_1-0093 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0095' died (died) [jobid tscc-13-14-0-63748070]
+ 63  31  34 | died      tscc-13-14-0-63748070 glide-dock_HTVS_1-0095 localhost [tscc-13-14]
+ 63  32  33 | restarted tscc-13-14-0-63748094 glide-dock_HTVS_1-0095 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0094' died (died) [jobid tscc-13-14-0-6374808f]
+ 63  31  34 | died      tscc-13-14-0-6374808f glide-dock_HTVS_1-0094 localhost [tscc-13-14]
+ 63  32  33 | restarted tscc-13-14-0-637480b2 glide-dock_HTVS_1-0094 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0093' died (died) [jobid tscc-13-14-0-63748091]
+ 64  31  33 | died      tscc-13-14-0-63748091 glide-dock_HTVS_1-0093 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0093' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0093.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0093
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0093.inp -HOST localhost
+  StartTime      : 2022-11-15-22:17:53
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 64  31  33 | died      tscc-13-14-0-63748091 glide-dock_HTVS_1-0093 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0093 produced no pose file: glide-dock_HTVS_1-0093_raw.maegz
+ 64  32  32 | launched  tscc-13-14-0-637480b4 glide-dock_HTVS_1-0096 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0095' died (died) [jobid tscc-13-14-0-63748094]
+ 64  31  33 | died      tscc-13-14-0-63748094 glide-dock_HTVS_1-0095 localhost [tscc-13-14]
+ 64  32  32 | restarted tscc-13-14-0-637480b8 glide-dock_HTVS_1-0095 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0094' died (died) [jobid tscc-13-14-0-637480b2]
+ 65  31  32 | died      tscc-13-14-0-637480b2 glide-dock_HTVS_1-0094 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0094' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0094.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0094
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0094.inp -HOST localhost
+  StartTime      : 2022-11-15-22:18:26
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 65  31  32 | died      tscc-13-14-0-637480b2 glide-dock_HTVS_1-0094 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0094 produced no pose file: glide-dock_HTVS_1-0094_raw.maegz
+ 65  32  31 | launched  tscc-13-14-0-637480d4 glide-dock_HTVS_1-0097 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0096' died (died) [jobid tscc-13-14-0-637480b4]
+ 65  31  32 | died      tscc-13-14-0-637480b4 glide-dock_HTVS_1-0096 localhost [tscc-13-14]
+ 65  32  31 | restarted tscc-13-14-0-637480d7 glide-dock_HTVS_1-0096 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0095' died (died) [jobid tscc-13-14-0-637480b8]
+ 66  31  31 | died      tscc-13-14-0-637480b8 glide-dock_HTVS_1-0095 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0095' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0095.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0095
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0095.inp -HOST localhost
+  StartTime      : 2022-11-15-22:18:32
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 66  31  31 | died      tscc-13-14-0-637480b8 glide-dock_HTVS_1-0095 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0095 produced no pose file: glide-dock_HTVS_1-0095_raw.maegz
+ 66  32  30 | launched  tscc-13-14-0-637480dc glide-dock_HTVS_1-0098 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0097' died (died) [jobid tscc-13-14-0-637480d4]
+ 66  31  31 | died      tscc-13-14-0-637480d4 glide-dock_HTVS_1-0097 localhost [tscc-13-14]
+ 66  32  30 | restarted tscc-13-14-0-637480f7 glide-dock_HTVS_1-0097 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0096' died (died) [jobid tscc-13-14-0-637480d7]
+ 66  31  31 | died      tscc-13-14-0-637480d7 glide-dock_HTVS_1-0096 localhost [tscc-13-14]
+ 66  32  30 | restarted tscc-13-14-0-637480fa glide-dock_HTVS_1-0096 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0098' died (died) [jobid tscc-13-14-0-637480dc]
+ 66  31  31 | died      tscc-13-14-0-637480dc glide-dock_HTVS_1-0098 localhost [tscc-13-14]
+ 66  32  30 | restarted tscc-13-14-0-637480ff glide-dock_HTVS_1-0098 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0097' died (died) [jobid tscc-13-14-0-637480f7]
+ 66  31  31 | died      tscc-13-14-0-637480f7 glide-dock_HTVS_1-0097 localhost [tscc-13-14]
+ 66  32  30 | restarted tscc-13-14-0-6374811a glide-dock_HTVS_1-0097 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0096' died (died) [jobid tscc-13-14-0-637480fa]
+ 67  31  30 | died      tscc-13-14-0-637480fa glide-dock_HTVS_1-0096 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0096' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0096.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0096
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0096.inp -HOST localhost
+  StartTime      : 2022-11-15-22:19:39
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 67  31  30 | died      tscc-13-14-0-637480fa glide-dock_HTVS_1-0096 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0096 produced no pose file: glide-dock_HTVS_1-0096_raw.maegz
+ 67  32  29 | launched  tscc-13-14-0-6374811d glide-dock_HTVS_1-0099 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0098' died (died) [jobid tscc-13-14-0-637480ff]
+ 67  31  30 | died      tscc-13-14-0-637480ff glide-dock_HTVS_1-0098 localhost [tscc-13-14]
+ 67  32  29 | restarted tscc-13-14-0-63748121 glide-dock_HTVS_1-0098 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0097' died (died) [jobid tscc-13-14-0-6374811a]
+ 68  31  29 | died      tscc-13-14-0-6374811a glide-dock_HTVS_1-0097 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0097' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0097.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0097
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0097.inp -HOST localhost
+  StartTime      : 2022-11-15-22:20:10
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 68  31  29 | died      tscc-13-14-0-6374811a glide-dock_HTVS_1-0097 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0097 produced no pose file: glide-dock_HTVS_1-0097_raw.maegz
+ 68  32  28 | launched  tscc-13-14-0-6374813d glide-dock_HTVS_1-0100 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0099' died (died) [jobid tscc-13-14-0-6374811d]
+ 68  31  29 | died      tscc-13-14-0-6374811d glide-dock_HTVS_1-0099 localhost [tscc-13-14]
+ 68  32  28 | restarted tscc-13-14-0-63748140 glide-dock_HTVS_1-0099 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0098' died (died) [jobid tscc-13-14-0-63748121]
+ 69  31  28 | died      tscc-13-14-0-63748121 glide-dock_HTVS_1-0098 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0098' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0098.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0098
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0098.inp -HOST localhost
+  StartTime      : 2022-11-15-22:20:18
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 69  31  28 | died      tscc-13-14-0-63748121 glide-dock_HTVS_1-0098 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0098 produced no pose file: glide-dock_HTVS_1-0098_raw.maegz
+ 69  32  27 | launched  tscc-13-14-0-63748145 glide-dock_HTVS_1-0101 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0100' died (died) [jobid tscc-13-14-0-6374813d]
+ 69  31  28 | died      tscc-13-14-0-6374813d glide-dock_HTVS_1-0100 localhost [tscc-13-14]
+ 69  32  27 | restarted tscc-13-14-0-63748160 glide-dock_HTVS_1-0100 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0099' died (died) [jobid tscc-13-14-0-63748140]
+ 69  31  28 | died      tscc-13-14-0-63748140 glide-dock_HTVS_1-0099 localhost [tscc-13-14]
+ 69  32  27 | restarted tscc-13-14-0-63748163 glide-dock_HTVS_1-0099 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0101' died (died) [jobid tscc-13-14-0-63748145]
+ 69  31  28 | died      tscc-13-14-0-63748145 glide-dock_HTVS_1-0101 localhost [tscc-13-14]
+ 69  32  27 | restarted tscc-13-14-0-63748168 glide-dock_HTVS_1-0101 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0100' died (died) [jobid tscc-13-14-0-63748160]
+ 69  31  28 | died      tscc-13-14-0-63748160 glide-dock_HTVS_1-0100 localhost [tscc-13-14]
+ 69  32  27 | restarted tscc-13-14-0-63748182 glide-dock_HTVS_1-0100 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0099' died (died) [jobid tscc-13-14-0-63748163]
+ 70  31  27 | died      tscc-13-14-0-63748163 glide-dock_HTVS_1-0099 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0099' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0099.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0099
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0099.inp -HOST localhost
+  StartTime      : 2022-11-15-22:21:23
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 70  31  27 | died      tscc-13-14-0-63748163 glide-dock_HTVS_1-0099 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0099 produced no pose file: glide-dock_HTVS_1-0099_raw.maegz
+ 70  32  26 | launched  tscc-13-14-0-63748186 glide-dock_HTVS_1-0102 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0101' died (died) [jobid tscc-13-14-0-63748168]
+ 70  31  27 | died      tscc-13-14-0-63748168 glide-dock_HTVS_1-0101 localhost [tscc-13-14]
+ 70  32  26 | restarted tscc-13-14-0-6374818b glide-dock_HTVS_1-0101 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0100' died (died) [jobid tscc-13-14-0-63748182]
+ 71  31  26 | died      tscc-13-14-0-63748182 glide-dock_HTVS_1-0100 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0100' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0100.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0100
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0100.inp -HOST localhost
+  StartTime      : 2022-11-15-22:21:55
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 71  31  26 | died      tscc-13-14-0-63748182 glide-dock_HTVS_1-0100 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0100 produced no pose file: glide-dock_HTVS_1-0100_raw.maegz
+ 71  32  25 | launched  tscc-13-14-0-637481a6 glide-dock_HTVS_1-0103 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0102' died (died) [jobid tscc-13-14-0-63748186]
+ 71  31  26 | died      tscc-13-14-0-63748186 glide-dock_HTVS_1-0102 localhost [tscc-13-14]
+ 71  32  25 | restarted tscc-13-14-0-637481a9 glide-dock_HTVS_1-0102 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0101' died (died) [jobid tscc-13-14-0-6374818b]
+ 72  31  25 | died      tscc-13-14-0-6374818b glide-dock_HTVS_1-0101 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0101' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0101.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0101
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0101.inp -HOST localhost
+  StartTime      : 2022-11-15-22:22:04
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 72  31  25 | died      tscc-13-14-0-6374818b glide-dock_HTVS_1-0101 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0101 produced no pose file: glide-dock_HTVS_1-0101_raw.maegz
+ 72  32  24 | launched  tscc-13-14-0-637481ae glide-dock_HTVS_1-0104 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0102' died (died) [jobid tscc-13-14-0-637481a9]
+ 72  31  25 | died      tscc-13-14-0-637481a9 glide-dock_HTVS_1-0102 localhost [tscc-13-14]
+ 72  32  24 | restarted tscc-13-14-0-637481cc glide-dock_HTVS_1-0102 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0104' died (died) [jobid tscc-13-14-0-637481ae]
+ 72  31  25 | died      tscc-13-14-0-637481ae glide-dock_HTVS_1-0104 localhost [tscc-13-14]
+ 72  32  24 | restarted tscc-13-14-0-637481d1 glide-dock_HTVS_1-0104 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0102' died (died) [jobid tscc-13-14-0-637481cc]
+ 73  31  24 | died      tscc-13-14-0-637481cc glide-dock_HTVS_1-0102 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0102' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0102.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0102
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0102.inp -HOST localhost
+  StartTime      : 2022-11-15-22:23:09
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 73  31  24 | died      tscc-13-14-0-637481cc glide-dock_HTVS_1-0102 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0102 produced no pose file: glide-dock_HTVS_1-0102_raw.maegz
+ 73  32  23 | launched  tscc-13-14-0-637481ef glide-dock_HTVS_1-0105 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0104' died (died) [jobid tscc-13-14-0-637481d1]
+ 73  31  24 | died      tscc-13-14-0-637481d1 glide-dock_HTVS_1-0104 localhost [tscc-13-14]
+ 73  32  23 | restarted tscc-13-14-0-637481f3 glide-dock_HTVS_1-0104 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0105' died (died) [jobid tscc-13-14-0-637481ef]
+ 73  31  24 | died      tscc-13-14-0-637481ef glide-dock_HTVS_1-0105 localhost [tscc-13-14]
+ 73  32  23 | restarted tscc-13-14-0-63748211 glide-dock_HTVS_1-0105 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0104' died (died) [jobid tscc-13-14-0-637481f3]
+ 74  31  23 | died      tscc-13-14-0-637481f3 glide-dock_HTVS_1-0104 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0104' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0104.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0104
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0104.inp -HOST localhost
+  StartTime      : 2022-11-15-22:23:47
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 74  31  23 | died      tscc-13-14-0-637481f3 glide-dock_HTVS_1-0104 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0104 produced no pose file: glide-dock_HTVS_1-0104_raw.maegz
+ 74  32  22 | launched  tscc-13-14-0-63748216 glide-dock_HTVS_1-0106 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0105' died (died) [jobid tscc-13-14-0-63748211]
+ 74  31  23 | died      tscc-13-14-0-63748211 glide-dock_HTVS_1-0105 localhost [tscc-13-14]
+ 74  32  22 | restarted tscc-13-14-0-63748234 glide-dock_HTVS_1-0105 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0106' died (died) [jobid tscc-13-14-0-63748216]
+ 74  31  23 | died      tscc-13-14-0-63748216 glide-dock_HTVS_1-0106 localhost [tscc-13-14]
+ 74  32  22 | restarted tscc-13-14-0-63748239 glide-dock_HTVS_1-0106 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0105' died (died) [jobid tscc-13-14-0-63748234]
+ 75  31  22 | died      tscc-13-14-0-63748234 glide-dock_HTVS_1-0105 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0105' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0105.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0105
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0105.inp -HOST localhost
+  StartTime      : 2022-11-15-22:24:52
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 75  31  22 | died      tscc-13-14-0-63748234 glide-dock_HTVS_1-0105 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0105 produced no pose file: glide-dock_HTVS_1-0105_raw.maegz
+ 75  32  21 | launched  tscc-13-14-0-63748256 glide-dock_HTVS_1-0107 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0106' died (died) [jobid tscc-13-14-0-63748239]
+ 75  31  22 | died      tscc-13-14-0-63748239 glide-dock_HTVS_1-0106 localhost [tscc-13-14]
+ 75  32  21 | restarted tscc-13-14-0-6374825b glide-dock_HTVS_1-0106 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0107' died (died) [jobid tscc-13-14-0-63748256]
+ 75  31  22 | died      tscc-13-14-0-63748256 glide-dock_HTVS_1-0107 localhost [tscc-13-14]
+ 75  32  21 | restarted tscc-13-14-0-6374827a glide-dock_HTVS_1-0107 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0106' died (died) [jobid tscc-13-14-0-6374825b]
+ 76  31  21 | died      tscc-13-14-0-6374825b glide-dock_HTVS_1-0106 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0106' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0106.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0106
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0106.inp -HOST localhost
+  StartTime      : 2022-11-15-22:25:32
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 76  31  21 | died      tscc-13-14-0-6374825b glide-dock_HTVS_1-0106 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0106 produced no pose file: glide-dock_HTVS_1-0106_raw.maegz
+ 76  32  20 | launched  tscc-13-14-0-6374827e glide-dock_HTVS_1-0108 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0107' died (died) [jobid tscc-13-14-0-6374827a]
+ 76  31  21 | died      tscc-13-14-0-6374827a glide-dock_HTVS_1-0107 localhost [tscc-13-14]
+ 76  32  20 | restarted tscc-13-14-0-6374829c glide-dock_HTVS_1-0107 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0108' died (died) [jobid tscc-13-14-0-6374827e]
+ 76  31  21 | died      tscc-13-14-0-6374827e glide-dock_HTVS_1-0108 localhost [tscc-13-14]
+ 76  32  20 | restarted tscc-13-14-0-637482a8 glide-dock_HTVS_1-0108 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0107' died (died) [jobid tscc-13-14-0-6374829c]
+ 77  31  20 | died      tscc-13-14-0-6374829c glide-dock_HTVS_1-0107 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0107' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0107.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0107
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0107.inp -HOST localhost
+  StartTime      : 2022-11-15-22:26:37
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 77  31  20 | died      tscc-13-14-0-6374829c glide-dock_HTVS_1-0107 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0107 produced no pose file: glide-dock_HTVS_1-0107_raw.maegz
+ 77  32  19 | launched  tscc-13-14-0-637482bf glide-dock_HTVS_1-0109 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0108' died (died) [jobid tscc-13-14-0-637482a8]
+ 77  31  20 | died      tscc-13-14-0-637482a8 glide-dock_HTVS_1-0108 localhost [tscc-13-14]
+ 77  32  19 | restarted tscc-13-14-0-637482cb glide-dock_HTVS_1-0108 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0109' died (died) [jobid tscc-13-14-0-637482bf]
+ 77  31  20 | died      tscc-13-14-0-637482bf glide-dock_HTVS_1-0109 localhost [tscc-13-14]
+ 77  32  19 | restarted tscc-13-14-0-637482e2 glide-dock_HTVS_1-0109 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0108' died (died) [jobid tscc-13-14-0-637482cb]
+ 78  31  19 | died      tscc-13-14-0-637482cb glide-dock_HTVS_1-0108 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0108' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0108.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0108
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0108.inp -HOST localhost
+  StartTime      : 2022-11-15-22:27:23
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 78  31  19 | died      tscc-13-14-0-637482cb glide-dock_HTVS_1-0108 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0108 produced no pose file: glide-dock_HTVS_1-0108_raw.maegz
+ 78  32  18 | launched  tscc-13-14-0-637482ee glide-dock_HTVS_1-0110 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0109' died (died) [jobid tscc-13-14-0-637482e2]
+ 78  31  19 | died      tscc-13-14-0-637482e2 glide-dock_HTVS_1-0109 localhost [tscc-13-14]
+ 78  32  18 | restarted tscc-13-14-0-63748304 glide-dock_HTVS_1-0109 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0110' died (died) [jobid tscc-13-14-0-637482ee]
+ 78  31  19 | died      tscc-13-14-0-637482ee glide-dock_HTVS_1-0110 localhost [tscc-13-14]
+ 78  32  18 | restarted tscc-13-14-0-63748311 glide-dock_HTVS_1-0110 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0109' died (died) [jobid tscc-13-14-0-63748304]
+ 79  31  18 | died      tscc-13-14-0-63748304 glide-dock_HTVS_1-0109 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0109' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0109.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0109
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0109.inp -HOST localhost
+  StartTime      : 2022-11-15-22:28:20
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 79  31  18 | died      tscc-13-14-0-63748304 glide-dock_HTVS_1-0109 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0109 produced no pose file: glide-dock_HTVS_1-0109_raw.maegz
+ 79  32  17 | launched  tscc-13-14-0-63748327 glide-dock_HTVS_1-0111 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0110' died (died) [jobid tscc-13-14-0-63748311]
+ 79  31  18 | died      tscc-13-14-0-63748311 glide-dock_HTVS_1-0110 localhost [tscc-13-14]
+ 79  32  17 | restarted tscc-13-14-0-63748334 glide-dock_HTVS_1-0110 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0111' died (died) [jobid tscc-13-14-0-63748327]
+ 79  31  18 | died      tscc-13-14-0-63748327 glide-dock_HTVS_1-0111 localhost [tscc-13-14]
+ 79  32  17 | restarted tscc-13-14-0-63748349 glide-dock_HTVS_1-0111 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0110' died (died) [jobid tscc-13-14-0-63748334]
+ 80  31  17 | died      tscc-13-14-0-63748334 glide-dock_HTVS_1-0110 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0110' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0110.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0110
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0110.inp -HOST localhost
+  StartTime      : 2022-11-15-22:29:09
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 80  31  17 | died      tscc-13-14-0-63748334 glide-dock_HTVS_1-0110 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0110 produced no pose file: glide-dock_HTVS_1-0110_raw.maegz
+ 80  32  16 | launched  tscc-13-14-0-63748357 glide-dock_HTVS_1-0112 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0111' died (died) [jobid tscc-13-14-0-63748349]
+ 80  31  17 | died      tscc-13-14-0-63748349 glide-dock_HTVS_1-0111 localhost [tscc-13-14]
+ 80  32  16 | restarted tscc-13-14-0-6374836d glide-dock_HTVS_1-0111 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0112' died (died) [jobid tscc-13-14-0-63748357]
+ 80  31  17 | died      tscc-13-14-0-63748357 glide-dock_HTVS_1-0112 localhost [tscc-13-14]
+ 80  32  16 | restarted tscc-13-14-0-6374837a glide-dock_HTVS_1-0112 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0111' died (died) [jobid tscc-13-14-0-6374836d]
+ 81  31  16 | died      tscc-13-14-0-6374836d glide-dock_HTVS_1-0111 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0111' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0111.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0111
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0111.inp -HOST localhost
+  StartTime      : 2022-11-15-22:30:05
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 81  31  16 | died      tscc-13-14-0-6374836d glide-dock_HTVS_1-0111 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0111 produced no pose file: glide-dock_HTVS_1-0111_raw.maegz
+ 81  32  15 | launched  tscc-13-14-0-6374838f glide-dock_HTVS_1-0113 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0112' died (died) [jobid tscc-13-14-0-6374837a]
+ 81  31  16 | died      tscc-13-14-0-6374837a glide-dock_HTVS_1-0112 localhost [tscc-13-14]
+ 81  32  15 | restarted tscc-13-14-0-6374839d glide-dock_HTVS_1-0112 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0113' died (died) [jobid tscc-13-14-0-6374838f]
+ 81  31  16 | died      tscc-13-14-0-6374838f glide-dock_HTVS_1-0113 localhost [tscc-13-14]
+ 81  32  15 | restarted tscc-13-14-0-637483b3 glide-dock_HTVS_1-0113 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0112' died (died) [jobid tscc-13-14-0-6374839d]
+ 82  31  15 | died      tscc-13-14-0-6374839d glide-dock_HTVS_1-0112 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0112' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0112.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0112
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0112.inp -HOST localhost
+  StartTime      : 2022-11-15-22:30:54
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 82  31  15 | died      tscc-13-14-0-6374839d glide-dock_HTVS_1-0112 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0112 produced no pose file: glide-dock_HTVS_1-0112_raw.maegz
+ 82  32  14 | launched  tscc-13-14-0-637483c0 glide-dock_HTVS_1-0114 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0113' died (died) [jobid tscc-13-14-0-637483b3]
+ 82  31  15 | died      tscc-13-14-0-637483b3 glide-dock_HTVS_1-0113 localhost [tscc-13-14]
+ 82  32  14 | restarted tscc-13-14-0-637483d5 glide-dock_HTVS_1-0113 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0114' died (died) [jobid tscc-13-14-0-637483c0]
+ 82  31  15 | died      tscc-13-14-0-637483c0 glide-dock_HTVS_1-0114 localhost [tscc-13-14]
+ 82  32  14 | restarted tscc-13-14-0-637483e3 glide-dock_HTVS_1-0114 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0113' died (died) [jobid tscc-13-14-0-637483d5]
+ 83  31  14 | died      tscc-13-14-0-637483d5 glide-dock_HTVS_1-0113 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0113' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0113.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0113
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0113.inp -HOST localhost
+  StartTime      : 2022-11-15-22:31:49
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 83  31  14 | died      tscc-13-14-0-637483d5 glide-dock_HTVS_1-0113 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0113 produced no pose file: glide-dock_HTVS_1-0113_raw.maegz
+ 83  32  13 | launched  tscc-13-14-0-637483f8 glide-dock_HTVS_1-0115 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0114' died (died) [jobid tscc-13-14-0-637483e3]
+ 83  31  14 | died      tscc-13-14-0-637483e3 glide-dock_HTVS_1-0114 localhost [tscc-13-14]
+ 83  32  13 | restarted tscc-13-14-0-63748406 glide-dock_HTVS_1-0114 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0115' died (died) [jobid tscc-13-14-0-637483f8]
+ 83  31  14 | died      tscc-13-14-0-637483f8 glide-dock_HTVS_1-0115 localhost [tscc-13-14]
+ 83  32  13 | restarted tscc-13-14-0-6374841b glide-dock_HTVS_1-0115 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0114' died (died) [jobid tscc-13-14-0-63748406]
+ 84  31  13 | died      tscc-13-14-0-63748406 glide-dock_HTVS_1-0114 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0114' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0114.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0114
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0114.inp -HOST localhost
+  StartTime      : 2022-11-15-22:32:38
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 84  31  13 | died      tscc-13-14-0-63748406 glide-dock_HTVS_1-0114 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0114 produced no pose file: glide-dock_HTVS_1-0114_raw.maegz
+ 84  32  12 | launched  tscc-13-14-0-63748428 glide-dock_HTVS_1-0116 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0115' died (died) [jobid tscc-13-14-0-6374841b]
+ 84  31  13 | died      tscc-13-14-0-6374841b glide-dock_HTVS_1-0115 localhost [tscc-13-14]
+ 84  32  12 | restarted tscc-13-14-0-6374843e glide-dock_HTVS_1-0115 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0116' died (died) [jobid tscc-13-14-0-63748428]
+ 84  31  13 | died      tscc-13-14-0-63748428 glide-dock_HTVS_1-0116 localhost [tscc-13-14]
+ 84  32  12 | restarted tscc-13-14-0-6374844b glide-dock_HTVS_1-0116 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0115' died (died) [jobid tscc-13-14-0-6374843e]
+ 85  31  12 | died      tscc-13-14-0-6374843e glide-dock_HTVS_1-0115 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0115' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0115.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0115
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0115.inp -HOST localhost
+  StartTime      : 2022-11-15-22:33:34
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 85  31  12 | died      tscc-13-14-0-6374843e glide-dock_HTVS_1-0115 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0115 produced no pose file: glide-dock_HTVS_1-0115_raw.maegz
+ 85  32  11 | launched  tscc-13-14-0-63748460 glide-dock_HTVS_1-0117 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0116' died (died) [jobid tscc-13-14-0-6374844b]
+ 85  31  12 | died      tscc-13-14-0-6374844b glide-dock_HTVS_1-0116 localhost [tscc-13-14]
+ 85  32  11 | restarted tscc-13-14-0-6374846d glide-dock_HTVS_1-0116 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0117' died (died) [jobid tscc-13-14-0-63748460]
+ 85  31  12 | died      tscc-13-14-0-63748460 glide-dock_HTVS_1-0117 localhost [tscc-13-14]
+ 85  32  11 | restarted tscc-13-14-0-63748483 glide-dock_HTVS_1-0117 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0116' died (died) [jobid tscc-13-14-0-6374846d]
+ 86  31  11 | died      tscc-13-14-0-6374846d glide-dock_HTVS_1-0116 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0116' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0116.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0116
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0116.inp -HOST localhost
+  StartTime      : 2022-11-15-22:34:22
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 86  31  11 | died      tscc-13-14-0-6374846d glide-dock_HTVS_1-0116 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0116 produced no pose file: glide-dock_HTVS_1-0116_raw.maegz
+ 86  32  10 | launched  tscc-13-14-0-63748491 glide-dock_HTVS_1-0118 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0117' died (died) [jobid tscc-13-14-0-63748483]
+ 86  31  11 | died      tscc-13-14-0-63748483 glide-dock_HTVS_1-0117 localhost [tscc-13-14]
+ 86  32  10 | restarted tscc-13-14-0-637484a6 glide-dock_HTVS_1-0117 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0118' died (died) [jobid tscc-13-14-0-63748491]
+ 86  31  11 | died      tscc-13-14-0-63748491 glide-dock_HTVS_1-0118 localhost [tscc-13-14]
+ 86  32  10 | restarted tscc-13-14-0-637484b3 glide-dock_HTVS_1-0118 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0117' died (died) [jobid tscc-13-14-0-637484a6]
+ 87  31  10 | died      tscc-13-14-0-637484a6 glide-dock_HTVS_1-0117 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0117' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0117.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0117
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0117.inp -HOST localhost
+  StartTime      : 2022-11-15-22:35:18
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 87  31  10 | died      tscc-13-14-0-637484a6 glide-dock_HTVS_1-0117 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0117 produced no pose file: glide-dock_HTVS_1-0117_raw.maegz
+ 87  32   9 | launched  tscc-13-14-0-637484c9 glide-dock_HTVS_1-0119 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0118' died (died) [jobid tscc-13-14-0-637484b3]
+ 87  31  10 | died      tscc-13-14-0-637484b3 glide-dock_HTVS_1-0118 localhost [tscc-13-14]
+ 87  32   9 | restarted tscc-13-14-0-637484d6 glide-dock_HTVS_1-0118 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0119' died (died) [jobid tscc-13-14-0-637484c9]
+ 87  31  10 | died      tscc-13-14-0-637484c9 glide-dock_HTVS_1-0119 localhost [tscc-13-14]
+ 87  32   9 | restarted tscc-13-14-0-637484eb glide-dock_HTVS_1-0119 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0118' died (died) [jobid tscc-13-14-0-637484d6]
+ 88  31   9 | died      tscc-13-14-0-637484d6 glide-dock_HTVS_1-0118 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0118' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0118.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0118
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0118.inp -HOST localhost
+  StartTime      : 2022-11-15-22:36:06
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 88  31   9 | died      tscc-13-14-0-637484d6 glide-dock_HTVS_1-0118 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0118 produced no pose file: glide-dock_HTVS_1-0118_raw.maegz
+ 88  32   8 | launched  tscc-13-14-0-637484f9 glide-dock_HTVS_1-0120 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0119' died (died) [jobid tscc-13-14-0-637484eb]
+ 88  31   9 | died      tscc-13-14-0-637484eb glide-dock_HTVS_1-0119 localhost [tscc-13-14]
+ 88  32   8 | restarted tscc-13-14-0-6374850e glide-dock_HTVS_1-0119 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0120' died (died) [jobid tscc-13-14-0-637484f9]
+ 88  31   9 | died      tscc-13-14-0-637484f9 glide-dock_HTVS_1-0120 localhost [tscc-13-14]
+ 88  32   8 | restarted tscc-13-14-0-6374851c glide-dock_HTVS_1-0120 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0119' died (died) [jobid tscc-13-14-0-6374850e]
+ 89  31   8 | died      tscc-13-14-0-6374850e glide-dock_HTVS_1-0119 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0119' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0119.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0119
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0119.inp -HOST localhost
+  StartTime      : 2022-11-15-22:37:02
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 89  31   8 | died      tscc-13-14-0-6374850e glide-dock_HTVS_1-0119 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0119 produced no pose file: glide-dock_HTVS_1-0119_raw.maegz
+ 89  32   7 | launched  tscc-13-14-0-63748530 glide-dock_HTVS_1-0121 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0120' died (died) [jobid tscc-13-14-0-6374851c]
+ 89  31   8 | died      tscc-13-14-0-6374851c glide-dock_HTVS_1-0120 localhost [tscc-13-14]
+ 89  32   7 | restarted tscc-13-14-0-6374853f glide-dock_HTVS_1-0120 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0121' died (died) [jobid tscc-13-14-0-63748530]
+ 89  31   8 | died      tscc-13-14-0-63748530 glide-dock_HTVS_1-0121 localhost [tscc-13-14]
+ 89  32   7 | restarted tscc-13-14-0-63748554 glide-dock_HTVS_1-0121 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0120' died (died) [jobid tscc-13-14-0-6374853f]
+ 90  31   7 | died      tscc-13-14-0-6374853f glide-dock_HTVS_1-0120 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0120' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0120.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0120
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0120.inp -HOST localhost
+  StartTime      : 2022-11-15-22:37:52
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 90  31   7 | died      tscc-13-14-0-6374853f glide-dock_HTVS_1-0120 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0120 produced no pose file: glide-dock_HTVS_1-0120_raw.maegz
+ 90  32   6 | launched  tscc-13-14-0-63748562 glide-dock_HTVS_1-0122 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0121' died (died) [jobid tscc-13-14-0-63748554]
+ 90  31   7 | died      tscc-13-14-0-63748554 glide-dock_HTVS_1-0121 localhost [tscc-13-14]
+ 90  32   6 | restarted tscc-13-14-0-63748578 glide-dock_HTVS_1-0121 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0122' died (died) [jobid tscc-13-14-0-63748562]
+ 90  31   7 | died      tscc-13-14-0-63748562 glide-dock_HTVS_1-0122 localhost [tscc-13-14]
+ 90  32   6 | restarted tscc-13-14-0-63748585 glide-dock_HTVS_1-0122 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0121' died (died) [jobid tscc-13-14-0-63748578]
+ 91  31   6 | died      tscc-13-14-0-63748578 glide-dock_HTVS_1-0121 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0121' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0121.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0121
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0121.inp -HOST localhost
+  StartTime      : 2022-11-15-22:38:48
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 91  31   6 | died      tscc-13-14-0-63748578 glide-dock_HTVS_1-0121 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0121 produced no pose file: glide-dock_HTVS_1-0121_raw.maegz
+ 91  32   5 | launched  tscc-13-14-0-6374859a glide-dock_HTVS_1-0123 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0123' died (died) [jobid tscc-13-14-0-6374859a]
+ 91  31   6 | died      tscc-13-14-0-6374859a glide-dock_HTVS_1-0123 localhost [tscc-13-14]
+ 91  32   5 | restarted tscc-13-14-0-637485be glide-dock_HTVS_1-0123 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0123' died (died) [jobid tscc-13-14-0-637485be]
+ 91  31   6 | died      tscc-13-14-0-637485be glide-dock_HTVS_1-0123 localhost [tscc-13-14]
+ 91  32   5 | restarted tscc-13-14-0-637485e0 glide-dock_HTVS_1-0123 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0123' died (died) [jobid tscc-13-14-0-637485e0]
+ 92  31   5 | died      tscc-13-14-0-637485e0 glide-dock_HTVS_1-0123 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0123' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0123.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0123
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0123.inp -HOST localhost
+  StartTime      : 2022-11-15-22:40:33
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 92  31   5 | died      tscc-13-14-0-637485e0 glide-dock_HTVS_1-0123 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0123 produced no pose file: glide-dock_HTVS_1-0123_raw.maegz
+ 92  32   4 | launched  tscc-13-14-0-63748603 glide-dock_HTVS_1-0124 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0124' died (died) [jobid tscc-13-14-0-63748603]
+ 92  31   5 | died      tscc-13-14-0-63748603 glide-dock_HTVS_1-0124 localhost [tscc-13-14]
+ 92  32   4 | restarted tscc-13-14-0-63748627 glide-dock_HTVS_1-0124 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0124' died (died) [jobid tscc-13-14-0-63748627]
+ 92  31   5 | died      tscc-13-14-0-63748627 glide-dock_HTVS_1-0124 localhost [tscc-13-14]
+ 92  32   4 | restarted tscc-13-14-0-6374864a glide-dock_HTVS_1-0124 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0124' died (died) [jobid tscc-13-14-0-6374864a]
+ 93  31   4 | died      tscc-13-14-0-6374864a glide-dock_HTVS_1-0124 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0124' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0124.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0124
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0124.inp -HOST localhost
+  StartTime      : 2022-11-15-22:42:19
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 93  31   4 | died      tscc-13-14-0-6374864a glide-dock_HTVS_1-0124 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0124 produced no pose file: glide-dock_HTVS_1-0124_raw.maegz
+ 93  32   3 | launched  tscc-13-14-0-6374866d glide-dock_HTVS_1-0125 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0125' died (died) [jobid tscc-13-14-0-6374866d]
+ 93  31   4 | died      tscc-13-14-0-6374866d glide-dock_HTVS_1-0125 localhost [tscc-13-14]
+ 93  32   3 | restarted tscc-13-14-0-63748696 glide-dock_HTVS_1-0125 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0125' died (died) [jobid tscc-13-14-0-63748696]
+ 93  31   4 | died      tscc-13-14-0-63748696 glide-dock_HTVS_1-0125 localhost [tscc-13-14]
+ 93  32   3 | restarted tscc-13-14-0-637486ba glide-dock_HTVS_1-0125 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0125' died (died) [jobid tscc-13-14-0-637486ba]
+ 94  31   3 | died      tscc-13-14-0-637486ba glide-dock_HTVS_1-0125 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0125' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0125.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0125
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0125.inp -HOST localhost
+  StartTime      : 2022-11-15-22:44:10
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 94  31   3 | died      tscc-13-14-0-637486ba glide-dock_HTVS_1-0125 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0125 produced no pose file: glide-dock_HTVS_1-0125_raw.maegz
+ 94  32   2 | launched  tscc-13-14-0-637486dc glide-dock_HTVS_1-0126 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0126' died (died) [jobid tscc-13-14-0-637486dc]
+ 94  31   3 | died      tscc-13-14-0-637486dc glide-dock_HTVS_1-0126 localhost [tscc-13-14]
+ 94  32   2 | restarted tscc-13-14-0-637486ff glide-dock_HTVS_1-0126 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0126' died (died) [jobid tscc-13-14-0-637486ff]
+ 94  31   3 | died      tscc-13-14-0-637486ff glide-dock_HTVS_1-0126 localhost [tscc-13-14]
+ 94  32   2 | restarted tscc-13-14-0-63748723 glide-dock_HTVS_1-0126 localhost [tscc-13-14]
+Subjob 'glide-dock_HTVS_1-0126' died (died) [jobid tscc-13-14-0-63748723]
+ 95  31   2 | died      tscc-13-14-0-63748723 glide-dock_HTVS_1-0126 localhost [tscc-13-14]
+ERROR: Subjob 'glide-dock_HTVS_1-0126' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0126.log':
+
+  Host           : tscc-13-14.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-14.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/clusterr31/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0126
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0126.inp -HOST localhost
+  StartTime      : 2022-11-15-22:45:55
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 95  31   2 | died      tscc-13-14-0-63748723 glide-dock_HTVS_1-0126 localhost [tscc-13-14]
+Subjob glide-dock_HTVS_1-0126 produced no pose file: glide-dock_HTVS_1-0126_raw.maegz
+ 95  32   1 | launched  tscc-13-14-0-63748746 glide-dock_HTVS_1-0127 localhost [tscc-13-14]
+ 96  31   1 | finished  tscc-13-14-0-6373e90c glide-dock_HTVS_1-0005 localhost [tscc-13-14]
+ 96  32   0 | launched  tscc-13-14-0-6374894e glide-dock_HTVS_1-0128 localhost [tscc-13-14]
+ 97  31   0 | finished  tscc-13-14-0-6373e95d glide-dock_HTVS_1-0024 localhost [tscc-13-14]
+ 98  30   0 | finished  tscc-13-14-0-6373e908 glide-dock_HTVS_1-0004 localhost [tscc-13-14]
+ 99  29   0 | finished  tscc-13-14-0-63743b65 glide-dock_HTVS_1-0035 localhost [tscc-13-14]
+100  28   0 | finished  tscc-13-14-0-63744f74 glide-dock_HTVS_1-0047 localhost [tscc-13-14]
+101  27   0 | finished  tscc-13-14-0-63744eb2 glide-dock_HTVS_1-0045 localhost [tscc-13-14]
+102  26   0 | finished  tscc-13-14-0-63744704 glide-dock_HTVS_1-0039 localhost [tscc-13-14]
+103  25   0 | finished  tscc-13-14-0-63744d7a glide-dock_HTVS_1-0044 localhost [tscc-13-14]
+104  24   0 | finished  tscc-13-14-0-637466b5 glide-dock_HTVS_1-0059 localhost [tscc-13-14]
+105  23   0 | finished  tscc-13-14-0-637457fd glide-dock_HTVS_1-0050 localhost [tscc-13-14]
+106  22   0 | finished  tscc-13-14-0-637442fe glide-dock_HTVS_1-0038 localhost [tscc-13-14]
+107  21   0 | finished  tscc-13-14-0-63744a33 glide-dock_HTVS_1-0041 localhost [tscc-13-14]
+108  20   0 | finished  tscc-13-14-0-637465b0 glide-dock_HTVS_1-0058 localhost [tscc-13-14]
+109  19   0 | finished  tscc-13-14-0-63745b23 glide-dock_HTVS_1-0051 localhost [tscc-13-14]
+110  18   0 | finished  tscc-13-14-0-63744d42 glide-dock_HTVS_1-0043 localhost [tscc-13-14]
+111  17   0 | finished  tscc-13-14-0-637462c7 glide-dock_HTVS_1-0055 localhost [tscc-13-14]
+112  16   0 | finished  tscc-13-14-0-637440ff glide-dock_HTVS_1-0037 localhost [tscc-13-14]
+113  15   0 | finished  tscc-13-14-0-637481a6 glide-dock_HTVS_1-0103 localhost [tscc-13-14]
+114  14   0 | finished  tscc-13-14-0-63742bd2 glide-dock_HTVS_1-0034 localhost [tscc-13-14]
+115  13   0 | finished  tscc-13-14-0-63746189 glide-dock_HTVS_1-0053 localhost [tscc-13-14]
+116  12   0 | finished  tscc-13-14-0-63748746 glide-dock_HTVS_1-0127 localhost [tscc-13-14]
+117  11   0 | finished  tscc-13-14-0-63748585 glide-dock_HTVS_1-0122 localhost [tscc-13-14]
+118  10   0 | finished  tscc-13-14-0-63743f46 glide-dock_HTVS_1-0036 localhost [tscc-13-14]
+119   9   0 | finished  tscc-13-14-0-637461bf glide-dock_HTVS_1-0054 localhost [tscc-13-14]
+120   8   0 | finished  tscc-13-14-0-6374894e glide-dock_HTVS_1-0128 localhost [tscc-13-14]
+121   7   0 | finished  tscc-13-14-0-63744ad3 glide-dock_HTVS_1-0042 localhost [tscc-13-14]
+122   6   0 | finished  tscc-13-14-0-63744f16 glide-dock_HTVS_1-0046 localhost [tscc-13-14]
+123   5   0 | finished  tscc-13-14-0-63745d59 glide-dock_HTVS_1-0052 localhost [tscc-13-14]
+124   4   0 | finished  tscc-13-14-0-63745614 glide-dock_HTVS_1-0049 localhost [tscc-13-14]
+125   3   0 | finished  tscc-13-14-0-6374481a glide-dock_HTVS_1-0040 localhost [tscc-13-14]
+126   2   0 | finished  tscc-13-14-0-6374653b glide-dock_HTVS_1-0057 localhost [tscc-13-14]
+127   1   0 | finished  tscc-13-14-0-6374635c glide-dock_HTVS_1-0056 localhost [tscc-13-14]
+128   0   0 | finished  tscc-13-14-0-63745289 glide-dock_HTVS_1-0048 localhost [tscc-13-14]
+
+All jobs have completed.
+
+63 of 128 job(s) succeeded; 65 job(s) failed.
+
+Some jobs failed: 457979 of 930464 ligands done.
+Writing poses to glide-dock_HTVS_1_pv.maegz
+Combining log files to glide-dock_HTVS_1_subjobs.log
+Archiving subjob pose files in glide-dock_HTVS_1_subjob_poses.zip
+Archiving subjob input and log files in glide-dock_HTVS_1_subjobs.tar.gz
+Cleaning up...
+
+Elapsed times:
+- preprocessing: 399.6 s
+- running subjobs: 64403.6 s
+- postprocessing: 709.3 s
+- cleanup: 701.5 s
+
+All Glide docking subjobs: Total CPU time = 1694574 seconds (19 d 14 h 42 min 54 s)
+
+Finished at: Wed Nov 16 05:48:04 2022
+Total elapsed time for Glide script = 66385 seconds (18 h 26 min 25 s)
