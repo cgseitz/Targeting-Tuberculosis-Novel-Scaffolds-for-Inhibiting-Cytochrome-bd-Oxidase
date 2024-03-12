@@ -1,0 +1,330 @@
+
+====================================
+            Glide Script            
+====================================
+
+mmshare         2cb27f0eb7
+glide-src       1e5ffd4733
+psp-src         6c93e2fe77
+macromodel-src  d47a6cf2e1
+epik-src        46d635d642
+
+--------------------------------------------------------------------------------
+JobId          : tscc-13-16-0-63a4d442
+Name           : glide-dock_xp
+Program        : Glide
+Host           : tscc-13-16.sdsc.edu
+Dir            : /oasis/tscc/scratch/cseitz/docking/mtb/no_disulfide/qcpl8/cluster3/lifechemicals/xp
+HostEntry      : localhost
+JobHost        : tscc-13-16.sdsc.edu
+JobDir         : /oasis/tscc/scratch/cseitz/docking/mtb/no_disulfide/qcpl8/cluster3/lifechemicals/xp/cseitz/glide-dock_xp
+JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -WAIT glide-dock_xp.in -OVERWRITE -adjust -HOST localhost:32 -NJOBS 128 -NOLOCAL
+StartTime      : 2022-12-22-14:03:47
+--------------------------------------------------------------------------------
+
+Running locally: False
+Max retries: 2
+Input file: glide-dock_xp.in
+
+Setting up docking job
+Separating ligands...
+.                                                       1000
+Number of structures that are to be docked: 1000
+Setting up Glide docking jobs...
+
+Running subjobs on hosts:
+  localhost (Max: 32)
+Number of jobs:       128
+Max retries per job:  2
+Max allowed failures: unlimited
+Verbosity:            normal
+
+Starting JobDJ...
+
+Keep one job on driver host: False
+JobDJ columns:
+  C: Number of completed subjobs
+  A: Number of active subjobs (e.g., submitted, running)
+  W: Number of waiting/pending subjobs
+
+  C   A   W | Activity  JobId  JobName  JobHost
+--- --- --- | --------- -----------------------
+  0   1 127 | launched  tscc-13-16-0-63a4d459 glide-dock_xp-0001 localhost [tscc-13-16]
+  0   2 126 | launched  tscc-13-16-0-63a4d45c glide-dock_xp-0002 localhost [tscc-13-16]
+  0   3 125 | launched  tscc-13-16-0-63a4d45f glide-dock_xp-0003 localhost [tscc-13-16]
+  0   4 124 | launched  tscc-13-16-0-63a4d462 glide-dock_xp-0004 localhost [tscc-13-16]
+  0   5 123 | launched  tscc-13-16-0-63a4d466 glide-dock_xp-0005 localhost [tscc-13-16]
+  0   6 122 | launched  tscc-13-16-0-63a4d468 glide-dock_xp-0006 localhost [tscc-13-16]
+  0   7 121 | launched  tscc-13-16-0-63a4d46c glide-dock_xp-0007 localhost [tscc-13-16]
+  0   8 120 | launched  tscc-13-16-0-63a4d470 glide-dock_xp-0008 localhost [tscc-13-16]
+  0   9 119 | launched  tscc-13-16-0-63a4d473 glide-dock_xp-0009 localhost [tscc-13-16]
+  0  10 118 | launched  tscc-13-16-0-63a4d476 glide-dock_xp-0010 localhost [tscc-13-16]
+  0  11 117 | launched  tscc-13-16-0-63a4d479 glide-dock_xp-0011 localhost [tscc-13-16]
+  0  12 116 | launched  tscc-13-16-0-63a4d47d glide-dock_xp-0012 localhost [tscc-13-16]
+  0  13 115 | launched  tscc-13-16-0-63a4d481 glide-dock_xp-0013 localhost [tscc-13-16]
+  0  14 114 | launched  tscc-13-16-0-63a4d485 glide-dock_xp-0014 localhost [tscc-13-16]
+  0  15 113 | launched  tscc-13-16-0-63a4d488 glide-dock_xp-0015 localhost [tscc-13-16]
+  0  16 112 | launched  tscc-13-16-0-63a4d48b glide-dock_xp-0016 localhost [tscc-13-16]
+  0  17 111 | launched  tscc-13-16-0-63a4d48e glide-dock_xp-0017 localhost [tscc-13-16]
+  0  18 110 | launched  tscc-13-16-0-63a4d491 glide-dock_xp-0018 localhost [tscc-13-16]
+  0  19 109 | launched  tscc-13-16-0-63a4d494 glide-dock_xp-0019 localhost [tscc-13-16]
+  0  20 108 | launched  tscc-13-16-0-63a4d499 glide-dock_xp-0020 localhost [tscc-13-16]
+  0  21 107 | launched  tscc-13-16-0-63a4d49b glide-dock_xp-0021 localhost [tscc-13-16]
+  0  22 106 | launched  tscc-13-16-0-63a4d49e glide-dock_xp-0022 localhost [tscc-13-16]
+  0  23 105 | launched  tscc-13-16-0-63a4d4a1 glide-dock_xp-0023 localhost [tscc-13-16]
+  0  24 104 | launched  tscc-13-16-0-63a4d4a5 glide-dock_xp-0024 localhost [tscc-13-16]
+  0  25 103 | launched  tscc-13-16-0-63a4d4a8 glide-dock_xp-0025 localhost [tscc-13-16]
+  0  26 102 | launched  tscc-13-16-0-63a4d4ab glide-dock_xp-0026 localhost [tscc-13-16]
+  0  27 101 | launched  tscc-13-16-0-63a4d4ae glide-dock_xp-0027 localhost [tscc-13-16]
+  0  28 100 | launched  tscc-13-16-0-63a4d4b2 glide-dock_xp-0028 localhost [tscc-13-16]
+  0  29  99 | launched  tscc-13-16-0-63a4d4b4 glide-dock_xp-0029 localhost [tscc-13-16]
+  0  30  98 | launched  tscc-13-16-0-63a4d4b7 glide-dock_xp-0030 localhost [tscc-13-16]
+  0  31  97 | launched  tscc-13-16-0-63a4d4bb glide-dock_xp-0031 localhost [tscc-13-16]
+  0  32  96 | launched  tscc-13-16-0-63a4d4c2 glide-dock_xp-0032 localhost [tscc-13-16]
+  1  31  96 | finished  tscc-13-16-0-63a4d45c glide-dock_xp-0002 localhost [tscc-13-16]
+  1  32  95 | launched  tscc-13-16-0-63a4d573 glide-dock_xp-0033 localhost [tscc-13-16]
+  2  31  95 | finished  tscc-13-16-0-63a4d473 glide-dock_xp-0009 localhost [tscc-13-16]
+  2  32  94 | launched  tscc-13-16-0-63a4d5c0 glide-dock_xp-0034 localhost [tscc-13-16]
+  3  31  94 | finished  tscc-13-16-0-63a4d46c glide-dock_xp-0007 localhost [tscc-13-16]
+  3  32  93 | launched  tscc-13-16-0-63a4d5cb glide-dock_xp-0035 localhost [tscc-13-16]
+  4  31  93 | finished  tscc-13-16-0-63a4d466 glide-dock_xp-0005 localhost [tscc-13-16]
+  4  32  92 | launched  tscc-13-16-0-63a4d5ec glide-dock_xp-0036 localhost [tscc-13-16]
+  5  31  92 | finished  tscc-13-16-0-63a4d485 glide-dock_xp-0014 localhost [tscc-13-16]
+  5  32  91 | launched  tscc-13-16-0-63a4d609 glide-dock_xp-0037 localhost [tscc-13-16]
+  6  31  91 | finished  tscc-13-16-0-63a4d49e glide-dock_xp-0022 localhost [tscc-13-16]
+  6  32  90 | launched  tscc-13-16-0-63a4d612 glide-dock_xp-0038 localhost [tscc-13-16]
+  7  31  90 | finished  tscc-13-16-0-63a4d499 glide-dock_xp-0020 localhost [tscc-13-16]
+  7  32  89 | launched  tscc-13-16-0-63a4d619 glide-dock_xp-0039 localhost [tscc-13-16]
+  8  31  89 | finished  tscc-13-16-0-63a4d45f glide-dock_xp-0003 localhost [tscc-13-16]
+  8  32  88 | launched  tscc-13-16-0-63a4d61e glide-dock_xp-0040 localhost [tscc-13-16]
+  9  31  88 | finished  tscc-13-16-0-63a4d468 glide-dock_xp-0006 localhost [tscc-13-16]
+  9  32  87 | launched  tscc-13-16-0-63a4d62a glide-dock_xp-0041 localhost [tscc-13-16]
+ 10  31  87 | finished  tscc-13-16-0-63a4d459 glide-dock_xp-0001 localhost [tscc-13-16]
+ 10  32  86 | launched  tscc-13-16-0-63a4d641 glide-dock_xp-0042 localhost [tscc-13-16]
+ 11  31  86 | finished  tscc-13-16-0-63a4d462 glide-dock_xp-0004 localhost [tscc-13-16]
+ 11  32  85 | launched  tscc-13-16-0-63a4d647 glide-dock_xp-0043 localhost [tscc-13-16]
+ 12  31  85 | finished  tscc-13-16-0-63a4d49b glide-dock_xp-0021 localhost [tscc-13-16]
+ 12  32  84 | launched  tscc-13-16-0-63a4d64b glide-dock_xp-0044 localhost [tscc-13-16]
+ 13  31  84 | finished  tscc-13-16-0-63a4d488 glide-dock_xp-0015 localhost [tscc-13-16]
+ 13  32  83 | launched  tscc-13-16-0-63a4d661 glide-dock_xp-0045 localhost [tscc-13-16]
+ 14  31  83 | finished  tscc-13-16-0-63a4d481 glide-dock_xp-0013 localhost [tscc-13-16]
+ 14  32  82 | launched  tscc-13-16-0-63a4d669 glide-dock_xp-0046 localhost [tscc-13-16]
+ 15  31  82 | finished  tscc-13-16-0-63a4d4b7 glide-dock_xp-0030 localhost [tscc-13-16]
+ 15  32  81 | launched  tscc-13-16-0-63a4d671 glide-dock_xp-0047 localhost [tscc-13-16]
+ 16  31  81 | finished  tscc-13-16-0-63a4d494 glide-dock_xp-0019 localhost [tscc-13-16]
+ 17  30  81 | finished  tscc-13-16-0-63a4d4a1 glide-dock_xp-0023 localhost [tscc-13-16]
+ 17  31  80 | launched  tscc-13-16-0-63a4d673 glide-dock_xp-0048 localhost [tscc-13-16]
+ 17  32  79 | launched  tscc-13-16-0-63a4d677 glide-dock_xp-0049 localhost [tscc-13-16]
+ 18  31  79 | finished  tscc-13-16-0-63a4d476 glide-dock_xp-0010 localhost [tscc-13-16]
+ 18  32  78 | launched  tscc-13-16-0-63a4d67d glide-dock_xp-0050 localhost [tscc-13-16]
+ 19  31  78 | finished  tscc-13-16-0-63a4d4a5 glide-dock_xp-0024 localhost [tscc-13-16]
+ 19  32  77 | launched  tscc-13-16-0-63a4d68a glide-dock_xp-0051 localhost [tscc-13-16]
+ 20  31  77 | finished  tscc-13-16-0-63a4d48b glide-dock_xp-0016 localhost [tscc-13-16]
+ 20  32  76 | launched  tscc-13-16-0-63a4d68c glide-dock_xp-0052 localhost [tscc-13-16]
+ 21  31  76 | finished  tscc-13-16-0-63a4d4b2 glide-dock_xp-0028 localhost [tscc-13-16]
+ 21  32  75 | launched  tscc-13-16-0-63a4d691 glide-dock_xp-0053 localhost [tscc-13-16]
+ 22  31  75 | finished  tscc-13-16-0-63a4d4a8 glide-dock_xp-0025 localhost [tscc-13-16]
+ 22  32  74 | launched  tscc-13-16-0-63a4d695 glide-dock_xp-0054 localhost [tscc-13-16]
+ 23  31  74 | finished  tscc-13-16-0-63a4d491 glide-dock_xp-0018 localhost [tscc-13-16]
+ 23  32  73 | launched  tscc-13-16-0-63a4d6a2 glide-dock_xp-0055 localhost [tscc-13-16]
+ 24  31  73 | finished  tscc-13-16-0-63a4d470 glide-dock_xp-0008 localhost [tscc-13-16]
+ 24  32  72 | launched  tscc-13-16-0-63a4d6ac glide-dock_xp-0056 localhost [tscc-13-16]
+ 25  31  72 | finished  tscc-13-16-0-63a4d4ae glide-dock_xp-0027 localhost [tscc-13-16]
+ 25  32  71 | launched  tscc-13-16-0-63a4d6cb glide-dock_xp-0057 localhost [tscc-13-16]
+ 26  31  71 | finished  tscc-13-16-0-63a4d47d glide-dock_xp-0012 localhost [tscc-13-16]
+ 26  32  70 | launched  tscc-13-16-0-63a4d6dd glide-dock_xp-0058 localhost [tscc-13-16]
+ 27  31  70 | finished  tscc-13-16-0-63a4d479 glide-dock_xp-0011 localhost [tscc-13-16]
+ 27  32  69 | launched  tscc-13-16-0-63a4d6e4 glide-dock_xp-0059 localhost [tscc-13-16]
+ 28  31  69 | finished  tscc-13-16-0-63a4d4ab glide-dock_xp-0026 localhost [tscc-13-16]
+ 28  32  68 | launched  tscc-13-16-0-63a4d6fa glide-dock_xp-0060 localhost [tscc-13-16]
+ 29  31  68 | finished  tscc-13-16-0-63a4d48e glide-dock_xp-0017 localhost [tscc-13-16]
+ 29  32  67 | launched  tscc-13-16-0-63a4d702 glide-dock_xp-0061 localhost [tscc-13-16]
+ 30  31  67 | finished  tscc-13-16-0-63a4d5c0 glide-dock_xp-0034 localhost [tscc-13-16]
+ 30  32  66 | launched  tscc-13-16-0-63a4d72f glide-dock_xp-0062 localhost [tscc-13-16]
+ 31  31  66 | finished  tscc-13-16-0-63a4d4b4 glide-dock_xp-0029 localhost [tscc-13-16]
+ 31  32  65 | launched  tscc-13-16-0-63a4d733 glide-dock_xp-0063 localhost [tscc-13-16]
+ 32  31  65 | finished  tscc-13-16-0-63a4d4c2 glide-dock_xp-0032 localhost [tscc-13-16]
+ 32  32  64 | launched  tscc-13-16-0-63a4d73a glide-dock_xp-0064 localhost [tscc-13-16]
+ 33  31  64 | finished  tscc-13-16-0-63a4d573 glide-dock_xp-0033 localhost [tscc-13-16]
+ 33  32  63 | launched  tscc-13-16-0-63a4d73e glide-dock_xp-0065 localhost [tscc-13-16]
+ 34  31  63 | finished  tscc-13-16-0-63a4d4bb glide-dock_xp-0031 localhost [tscc-13-16]
+ 34  32  62 | launched  tscc-13-16-0-63a4d750 glide-dock_xp-0066 localhost [tscc-13-16]
+ 35  31  62 | finished  tscc-13-16-0-63a4d5cb glide-dock_xp-0035 localhost [tscc-13-16]
+ 35  32  61 | launched  tscc-13-16-0-63a4d7d1 glide-dock_xp-0067 localhost [tscc-13-16]
+ 36  31  61 | finished  tscc-13-16-0-63a4d609 glide-dock_xp-0037 localhost [tscc-13-16]
+ 36  32  60 | launched  tscc-13-16-0-63a4d7eb glide-dock_xp-0068 localhost [tscc-13-16]
+ 37  31  60 | finished  tscc-13-16-0-63a4d5ec glide-dock_xp-0036 localhost [tscc-13-16]
+ 37  32  59 | launched  tscc-13-16-0-63a4d7fc glide-dock_xp-0069 localhost [tscc-13-16]
+ 38  31  59 | finished  tscc-13-16-0-63a4d61e glide-dock_xp-0040 localhost [tscc-13-16]
+ 38  32  58 | launched  tscc-13-16-0-63a4d7ff glide-dock_xp-0070 localhost [tscc-13-16]
+ 39  31  58 | finished  tscc-13-16-0-63a4d62a glide-dock_xp-0041 localhost [tscc-13-16]
+ 39  32  57 | launched  tscc-13-16-0-63a4d805 glide-dock_xp-0071 localhost [tscc-13-16]
+ 40  31  57 | finished  tscc-13-16-0-63a4d64b glide-dock_xp-0044 localhost [tscc-13-16]
+ 40  32  56 | launched  tscc-13-16-0-63a4d824 glide-dock_xp-0072 localhost [tscc-13-16]
+ 41  31  56 | finished  tscc-13-16-0-63a4d619 glide-dock_xp-0039 localhost [tscc-13-16]
+ 41  32  55 | launched  tscc-13-16-0-63a4d826 glide-dock_xp-0073 localhost [tscc-13-16]
+ 42  31  55 | finished  tscc-13-16-0-63a4d671 glide-dock_xp-0047 localhost [tscc-13-16]
+ 42  32  54 | launched  tscc-13-16-0-63a4d83c glide-dock_xp-0074 localhost [tscc-13-16]
+ 43  31  54 | finished  tscc-13-16-0-63a4d661 glide-dock_xp-0045 localhost [tscc-13-16]
+ 43  32  53 | launched  tscc-13-16-0-63a4d83e glide-dock_xp-0075 localhost [tscc-13-16]
+ 44  31  53 | finished  tscc-13-16-0-63a4d647 glide-dock_xp-0043 localhost [tscc-13-16]
+ 44  32  52 | launched  tscc-13-16-0-63a4d849 glide-dock_xp-0076 localhost [tscc-13-16]
+ 45  31  52 | finished  tscc-13-16-0-63a4d641 glide-dock_xp-0042 localhost [tscc-13-16]
+ 45  32  51 | launched  tscc-13-16-0-63a4d856 glide-dock_xp-0077 localhost [tscc-13-16]
+ 46  31  51 | finished  tscc-13-16-0-63a4d68c glide-dock_xp-0052 localhost [tscc-13-16]
+ 46  32  50 | launched  tscc-13-16-0-63a4d85a glide-dock_xp-0078 localhost [tscc-13-16]
+ 47  31  50 | finished  tscc-13-16-0-63a4d6e4 glide-dock_xp-0059 localhost [tscc-13-16]
+ 47  32  49 | launched  tscc-13-16-0-63a4d883 glide-dock_xp-0079 localhost [tscc-13-16]
+ 48  31  49 | finished  tscc-13-16-0-63a4d677 glide-dock_xp-0049 localhost [tscc-13-16]
+ 48  32  48 | launched  tscc-13-16-0-63a4d896 glide-dock_xp-0080 localhost [tscc-13-16]
+ 49  31  48 | finished  tscc-13-16-0-63a4d6cb glide-dock_xp-0057 localhost [tscc-13-16]
+ 49  32  47 | launched  tscc-13-16-0-63a4d899 glide-dock_xp-0081 localhost [tscc-13-16]
+ 50  31  47 | finished  tscc-13-16-0-63a4d695 glide-dock_xp-0054 localhost [tscc-13-16]
+ 50  32  46 | launched  tscc-13-16-0-63a4d8b4 glide-dock_xp-0082 localhost [tscc-13-16]
+ 51  31  46 | finished  tscc-13-16-0-63a4d6ac glide-dock_xp-0056 localhost [tscc-13-16]
+ 51  32  45 | launched  tscc-13-16-0-63a4d8ba glide-dock_xp-0083 localhost [tscc-13-16]
+ 52  31  45 | finished  tscc-13-16-0-63a4d733 glide-dock_xp-0063 localhost [tscc-13-16]
+ 52  32  44 | launched  tscc-13-16-0-63a4d8d3 glide-dock_xp-0084 localhost [tscc-13-16]
+ 53  31  44 | finished  tscc-13-16-0-63a4d702 glide-dock_xp-0061 localhost [tscc-13-16]
+ 53  32  43 | launched  tscc-13-16-0-63a4d8db glide-dock_xp-0085 localhost [tscc-13-16]
+ 54  31  43 | finished  tscc-13-16-0-63a4d68a glide-dock_xp-0051 localhost [tscc-13-16]
+ 54  32  42 | launched  tscc-13-16-0-63a4d8e0 glide-dock_xp-0086 localhost [tscc-13-16]
+ 55  31  42 | finished  tscc-13-16-0-63a4d691 glide-dock_xp-0053 localhost [tscc-13-16]
+ 55  32  41 | launched  tscc-13-16-0-63a4d8e9 glide-dock_xp-0087 localhost [tscc-13-16]
+ 56  31  41 | finished  tscc-13-16-0-63a4d673 glide-dock_xp-0048 localhost [tscc-13-16]
+ 56  32  40 | launched  tscc-13-16-0-63a4d8f5 glide-dock_xp-0088 localhost [tscc-13-16]
+ 57  31  40 | finished  tscc-13-16-0-63a4d67d glide-dock_xp-0050 localhost [tscc-13-16]
+ 57  32  39 | launched  tscc-13-16-0-63a4d914 glide-dock_xp-0089 localhost [tscc-13-16]
+ 58  31  39 | finished  tscc-13-16-0-63a4d612 glide-dock_xp-0038 localhost [tscc-13-16]
+ 58  32  38 | launched  tscc-13-16-0-63a4d920 glide-dock_xp-0090 localhost [tscc-13-16]
+ 59  31  38 | finished  tscc-13-16-0-63a4d6fa glide-dock_xp-0060 localhost [tscc-13-16]
+ 59  32  37 | launched  tscc-13-16-0-63a4d924 glide-dock_xp-0091 localhost [tscc-13-16]
+ 60  31  37 | finished  tscc-13-16-0-63a4d6a2 glide-dock_xp-0055 localhost [tscc-13-16]
+ 60  32  36 | launched  tscc-13-16-0-63a4d936 glide-dock_xp-0092 localhost [tscc-13-16]
+ 61  31  36 | finished  tscc-13-16-0-63a4d73a glide-dock_xp-0064 localhost [tscc-13-16]
+ 61  32  35 | launched  tscc-13-16-0-63a4d950 glide-dock_xp-0093 localhost [tscc-13-16]
+ 62  31  35 | finished  tscc-13-16-0-63a4d669 glide-dock_xp-0046 localhost [tscc-13-16]
+ 62  32  34 | launched  tscc-13-16-0-63a4d95e glide-dock_xp-0094 localhost [tscc-13-16]
+ 63  31  34 | finished  tscc-13-16-0-63a4d72f glide-dock_xp-0062 localhost [tscc-13-16]
+ 63  32  33 | launched  tscc-13-16-0-63a4d961 glide-dock_xp-0095 localhost [tscc-13-16]
+ 64  31  33 | finished  tscc-13-16-0-63a4d6dd glide-dock_xp-0058 localhost [tscc-13-16]
+ 64  32  32 | launched  tscc-13-16-0-63a4d966 glide-dock_xp-0096 localhost [tscc-13-16]
+ 65  31  32 | finished  tscc-13-16-0-63a4d7d1 glide-dock_xp-0067 localhost [tscc-13-16]
+ 65  32  31 | launched  tscc-13-16-0-63a4d9a3 glide-dock_xp-0097 localhost [tscc-13-16]
+ 66  31  31 | finished  tscc-13-16-0-63a4d824 glide-dock_xp-0072 localhost [tscc-13-16]
+ 66  32  30 | launched  tscc-13-16-0-63a4d9b7 glide-dock_xp-0098 localhost [tscc-13-16]
+ 67  31  30 | finished  tscc-13-16-0-63a4d750 glide-dock_xp-0066 localhost [tscc-13-16]
+ 67  32  29 | launched  tscc-13-16-0-63a4d9cf glide-dock_xp-0099 localhost [tscc-13-16]
+ 68  31  29 | finished  tscc-13-16-0-63a4d7eb glide-dock_xp-0068 localhost [tscc-13-16]
+ 68  32  28 | launched  tscc-13-16-0-63a4d9ec glide-dock_xp-0100 localhost [tscc-13-16]
+ 69  31  28 | finished  tscc-13-16-0-63a4d7ff glide-dock_xp-0070 localhost [tscc-13-16]
+ 69  32  27 | launched  tscc-13-16-0-63a4d9f7 glide-dock_xp-0101 localhost [tscc-13-16]
+ 70  31  27 | finished  tscc-13-16-0-63a4d73e glide-dock_xp-0065 localhost [tscc-13-16]
+ 70  32  26 | launched  tscc-13-16-0-63a4da23 glide-dock_xp-0102 localhost [tscc-13-16]
+ 71  31  26 | finished  tscc-13-16-0-63a4d7fc glide-dock_xp-0069 localhost [tscc-13-16]
+ 71  32  25 | launched  tscc-13-16-0-63a4da2f glide-dock_xp-0103 localhost [tscc-13-16]
+ 72  31  25 | finished  tscc-13-16-0-63a4d805 glide-dock_xp-0071 localhost [tscc-13-16]
+ 72  32  24 | launched  tscc-13-16-0-63a4da43 glide-dock_xp-0104 localhost [tscc-13-16]
+ 73  31  24 | finished  tscc-13-16-0-63a4d856 glide-dock_xp-0077 localhost [tscc-13-16]
+ 73  32  23 | launched  tscc-13-16-0-63a4da4e glide-dock_xp-0105 localhost [tscc-13-16]
+ 74  31  23 | finished  tscc-13-16-0-63a4d83e glide-dock_xp-0075 localhost [tscc-13-16]
+ 74  32  22 | launched  tscc-13-16-0-63a4da52 glide-dock_xp-0106 localhost [tscc-13-16]
+ 75  31  22 | finished  tscc-13-16-0-63a4d826 glide-dock_xp-0073 localhost [tscc-13-16]
+ 75  32  21 | launched  tscc-13-16-0-63a4da68 glide-dock_xp-0107 localhost [tscc-13-16]
+ 76  31  21 | finished  tscc-13-16-0-63a4d896 glide-dock_xp-0080 localhost [tscc-13-16]
+ 76  32  20 | launched  tscc-13-16-0-63a4da85 glide-dock_xp-0108 localhost [tscc-13-16]
+ 77  31  20 | finished  tscc-13-16-0-63a4d85a glide-dock_xp-0078 localhost [tscc-13-16]
+ 77  32  19 | launched  tscc-13-16-0-63a4da8c glide-dock_xp-0109 localhost [tscc-13-16]
+ 78  31  19 | finished  tscc-13-16-0-63a4d849 glide-dock_xp-0076 localhost [tscc-13-16]
+ 78  32  18 | launched  tscc-13-16-0-63a4da9a glide-dock_xp-0110 localhost [tscc-13-16]
+ 79  31  18 | finished  tscc-13-16-0-63a4d883 glide-dock_xp-0079 localhost [tscc-13-16]
+ 79  32  17 | launched  tscc-13-16-0-63a4da9c glide-dock_xp-0111 localhost [tscc-13-16]
+ 80  31  17 | finished  tscc-13-16-0-63a4d83c glide-dock_xp-0074 localhost [tscc-13-16]
+ 80  32  16 | launched  tscc-13-16-0-63a4dabb glide-dock_xp-0112 localhost [tscc-13-16]
+ 81  31  16 | finished  tscc-13-16-0-63a4d8b4 glide-dock_xp-0082 localhost [tscc-13-16]
+ 81  32  15 | launched  tscc-13-16-0-63a4dacf glide-dock_xp-0113 localhost [tscc-13-16]
+ 82  31  15 | finished  tscc-13-16-0-63a4d8e0 glide-dock_xp-0086 localhost [tscc-13-16]
+ 82  32  14 | launched  tscc-13-16-0-63a4dade glide-dock_xp-0114 localhost [tscc-13-16]
+ 83  31  14 | finished  tscc-13-16-0-63a4d8db glide-dock_xp-0085 localhost [tscc-13-16]
+ 83  32  13 | launched  tscc-13-16-0-63a4dafd glide-dock_xp-0115 localhost [tscc-13-16]
+ 84  31  13 | finished  tscc-13-16-0-63a4d8d3 glide-dock_xp-0084 localhost [tscc-13-16]
+ 84  32  12 | launched  tscc-13-16-0-63a4db07 glide-dock_xp-0116 localhost [tscc-13-16]
+ 85  31  12 | finished  tscc-13-16-0-63a4d899 glide-dock_xp-0081 localhost [tscc-13-16]
+ 85  32  11 | launched  tscc-13-16-0-63a4db10 glide-dock_xp-0117 localhost [tscc-13-16]
+ 86  31  11 | finished  tscc-13-16-0-63a4d961 glide-dock_xp-0095 localhost [tscc-13-16]
+ 86  32  10 | launched  tscc-13-16-0-63a4db13 glide-dock_xp-0118 localhost [tscc-13-16]
+ 87  31  10 | finished  tscc-13-16-0-63a4d920 glide-dock_xp-0090 localhost [tscc-13-16]
+ 88  30  10 | finished  tscc-13-16-0-63a4d950 glide-dock_xp-0093 localhost [tscc-13-16]
+ 88  31   9 | launched  tscc-13-16-0-63a4db16 glide-dock_xp-0119 localhost [tscc-13-16]
+ 88  32   8 | launched  tscc-13-16-0-63a4db1d glide-dock_xp-0120 localhost [tscc-13-16]
+ 89  31   8 | finished  tscc-13-16-0-63a4d8e9 glide-dock_xp-0087 localhost [tscc-13-16]
+ 89  32   7 | launched  tscc-13-16-0-63a4db2e glide-dock_xp-0121 localhost [tscc-13-16]
+ 90  31   7 | finished  tscc-13-16-0-63a4d8ba glide-dock_xp-0083 localhost [tscc-13-16]
+ 90  32   6 | launched  tscc-13-16-0-63a4db48 glide-dock_xp-0122 localhost [tscc-13-16]
+ 91  31   6 | finished  tscc-13-16-0-63a4d914 glide-dock_xp-0089 localhost [tscc-13-16]
+ 91  32   5 | launched  tscc-13-16-0-63a4db58 glide-dock_xp-0123 localhost [tscc-13-16]
+ 92  31   5 | finished  tscc-13-16-0-63a4d9a3 glide-dock_xp-0097 localhost [tscc-13-16]
+ 92  32   4 | launched  tscc-13-16-0-63a4db73 glide-dock_xp-0124 localhost [tscc-13-16]
+ 93  31   4 | finished  tscc-13-16-0-63a4d8f5 glide-dock_xp-0088 localhost [tscc-13-16]
+ 93  32   3 | launched  tscc-13-16-0-63a4db7b glide-dock_xp-0125 localhost [tscc-13-16]
+ 94  31   3 | finished  tscc-13-16-0-63a4d966 glide-dock_xp-0096 localhost [tscc-13-16]
+ 94  32   2 | launched  tscc-13-16-0-63a4db7f glide-dock_xp-0126 localhost [tscc-13-16]
+ 95  31   2 | finished  tscc-13-16-0-63a4d936 glide-dock_xp-0092 localhost [tscc-13-16]
+ 95  32   1 | launched  tscc-13-16-0-63a4db9b glide-dock_xp-0127 localhost [tscc-13-16]
+ 96  31   1 | finished  tscc-13-16-0-63a4d924 glide-dock_xp-0091 localhost [tscc-13-16]
+ 96  32   0 | launched  tscc-13-16-0-63a4dba8 glide-dock_xp-0128 localhost [tscc-13-16]
+ 97  31   0 | finished  tscc-13-16-0-63a4d95e glide-dock_xp-0094 localhost [tscc-13-16]
+ 98  30   0 | finished  tscc-13-16-0-63a4d9b7 glide-dock_xp-0098 localhost [tscc-13-16]
+ 99  29   0 | finished  tscc-13-16-0-63a4da2f glide-dock_xp-0103 localhost [tscc-13-16]
+100  28   0 | finished  tscc-13-16-0-63a4da52 glide-dock_xp-0106 localhost [tscc-13-16]
+101  27   0 | finished  tscc-13-16-0-63a4d9ec glide-dock_xp-0100 localhost [tscc-13-16]
+102  26   0 | finished  tscc-13-16-0-63a4d9f7 glide-dock_xp-0101 localhost [tscc-13-16]
+103  25   0 | finished  tscc-13-16-0-63a4d9cf glide-dock_xp-0099 localhost [tscc-13-16]
+104  24   0 | finished  tscc-13-16-0-63a4da85 glide-dock_xp-0108 localhost [tscc-13-16]
+105  23   0 | finished  tscc-13-16-0-63a4da43 glide-dock_xp-0104 localhost [tscc-13-16]
+106  22   0 | finished  tscc-13-16-0-63a4da4e glide-dock_xp-0105 localhost [tscc-13-16]
+107  21   0 | finished  tscc-13-16-0-63a4da9a glide-dock_xp-0110 localhost [tscc-13-16]
+108  20   0 | finished  tscc-13-16-0-63a4da8c glide-dock_xp-0109 localhost [tscc-13-16]
+109  19   0 | finished  tscc-13-16-0-63a4db13 glide-dock_xp-0118 localhost [tscc-13-16]
+110  18   0 | finished  tscc-13-16-0-63a4dacf glide-dock_xp-0113 localhost [tscc-13-16]
+111  17   0 | finished  tscc-13-16-0-63a4da23 glide-dock_xp-0102 localhost [tscc-13-16]
+112  16   0 | finished  tscc-13-16-0-63a4da68 glide-dock_xp-0107 localhost [tscc-13-16]
+113  15   0 | finished  tscc-13-16-0-63a4dafd glide-dock_xp-0115 localhost [tscc-13-16]
+114  14   0 | finished  tscc-13-16-0-63a4da9c glide-dock_xp-0111 localhost [tscc-13-16]
+115  13   0 | finished  tscc-13-16-0-63a4dabb glide-dock_xp-0112 localhost [tscc-13-16]
+116  12   0 | finished  tscc-13-16-0-63a4dade glide-dock_xp-0114 localhost [tscc-13-16]
+117  11   0 | finished  tscc-13-16-0-63a4db1d glide-dock_xp-0120 localhost [tscc-13-16]
+118  10   0 | finished  tscc-13-16-0-63a4db9b glide-dock_xp-0127 localhost [tscc-13-16]
+119   9   0 | finished  tscc-13-16-0-63a4db07 glide-dock_xp-0116 localhost [tscc-13-16]
+120   8   0 | finished  tscc-13-16-0-63a4db48 glide-dock_xp-0122 localhost [tscc-13-16]
+121   7   0 | finished  tscc-13-16-0-63a4db58 glide-dock_xp-0123 localhost [tscc-13-16]
+122   6   0 | finished  tscc-13-16-0-63a4db73 glide-dock_xp-0124 localhost [tscc-13-16]
+123   5   0 | finished  tscc-13-16-0-63a4dba8 glide-dock_xp-0128 localhost [tscc-13-16]
+124   4   0 | finished  tscc-13-16-0-63a4db2e glide-dock_xp-0121 localhost [tscc-13-16]
+125   3   0 | finished  tscc-13-16-0-63a4db10 glide-dock_xp-0117 localhost [tscc-13-16]
+126   2   0 | finished  tscc-13-16-0-63a4db16 glide-dock_xp-0119 localhost [tscc-13-16]
+127   1   0 | finished  tscc-13-16-0-63a4db7f glide-dock_xp-0126 localhost [tscc-13-16]
+128   0   0 | finished  tscc-13-16-0-63a4db7b glide-dock_xp-0125 localhost [tscc-13-16]
+
+All jobs have completed.
+
+128 of 128 job(s) succeeded; 0 job(s) failed.
+
+All jobs succeeded: 1000 ligands done.
+Writing poses to glide-dock_xp_pv.maegz
+Combining log files to glide-dock_xp_subjobs.log
+Archiving subjob pose files in glide-dock_xp_subjob_poses.zip
+Archiving subjob input and log files in glide-dock_xp_subjobs.tar.gz
+Cleaning up...
+
+Elapsed times:
+- preprocessing: 16.4 s
+- running subjobs: 2430.0 s
+- postprocessing: 4.4 s
+- cleanup: 10.8 s
+
+All Glide docking subjobs: Total CPU time = 64727 seconds (17 h 58 min 47 s)
+
+Finished at: Thu Dec 22 14:44:54 2022
+Total elapsed time for Glide script = 2465 seconds (41 min 5 s)
