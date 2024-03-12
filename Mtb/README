@@ -1,0 +1,44 @@
+1) copied the final Mtb bd oxidase structure from /net/jam-amaro-shared/bd_oxidase/mtb/building/7nkz_final.pdb
+
+2) Inserted into charmm gui membrane builder
+
+3) PDB Info: kept only PROA and PROB, left the others for removal since charmm gui won't have parameters for the hemes
+
+4) Renamed HID to HSD, HIE to HSE, GLH to GLU, CYX to CYS. Preserved hydrogen coordinates
+
+5) use ppm server
+
+6) The main components of the Mtb membrane are PI (small amounts), PG, PE, and cardiolipin. This comes from Daffe and Draper, Advances in Microbial Physiology 1997 and Daffe and Marrakchi, Microbiology Spectrum, 2021. Cardiolipins are not supported. Kumar et al, Archives of Biochemistry and Biophysics, 1979 is also a useful reference. According to Jackson et al, J of Biol Chem I created a membrane with:
+
+PE:
+DMPE: 5
+DPPE: 31
+POPE: 31
+DOPE: 31
+
+PG:
+DOPG: 2
+
+length of xy: 100
+
+DPPI, PYPI, POPI, PSPI is unsupported
+
+7) used 150 mM NaCl
+
+8) 293 K
+amber ff and amber input generation
+npt ensemble
+protein ff14sb, lipid 17, tip3p, gaff
+
+9) after charmm gui, I opened the resulting 7nkz_final.pdb from Shirley's /net/jam-amaro-shared/bd_oxidase/mtb/building in pymol along with the step5_input.pdb from charmm gui
+
+10) I aligned the 7nkz_final.pdb to the step5_input.pdb, which aligns by alpha carbons in pymol, then saved the 7nkz_final.pdb with the new coordinates
+
+11) I opened the step5_input.pdb in vmd, and saved everything except the protein as membrane.pdb. Oddly, this left behind 11 protein atoms, which I deleted in vi
+
+12) cat 7nkz_final.pdb membrane.pdb > combined.pdb
+
+13) module load amber
+pdb4amber -i combined.pdb -o combined_renum.pdb
+
+14) structure looked odd in vmd but normal in pymol; after saving again through pymol the structure looked fine in both places
