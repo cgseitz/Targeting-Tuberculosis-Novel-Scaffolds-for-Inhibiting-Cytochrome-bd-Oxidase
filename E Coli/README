@@ -1,0 +1,67 @@
+1) the structures here came from /net/jam-amaro-shared/bd_oxidase/ecoli/prod/protein.prmtop and from /net/jam-amaro-shared/bd_oxidase/ecoli/prod/q_loop/reps.nc, from Shirley's email on 4/10/22.
+we picked the top four clusters since the number of frames decreases after that. I saved out as a pdb the first four frames from the reps.nc; maestro incorrectly recognizes two waters as solvent. Neither of these are in the q loop so I deleted them. I also deleted the ligands since we don't want those interfering with the q loop docking.
+
+2)  Shirley already ran these through GaMD but I still need to do a small protein prep for Maestro to accept them. I used the protein preparation workflow
+preprocess
+cap termini
+fill in missing side chains
+assign bond orders using CCD database
+create zero order bonds to metals
+create disulfide bonds
+fill in missing loops using prime
+generate het states with epik using pH 7.4 +- 2.0
+
+I did not optimize h bond assignments or clean up the structure as I did not want to change the structures that Shirley generated. After running this workflow, it still recognized the iron in HB1 as a ligand, so I removed that iron. HB1 is not in the q loop so it wouldn't participate in docking anyways, so this is fine.
+
+3) The residues 258-390 encompass the q loop. I created the box for ligand docking through tasks -> receptor grid generation
+site -> centroid of selected residues
+from here I selected residues 258 - 390, and this gave the center of the box coordinates as
+x, y, z 53.31, 62.33, 55.55
+to have the box better encompass the q loop, I changed these to
+x, y, z 53.31, 59.33, 55.55
+
+and then size -> dock ligands with length <= 18 A
+advanced settings
+box length in X: 40 A
+box length in Y: 40 A
+box length in Z: 28 A
+
+for cluster 2, the final coordinates after subtracting 3 A from the y coordinate were
+x, y, z 53.37, 59.91, 56.23
+
+for cluster 3, the final coordinates after subtracting 3 A from the y coordinate were
+x, y, z 53.28, 59.12, 55.04
+
+for cluster 4, the final coordinates after subtracting 3 A from the y coordinate were
+x, y, z 54.24 59.15 55.11
+
+I then saved the prepared protein structure as cluster1_maestro.pdb for use in docking.
+
+4) I then uploaded these to hopper to run with the Enamine and Life Chemicals libraries
+
+5) the oxygen channel structures came from /net/jam-amaro-shared/bd_oxidase/ecoli/prod/oxygen_channel/oxygen_channel.pdb
+and the uq8 structures came from /net/jam-amaro-shared/bd_oxidase/ecoli/prod/uq8_binding/uq8_binding.pdb
+
+6) I did another protein prep, the same as in step 2) for each
+- for the oxygen channel structures, I need to delete all the solvent and ligands except for the heme d and its associated prn, as these form the end of the oxygen channel. then I also need to fill in the missing side chains and loops, but not generate het states or cap termini as I think maestro doesn't know how to handle a heme
+- for the uq8, I deleted the solvent, fatty acids, and hemes, and left the uq8.
+7) The residues 107, 606, 609, 898 (i.e. vmd resid 107 etc) approximate the e coli oxygen channel. These correspond to Glu99.A, Trp63.B, Thr66.B, Thr355.B in the paper. To better encompass the oxygen channel, I made the box length in x, y and z be 20, 20, 20 
+for the uq8 receptor grid generation, I picked the ligand to make sure it is excluded from the docking results, and also made that the center of the bounding box, selecting ligands of similar size to uq8
+
+8) From the HTVS, selected the top 20,000 poses for SP docking. Note, I am not selecting the top 20,000 unique ligands, just the top 20,000 poses.
+$SCHRODINGER/utilities/glide_sort -o glide-dock_HTVS_20000.maegz glide-dock_HTVS_1_pv.maegz -norecep -use_dscore -n 20000
+
+9) From the SP, selected the top 1,000 poses for XP docking. Note, I am not selecting the top 1,000 unique ligands, just the top 1,000 poses.
+$SCHRODINGER/utilities/glide_sort -o glide-dock_SP_1000.maegz glide-dock_sp_pv.maegz -norecep -use_dscore -n 1000
+
+$SCHRODINGER/utilities/glide_sort -o htvs_dscore.maegz -r htvs_dscore.txt glide-dock_HTVS_1_pv.maegz -best_by_title -norecep -use_dscore
+
+10) From the XP, selected the top 50 poses. Here, I am selecting the top 50 unique ligands.
+$SCHRODINGER/utilities/glide_sort -o glide-dock_XP_50.maegz -r report.txt glide-dock_xp_pv.maegz -norecep -use_dscore -best -n 50
+
+11) for Andy/Kurt for ecoli, I need to come up with 100 molecules total across the different libraries and docking runs. This will mean I will take 50 molecules from enamine and 50 from life chemicals. There are nine pockets total. This means I will request the top 7 molecules from each library for each site, totaling 63 molecules from each library because some molecules may not be available. I will extract these with this command:
+$SCHRODINGER/utilities/glide_sort -o glide-dock_XP_7.maegz -r report.txt glide-dock_xp_pv.maegz -norecep -use_dscore -best -n 7
+
+19) for Andy/Kurt for Mtb, I need to come up with 100 molecules total across the different libraries and docking runs. This will mean I will take 50 molecules from enamine and 50 from life chemicals. There are twenty four pockets total. This means I will request the top 3 molecules from each library for each site, totaling 72 molecules from each library because some molecules may not be available. I will extract these with this command:
+$SCHRODINGER/utilities/glide_sort -o glide-dock_XP_3.maegz -r report.txt glide-dock_xp_pv.maegz -norecep -use_dscore -best -n 3
+
