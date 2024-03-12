@@ -1,0 +1,33 @@
+Command: /software/repo/moleculardynamics/schrodinger/2022u1/mmshare-v5.7/bin/Linux-x86_64/../../python/scripts/prepwizard2_driver.py proteinprep_47.maegz proteinprep_47-out.maegz -fillsidechains -disulfides -fillloops -nohtreat -noepik -antibody_cdr_scheme Kabat -noprotassign -noimpref -keepfarwat
+Number of input structures: 1
+
+Running subjobs on hosts:
+  localhost (Max: 4)
+Number of jobs:       1
+Max retries per job:  0
+Max allowed failures: unlimited
+Verbosity:            normal
+
+Starting JobDJ...
+
+Keep one job on driver host: False
+JobDJ columns:
+  C: Number of completed subjobs
+  A: Number of active subjobs (e.g., submitted, running)
+  W: Number of waiting/pending subjobs
+
+C A W | Activity  JobId  JobName  JobHost
+- - - | --------- -----------------------
+JobId: arizona-0-6296582a
+0 1 0 | started   [none] proteinprep_47-001 [local]
+1 0 0 | finished  [none] proteinprep_47-001 [local]
+
+All jobs have completed.
+
+1 of 1 job(s) succeeded; 0 job(s) failed.
+
+Subjob completed successfully: proteinprep_47-001
+Number of successful preparations: 1
+Number of output structures: 1
+DONE. Output file: proteinprep_47-out.maegz
+[running at reduced cpu priority]
