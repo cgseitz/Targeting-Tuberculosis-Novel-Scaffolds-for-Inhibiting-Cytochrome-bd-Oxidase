@@ -1,0 +1,5 @@
+GRIDFILE   ../../glide-grid_7/glide-grid_7.zip
+LIGANDFILE   glide-dock_SP_1000.maegz
+MACROCYCLE   False
+PRECISION   XP
+WRITE_RES_INTERACTION   True
