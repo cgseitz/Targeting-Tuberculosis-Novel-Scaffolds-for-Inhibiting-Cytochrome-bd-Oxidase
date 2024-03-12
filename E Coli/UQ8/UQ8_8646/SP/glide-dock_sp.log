@@ -1,0 +1,106 @@
+
+====================================
+            Glide Script            
+====================================
+
+mmshare         2cb27f0eb7
+glide-src       1e5ffd4733
+psp-src         6c93e2fe77
+macromodel-src  d47a6cf2e1
+epik-src        46d635d642
+
+--------------------------------------------------------------------------------
+JobId          : tscc-13-16-0-637c7262
+Name           : glide-dock_sp
+Program        : Glide
+Host           : tscc-13-16.sdsc.edu
+Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/uq8/uq8_8646/lifechemicals/sp
+HostEntry      : localhost
+JobHost        : tscc-13-16.sdsc.edu
+JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/uq8/uq8_8646/lifechemicals/sp/cseitz/glide-dock_sp
+JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -WAIT glide-dock_sp.in -OVERWRITE -adjust -HOST localhost:4 -NJOBS 16 -NOLOCAL
+StartTime      : 2022-11-21-22:55:31
+--------------------------------------------------------------------------------
+
+Running locally: False
+Max retries: 2
+Input file: glide-dock_sp.in
+
+Setting up docking job
+Separating ligands...
+....................                                   20000
+Number of structures that are to be docked: 20000
+Setting up Glide docking jobs...
+
+Running subjobs on hosts:
+  localhost (Max: 4)
+Number of jobs:       16
+Max retries per job:  2
+Max allowed failures: unlimited
+Verbosity:            normal
+
+Starting JobDJ...
+
+Keep one job on driver host: False
+JobDJ columns:
+  C: Number of completed subjobs
+  A: Number of active subjobs (e.g., submitted, running)
+  W: Number of waiting/pending subjobs
+
+ C  A  W | Activity  JobId  JobName  JobHost
+-- -- -- | --------- -----------------------
+ 0  1 15 | launched  tscc-13-16-0-637c7285 glide-dock_sp-0001 localhost [tscc-13-16]
+ 0  2 14 | launched  tscc-13-16-0-637c7286 glide-dock_sp-0002 localhost [tscc-13-16]
+ 0  3 13 | launched  tscc-13-16-0-637c7288 glide-dock_sp-0003 localhost [tscc-13-16]
+ 0  4 12 | launched  tscc-13-16-0-637c728a glide-dock_sp-0004 localhost [tscc-13-16]
+ 1  3 12 | finished  tscc-13-16-0-637c728a glide-dock_sp-0004 localhost [tscc-13-16]
+ 1  4 11 | launched  tscc-13-16-0-637ca16f glide-dock_sp-0005 localhost [tscc-13-16]
+ 2  3 11 | finished  tscc-13-16-0-637c7288 glide-dock_sp-0003 localhost [tscc-13-16]
+ 2  4 10 | launched  tscc-13-16-0-637ca5ce glide-dock_sp-0006 localhost [tscc-13-16]
+ 3  3 10 | finished  tscc-13-16-0-637c7286 glide-dock_sp-0002 localhost [tscc-13-16]
+ 3  4  9 | launched  tscc-13-16-0-637cab6f glide-dock_sp-0007 localhost [tscc-13-16]
+ 4  3  9 | finished  tscc-13-16-0-637c7285 glide-dock_sp-0001 localhost [tscc-13-16]
+ 4  4  8 | launched  tscc-13-16-0-637cbc13 glide-dock_sp-0008 localhost [tscc-13-16]
+ 5  3  8 | finished  tscc-13-16-0-637ca16f glide-dock_sp-0005 localhost [tscc-13-16]
+ 5  4  7 | launched  tscc-13-16-0-637ccd2d glide-dock_sp-0009 localhost [tscc-13-16]
+ 6  3  7 | finished  tscc-13-16-0-637ca5ce glide-dock_sp-0006 localhost [tscc-13-16]
+ 6  4  6 | launched  tscc-13-16-0-637cd134 glide-dock_sp-0010 localhost [tscc-13-16]
+ 7  3  6 | finished  tscc-13-16-0-637cab6f glide-dock_sp-0007 localhost [tscc-13-16]
+ 7  4  5 | launched  tscc-13-16-0-637cd5b3 glide-dock_sp-0011 localhost [tscc-13-16]
+ 8  3  5 | finished  tscc-13-16-0-637cbc13 glide-dock_sp-0008 localhost [tscc-13-16]
+ 8  4  4 | launched  tscc-13-16-0-637ce5ce glide-dock_sp-0012 localhost [tscc-13-16]
+ 9  3  4 | finished  tscc-13-16-0-637ccd2d glide-dock_sp-0009 localhost [tscc-13-16]
+ 9  4  3 | launched  tscc-13-16-0-637cf6f3 glide-dock_sp-0013 localhost [tscc-13-16]
+10  3  3 | finished  tscc-13-16-0-637cd134 glide-dock_sp-0010 localhost [tscc-13-16]
+10  4  2 | launched  tscc-13-16-0-637cf951 glide-dock_sp-0014 localhost [tscc-13-16]
+11  3  2 | finished  tscc-13-16-0-637cd5b3 glide-dock_sp-0011 localhost [tscc-13-16]
+11  4  1 | launched  tscc-13-16-0-637cfc95 glide-dock_sp-0015 localhost [tscc-13-16]
+12  3  1 | finished  tscc-13-16-0-637ce5ce glide-dock_sp-0012 localhost [tscc-13-16]
+12  4  0 | launched  tscc-13-16-0-637d0c26 glide-dock_sp-0016 localhost [tscc-13-16]
+13  3  0 | finished  tscc-13-16-0-637cf6f3 glide-dock_sp-0013 localhost [tscc-13-16]
+14  2  0 | finished  tscc-13-16-0-637cf951 glide-dock_sp-0014 localhost [tscc-13-16]
+15  1  0 | finished  tscc-13-16-0-637cfc95 glide-dock_sp-0015 localhost [tscc-13-16]
+16  0  0 | finished  tscc-13-16-0-637d0c26 glide-dock_sp-0016 localhost [tscc-13-16]
+
+All jobs have completed.
+
+16 of 16 job(s) succeeded; 0 job(s) failed.
+
+All jobs succeeded: 20000 ligands done.
+Writing poses to glide-dock_sp_pv.maegz
+Combining log files to glide-dock_sp_subjobs.log
+Archiving subjob pose files in glide-dock_sp_subjob_poses.zip
+Archiving subjob input and log files in glide-dock_sp_subjobs.tar.gz
+Cleaning up...
+
+Elapsed times:
+- preprocessing: 27.8 s
+- running subjobs: 48592.4 s
+- postprocessing: 36.4 s
+- cleanup: 30.8 s
+
+All Glide docking subjobs: Total CPU time = 180230 seconds (2 d 2 h 3 min 50 s)
+
+Finished at: Tue Nov 22 12:27:03 2022
+Total elapsed time for Glide script = 48691 seconds (13 h 31 min 31 s)
