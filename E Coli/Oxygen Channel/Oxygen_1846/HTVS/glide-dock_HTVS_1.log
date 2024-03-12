@@ -1,0 +1,1708 @@
+
+====================================
+            Glide Script            
+====================================
+
+mmshare         2cb27f0eb7
+glide-src       1e5ffd4733
+psp-src         6c93e2fe77
+macromodel-src  d47a6cf2e1
+epik-src        46d635d642
+
+--------------------------------------------------------------------------------
+JobId          : tscc-13-20-0-636d9838
+Name           : glide-dock_HTVS_1
+Program        : Glide
+Host           : tscc-13-20.sdsc.edu
+Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/oxygen_channel/oxygen_1846/lifechemicals/htvs
+HostEntry      : localhost
+JobHost        : tscc-13-20.sdsc.edu
+JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/oxygen_channel/oxygen_1846/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -WAIT glide-dock_HTVS_1.in -OVERWRITE -adjust -HOST localhost:64 -NJOBS 256 -NOLOCAL
+StartTime      : 2022-11-10-16:33:58
+--------------------------------------------------------------------------------
+
+Running locally: False
+Max retries: 2
+Input file: glide-dock_HTVS_1.in
+
+Setting up docking job
+Separating ligands...
+..................................................     50000
+..................................................    100000
+..................................................    150000
+..................................................    200000
+..................................................    250000
+..................................................    300000
+..................................................    350000
+..................................................    400000
+..................................................    450000
+..................................................    500000
+..................................................    550000
+..................................................    600000
+..................................................    650000
+..................................................    700000
+..................................................    750000
+..................................................    800000
+..................................................    850000
+..................................................    900000
+..............................                        930464
+Number of structures that are to be docked: 930464
+Setting up Glide docking jobs...
+
+Running subjobs on hosts:
+  localhost (Max: 64)
+Number of jobs:       256
+Max retries per job:  2
+Max allowed failures: unlimited
+Verbosity:            normal
+
+Starting JobDJ...
+
+Keep one job on driver host: False
+JobDJ columns:
+  C: Number of completed subjobs
+  A: Number of active subjobs (e.g., submitted, running)
+  W: Number of waiting/pending subjobs
+
+  C   A   W | Activity  JobId  JobName  JobHost
+--- --- --- | --------- -----------------------
+  0   1 255 | launched  tscc-13-20-0-636d99d3 glide-dock_HTVS_1-0001 localhost [tscc-13-20]
+  0   2 254 | launched  tscc-13-20-0-636d99d5 glide-dock_HTVS_1-0002 localhost [tscc-13-20]
+  0   3 253 | launched  tscc-13-20-0-636d99d9 glide-dock_HTVS_1-0003 localhost [tscc-13-20]
+  0   4 252 | launched  tscc-13-20-0-636d99dd glide-dock_HTVS_1-0004 localhost [tscc-13-20]
+  0   5 251 | launched  tscc-13-20-0-636d99e3 glide-dock_HTVS_1-0005 localhost [tscc-13-20]
+  0   6 250 | launched  tscc-13-20-0-636d99e9 glide-dock_HTVS_1-0006 localhost [tscc-13-20]
+  0   7 249 | launched  tscc-13-20-0-636d99ec glide-dock_HTVS_1-0007 localhost [tscc-13-20]
+  0   8 248 | launched  tscc-13-20-0-636d99f0 glide-dock_HTVS_1-0008 localhost [tscc-13-20]
+  0   9 247 | launched  tscc-13-20-0-636d99f5 glide-dock_HTVS_1-0009 localhost [tscc-13-20]
+  0  10 246 | launched  tscc-13-20-0-636d99fc glide-dock_HTVS_1-0010 localhost [tscc-13-20]
+  0  11 245 | launched  tscc-13-20-0-636d9a01 glide-dock_HTVS_1-0011 localhost [tscc-13-20]
+  0  12 244 | launched  tscc-13-20-0-636d9a07 glide-dock_HTVS_1-0012 localhost [tscc-13-20]
+  0  13 243 | launched  tscc-13-20-0-636d9a0c glide-dock_HTVS_1-0013 localhost [tscc-13-20]
+  0  14 242 | launched  tscc-13-20-0-636d9a13 glide-dock_HTVS_1-0014 localhost [tscc-13-20]
+  0  15 241 | launched  tscc-13-20-0-636d9a17 glide-dock_HTVS_1-0015 localhost [tscc-13-20]
+  0  16 240 | launched  tscc-13-20-0-636d9a1c glide-dock_HTVS_1-0016 localhost [tscc-13-20]
+  0  17 239 | launched  tscc-13-20-0-636d9a23 glide-dock_HTVS_1-0017 localhost [tscc-13-20]
+  0  18 238 | launched  tscc-13-20-0-636d9a29 glide-dock_HTVS_1-0018 localhost [tscc-13-20]
+  0  19 237 | launched  tscc-13-20-0-636d9a2f glide-dock_HTVS_1-0019 localhost [tscc-13-20]
+  0  20 236 | launched  tscc-13-20-0-636d9a35 glide-dock_HTVS_1-0020 localhost [tscc-13-20]
+  0  21 235 | launched  tscc-13-20-0-636d9a3a glide-dock_HTVS_1-0021 localhost [tscc-13-20]
+  0  22 234 | launched  tscc-13-20-0-636d9a3f glide-dock_HTVS_1-0022 localhost [tscc-13-20]
+  0  23 233 | launched  tscc-13-20-0-636d9a46 glide-dock_HTVS_1-0023 localhost [tscc-13-20]
+  0  24 232 | launched  tscc-13-20-0-636d9a4a glide-dock_HTVS_1-0024 localhost [tscc-13-20]
+  0  25 231 | launched  tscc-13-20-0-636d9a50 glide-dock_HTVS_1-0025 localhost [tscc-13-20]
+  0  26 230 | launched  tscc-13-20-0-636d9a56 glide-dock_HTVS_1-0026 localhost [tscc-13-20]
+  0  27 229 | launched  tscc-13-20-0-636d9a5c glide-dock_HTVS_1-0027 localhost [tscc-13-20]
+  0  28 228 | launched  tscc-13-20-0-636d9a61 glide-dock_HTVS_1-0028 localhost [tscc-13-20]
+  0  29 227 | launched  tscc-13-20-0-636d9a65 glide-dock_HTVS_1-0029 localhost [tscc-13-20]
+  0  30 226 | launched  tscc-13-20-0-636d9a69 glide-dock_HTVS_1-0030 localhost [tscc-13-20]
+  0  31 225 | launched  tscc-13-20-0-636d9a6e glide-dock_HTVS_1-0031 localhost [tscc-13-20]
+  0  32 224 | launched  tscc-13-20-0-636d9a75 glide-dock_HTVS_1-0032 localhost [tscc-13-20]
+  0  33 223 | launched  tscc-13-20-0-636d9a7b glide-dock_HTVS_1-0033 localhost [tscc-13-20]
+  0  34 222 | launched  tscc-13-20-0-636d9a7f glide-dock_HTVS_1-0034 localhost [tscc-13-20]
+  0  35 221 | launched  tscc-13-20-0-636d9a85 glide-dock_HTVS_1-0035 localhost [tscc-13-20]
+  0  36 220 | launched  tscc-13-20-0-636d9a8a glide-dock_HTVS_1-0036 localhost [tscc-13-20]
+  0  37 219 | launched  tscc-13-20-0-636d9a90 glide-dock_HTVS_1-0037 localhost [tscc-13-20]
+  0  38 218 | launched  tscc-13-20-0-636d9a95 glide-dock_HTVS_1-0038 localhost [tscc-13-20]
+  0  39 217 | launched  tscc-13-20-0-636d9a9b glide-dock_HTVS_1-0039 localhost [tscc-13-20]
+  0  40 216 | launched  tscc-13-20-0-636d9aa1 glide-dock_HTVS_1-0040 localhost [tscc-13-20]
+  0  41 215 | launched  tscc-13-20-0-636d9aa6 glide-dock_HTVS_1-0041 localhost [tscc-13-20]
+  0  42 214 | launched  tscc-13-20-0-636d9ab1 glide-dock_HTVS_1-0042 localhost [tscc-13-20]
+  0  43 213 | launched  tscc-13-20-0-636d9ab6 glide-dock_HTVS_1-0043 localhost [tscc-13-20]
+  0  44 212 | launched  tscc-13-20-0-636d9ab9 glide-dock_HTVS_1-0044 localhost [tscc-13-20]
+  0  45 211 | launched  tscc-13-20-0-636d9abf glide-dock_HTVS_1-0045 localhost [tscc-13-20]
+  0  46 210 | launched  tscc-13-20-0-636d9ac4 glide-dock_HTVS_1-0046 localhost [tscc-13-20]
+  0  47 209 | launched  tscc-13-20-0-636d9ac9 glide-dock_HTVS_1-0047 localhost [tscc-13-20]
+  0  48 208 | launched  tscc-13-20-0-636d9acf glide-dock_HTVS_1-0048 localhost [tscc-13-20]
+  0  49 207 | launched  tscc-13-20-0-636d9ad5 glide-dock_HTVS_1-0049 localhost [tscc-13-20]
+  0  50 206 | launched  tscc-13-20-0-636d9ada glide-dock_HTVS_1-0050 localhost [tscc-13-20]
+  0  51 205 | launched  tscc-13-20-0-636d9ae3 glide-dock_HTVS_1-0051 localhost [tscc-13-20]
+  0  52 204 | launched  tscc-13-20-0-636d9aeb glide-dock_HTVS_1-0052 localhost [tscc-13-20]
+  0  53 203 | launched  tscc-13-20-0-636d9aee glide-dock_HTVS_1-0053 localhost [tscc-13-20]
+  0  54 202 | launched  tscc-13-20-0-636d9af9 glide-dock_HTVS_1-0054 localhost [tscc-13-20]
+  0  55 201 | launched  tscc-13-20-0-636d9b01 glide-dock_HTVS_1-0055 localhost [tscc-13-20]
+  0  56 200 | launched  tscc-13-20-0-636d9b07 glide-dock_HTVS_1-0056 localhost [tscc-13-20]
+  0  57 199 | launched  tscc-13-20-0-636d9b0c glide-dock_HTVS_1-0057 localhost [tscc-13-20]
+  0  58 198 | launched  tscc-13-20-0-636d9b10 glide-dock_HTVS_1-0058 localhost [tscc-13-20]
+  0  59 197 | launched  tscc-13-20-0-636d9b15 glide-dock_HTVS_1-0059 localhost [tscc-13-20]
+  0  60 196 | launched  tscc-13-20-0-636d9b1f glide-dock_HTVS_1-0060 localhost [tscc-13-20]
+  0  61 195 | launched  tscc-13-20-0-636d9b38 glide-dock_HTVS_1-0061 localhost [tscc-13-20]
+  0  62 194 | launched  tscc-13-20-0-636d9b3b glide-dock_HTVS_1-0062 localhost [tscc-13-20]
+  0  63 193 | launched  tscc-13-20-0-636d9b3e glide-dock_HTVS_1-0063 localhost [tscc-13-20]
+  0  64 192 | launched  tscc-13-20-0-636d9b41 glide-dock_HTVS_1-0064 localhost [tscc-13-20]
+  1  63 192 | finished  tscc-13-20-0-636d9a17 glide-dock_HTVS_1-0015 localhost [tscc-13-20]
+  1  64 191 | launched  tscc-13-20-0-636da394 glide-dock_HTVS_1-0065 localhost [tscc-13-20]
+  2  63 191 | finished  tscc-13-20-0-636d9a1c glide-dock_HTVS_1-0016 localhost [tscc-13-20]
+  2  64 190 | launched  tscc-13-20-0-636da436 glide-dock_HTVS_1-0066 localhost [tscc-13-20]
+  3  63 190 | finished  tscc-13-20-0-636d9b3e glide-dock_HTVS_1-0063 localhost [tscc-13-20]
+  3  64 189 | launched  tscc-13-20-0-636da4b5 glide-dock_HTVS_1-0067 localhost [tscc-13-20]
+  4  63 189 | finished  tscc-13-20-0-636d9aeb glide-dock_HTVS_1-0052 localhost [tscc-13-20]
+  4  64 188 | launched  tscc-13-20-0-636da4c8 glide-dock_HTVS_1-0068 localhost [tscc-13-20]
+  5  63 188 | finished  tscc-13-20-0-636d9aee glide-dock_HTVS_1-0053 localhost [tscc-13-20]
+  5  64 187 | launched  tscc-13-20-0-636da541 glide-dock_HTVS_1-0069 localhost [tscc-13-20]
+  6  63 187 | finished  tscc-13-20-0-636d9ac4 glide-dock_HTVS_1-0046 localhost [tscc-13-20]
+  6  64 186 | launched  tscc-13-20-0-636da599 glide-dock_HTVS_1-0070 localhost [tscc-13-20]
+  7  63 186 | finished  tscc-13-20-0-636d9aa6 glide-dock_HTVS_1-0041 localhost [tscc-13-20]
+  7  64 185 | launched  tscc-13-20-0-636da5af glide-dock_HTVS_1-0071 localhost [tscc-13-20]
+  8  63 185 | finished  tscc-13-20-0-636d9a07 glide-dock_HTVS_1-0012 localhost [tscc-13-20]
+  8  64 184 | launched  tscc-13-20-0-636da5d9 glide-dock_HTVS_1-0072 localhost [tscc-13-20]
+  9  63 184 | finished  tscc-13-20-0-636d9a35 glide-dock_HTVS_1-0020 localhost [tscc-13-20]
+  9  64 183 | launched  tscc-13-20-0-636da616 glide-dock_HTVS_1-0073 localhost [tscc-13-20]
+ 10  63 183 | finished  tscc-13-20-0-636d99e3 glide-dock_HTVS_1-0005 localhost [tscc-13-20]
+ 10  64 182 | launched  tscc-13-20-0-636da62e glide-dock_HTVS_1-0074 localhost [tscc-13-20]
+ 11  63 182 | finished  tscc-13-20-0-636d99dd glide-dock_HTVS_1-0004 localhost [tscc-13-20]
+ 11  64 181 | launched  tscc-13-20-0-636da650 glide-dock_HTVS_1-0075 localhost [tscc-13-20]
+ 12  63 181 | finished  tscc-13-20-0-636d9a2f glide-dock_HTVS_1-0019 localhost [tscc-13-20]
+ 12  64 180 | launched  tscc-13-20-0-636da661 glide-dock_HTVS_1-0076 localhost [tscc-13-20]
+ 13  63 180 | finished  tscc-13-20-0-636d9a23 glide-dock_HTVS_1-0017 localhost [tscc-13-20]
+ 13  64 179 | launched  tscc-13-20-0-636da67a glide-dock_HTVS_1-0077 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0076' died (died) [jobid tscc-13-20-0-636da661]
+ 13  63 180 | died      tscc-13-20-0-636da661 glide-dock_HTVS_1-0076 localhost [tscc-13-20]
+ 13  64 179 | restarted tscc-13-20-0-636da686 glide-dock_HTVS_1-0076 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0076' died (died) [jobid tscc-13-20-0-636da686]
+ 13  63 180 | died      tscc-13-20-0-636da686 glide-dock_HTVS_1-0076 localhost [tscc-13-20]
+ 13  64 179 | restarted tscc-13-20-0-636da6ab glide-dock_HTVS_1-0076 localhost [tscc-13-20]
+ 14  63 179 | finished  tscc-13-20-0-636d9ab1 glide-dock_HTVS_1-0042 localhost [tscc-13-20]
+ 14  64 178 | launched  tscc-13-20-0-636da6c9 glide-dock_HTVS_1-0078 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0076' died (died) [jobid tscc-13-20-0-636da6ab]
+ 15  63 178 | died      tscc-13-20-0-636da6ab glide-dock_HTVS_1-0076 localhost [tscc-13-20]
+ERROR: Subjob 'glide-dock_HTVS_1-0076' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0076.log':
+
+  Host           : tscc-13-20.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/oxygen_channel/oxygen_1846/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-20.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/oxygen_channel/oxygen_1846/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0076
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0076.inp -HOST localhost
+  StartTime      : 2022-11-10-17:34:36
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 15  63 178 | died      tscc-13-20-0-636da6ab glide-dock_HTVS_1-0076 localhost [tscc-13-20]
+Subjob glide-dock_HTVS_1-0076 produced no pose file: glide-dock_HTVS_1-0076_raw.maegz
+ 15  64 177 | launched  tscc-13-20-0-636da6d0 glide-dock_HTVS_1-0079 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0079' died (died) [jobid tscc-13-20-0-636da6d0]
+ 15  63 178 | died      tscc-13-20-0-636da6d0 glide-dock_HTVS_1-0079 localhost [tscc-13-20]
+ 15  64 177 | restarted tscc-13-20-0-636da6f6 glide-dock_HTVS_1-0079 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0079' died (died) [jobid tscc-13-20-0-636da6f6]
+ 15  63 178 | died      tscc-13-20-0-636da6f6 glide-dock_HTVS_1-0079 localhost [tscc-13-20]
+ 15  64 177 | restarted tscc-13-20-0-636da71a glide-dock_HTVS_1-0079 localhost [tscc-13-20]
+ 16  63 177 | finished  tscc-13-20-0-636d9ab9 glide-dock_HTVS_1-0044 localhost [tscc-13-20]
+ 16  64 176 | launched  tscc-13-20-0-636da739 glide-dock_HTVS_1-0080 localhost [tscc-13-20]
+ 17  63 176 | finished  tscc-13-20-0-636d9ada glide-dock_HTVS_1-0050 localhost [tscc-13-20]
+ 17  64 175 | launched  tscc-13-20-0-636da752 glide-dock_HTVS_1-0081 localhost [tscc-13-20]
+ 18  63 175 | finished  tscc-13-20-0-636d9a69 glide-dock_HTVS_1-0030 localhost [tscc-13-20]
+ 18  64 174 | launched  tscc-13-20-0-636da76b glide-dock_HTVS_1-0082 localhost [tscc-13-20]
+ 19  63 174 | finished  tscc-13-20-0-636d99d5 glide-dock_HTVS_1-0002 localhost [tscc-13-20]
+ 19  64 173 | launched  tscc-13-20-0-636da776 glide-dock_HTVS_1-0083 localhost [tscc-13-20]
+ 20  63 173 | finished  tscc-13-20-0-636d9a13 glide-dock_HTVS_1-0014 localhost [tscc-13-20]
+ 20  64 172 | launched  tscc-13-20-0-636da787 glide-dock_HTVS_1-0084 localhost [tscc-13-20]
+ 21  63 172 | finished  tscc-13-20-0-636d99d9 glide-dock_HTVS_1-0003 localhost [tscc-13-20]
+ 21  64 171 | launched  tscc-13-20-0-636da796 glide-dock_HTVS_1-0085 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0085' died (died) [jobid tscc-13-20-0-636da796]
+ 21  63 172 | died      tscc-13-20-0-636da796 glide-dock_HTVS_1-0085 localhost [tscc-13-20]
+ 21  64 171 | restarted tscc-13-20-0-636da7bb glide-dock_HTVS_1-0085 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0085' died (died) [jobid tscc-13-20-0-636da7bb]
+ 21  63 172 | died      tscc-13-20-0-636da7bb glide-dock_HTVS_1-0085 localhost [tscc-13-20]
+ 21  64 171 | restarted tscc-13-20-0-636da7df glide-dock_HTVS_1-0085 localhost [tscc-13-20]
+ 22  63 171 | finished  tscc-13-20-0-636d9a8a glide-dock_HTVS_1-0036 localhost [tscc-13-20]
+ 22  64 170 | launched  tscc-13-20-0-636da7f6 glide-dock_HTVS_1-0086 localhost [tscc-13-20]
+ 23  63 170 | finished  tscc-13-20-0-636d9ac9 glide-dock_HTVS_1-0047 localhost [tscc-13-20]
+ 23  64 169 | launched  tscc-13-20-0-636da807 glide-dock_HTVS_1-0087 localhost [tscc-13-20]
+ 24  63 169 | finished  tscc-13-20-0-636d9b3b glide-dock_HTVS_1-0062 localhost [tscc-13-20]
+ 24  64 168 | launched  tscc-13-20-0-636da816 glide-dock_HTVS_1-0088 localhost [tscc-13-20]
+ 25  63 168 | finished  tscc-13-20-0-636d9a29 glide-dock_HTVS_1-0018 localhost [tscc-13-20]
+ 25  64 167 | launched  tscc-13-20-0-636da83c glide-dock_HTVS_1-0089 localhost [tscc-13-20]
+ 26  63 167 | finished  tscc-13-20-0-636d9a65 glide-dock_HTVS_1-0029 localhost [tscc-13-20]
+ 27  62 167 | finished  tscc-13-20-0-636d9a9b glide-dock_HTVS_1-0039 localhost [tscc-13-20]
+ 28  61 167 | finished  tscc-13-20-0-636d9b41 glide-dock_HTVS_1-0064 localhost [tscc-13-20]
+ 28  62 166 | launched  tscc-13-20-0-636da85d glide-dock_HTVS_1-0090 localhost [tscc-13-20]
+ 28  63 165 | launched  tscc-13-20-0-636da85f glide-dock_HTVS_1-0091 localhost [tscc-13-20]
+ 28  64 164 | launched  tscc-13-20-0-636da863 glide-dock_HTVS_1-0092 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0092' died (died) [jobid tscc-13-20-0-636da863]
+ 28  63 165 | died      tscc-13-20-0-636da863 glide-dock_HTVS_1-0092 localhost [tscc-13-20]
+ 28  64 164 | restarted tscc-13-20-0-636da888 glide-dock_HTVS_1-0092 localhost [tscc-13-20]
+ 29  63 164 | finished  tscc-13-20-0-636d9a5c glide-dock_HTVS_1-0027 localhost [tscc-13-20]
+ 29  64 163 | launched  tscc-13-20-0-636da89a glide-dock_HTVS_1-0093 localhost [tscc-13-20]
+ 30  63 163 | finished  tscc-13-20-0-636d99e9 glide-dock_HTVS_1-0006 localhost [tscc-13-20]
+ 30  64 162 | launched  tscc-13-20-0-636da8a4 glide-dock_HTVS_1-0094 localhost [tscc-13-20]
+ 31  63 162 | finished  tscc-13-20-0-636d9a7f glide-dock_HTVS_1-0034 localhost [tscc-13-20]
+ 31  64 161 | launched  tscc-13-20-0-636da8ba glide-dock_HTVS_1-0095 localhost [tscc-13-20]
+ 32  63 161 | finished  tscc-13-20-0-636d9abf glide-dock_HTVS_1-0045 localhost [tscc-13-20]
+ 32  64 160 | launched  tscc-13-20-0-636da8c7 glide-dock_HTVS_1-0096 localhost [tscc-13-20]
+ 33  63 160 | finished  tscc-13-20-0-636d9b1f glide-dock_HTVS_1-0060 localhost [tscc-13-20]
+ 33  64 159 | launched  tscc-13-20-0-636da8e6 glide-dock_HTVS_1-0097 localhost [tscc-13-20]
+ 34  63 159 | finished  tscc-13-20-0-636d9a3f glide-dock_HTVS_1-0022 localhost [tscc-13-20]
+ 35  62 159 | finished  tscc-13-20-0-636d9a90 glide-dock_HTVS_1-0037 localhost [tscc-13-20]
+ 35  63 158 | launched  tscc-13-20-0-636da904 glide-dock_HTVS_1-0098 localhost [tscc-13-20]
+ 35  64 157 | launched  tscc-13-20-0-636da907 glide-dock_HTVS_1-0099 localhost [tscc-13-20]
+ 36  63 157 | finished  tscc-13-20-0-636d9a4a glide-dock_HTVS_1-0024 localhost [tscc-13-20]
+ 37  62 157 | finished  tscc-13-20-0-636d9b38 glide-dock_HTVS_1-0061 localhost [tscc-13-20]
+ 37  63 156 | launched  tscc-13-20-0-636da91e glide-dock_HTVS_1-0100 localhost [tscc-13-20]
+ 37  64 155 | launched  tscc-13-20-0-636da921 glide-dock_HTVS_1-0101 localhost [tscc-13-20]
+ 38  63 155 | finished  tscc-13-20-0-636d9b0c glide-dock_HTVS_1-0057 localhost [tscc-13-20]
+ 38  64 154 | launched  tscc-13-20-0-636da92f glide-dock_HTVS_1-0102 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0102' died (died) [jobid tscc-13-20-0-636da92f]
+ 38  63 155 | died      tscc-13-20-0-636da92f glide-dock_HTVS_1-0102 localhost [tscc-13-20]
+ 38  64 154 | restarted tscc-13-20-0-636da954 glide-dock_HTVS_1-0102 localhost [tscc-13-20]
+ 39  63 154 | finished  tscc-13-20-0-636d9a0c glide-dock_HTVS_1-0013 localhost [tscc-13-20]
+ 39  64 153 | launched  tscc-13-20-0-636da976 glide-dock_HTVS_1-0103 localhost [tscc-13-20]
+ 40  63 153 | finished  tscc-13-20-0-636d9ae3 glide-dock_HTVS_1-0051 localhost [tscc-13-20]
+ 40  64 152 | launched  tscc-13-20-0-636da994 glide-dock_HTVS_1-0104 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0103' died (died) [jobid tscc-13-20-0-636da976]
+ 40  63 153 | died      tscc-13-20-0-636da976 glide-dock_HTVS_1-0103 localhost [tscc-13-20]
+ 40  64 152 | restarted tscc-13-20-0-636da99a glide-dock_HTVS_1-0103 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0103' died (died) [jobid tscc-13-20-0-636da99a]
+ 40  63 153 | died      tscc-13-20-0-636da99a glide-dock_HTVS_1-0103 localhost [tscc-13-20]
+ 40  64 152 | restarted tscc-13-20-0-636da9bf glide-dock_HTVS_1-0103 localhost [tscc-13-20]
+ 41  63 152 | finished  tscc-13-20-0-636d9b15 glide-dock_HTVS_1-0059 localhost [tscc-13-20]
+ 41  64 151 | launched  tscc-13-20-0-636da9e8 glide-dock_HTVS_1-0105 localhost [tscc-13-20]
+ 42  63 151 | finished  tscc-13-20-0-636d9a85 glide-dock_HTVS_1-0035 localhost [tscc-13-20]
+ 42  64 150 | launched  tscc-13-20-0-636da9f6 glide-dock_HTVS_1-0106 localhost [tscc-13-20]
+ 43  63 150 | finished  tscc-13-20-0-636d9ad5 glide-dock_HTVS_1-0049 localhost [tscc-13-20]
+ 43  64 149 | launched  tscc-13-20-0-636daa06 glide-dock_HTVS_1-0107 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0107' died (died) [jobid tscc-13-20-0-636daa06]
+ 43  63 150 | died      tscc-13-20-0-636daa06 glide-dock_HTVS_1-0107 localhost [tscc-13-20]
+ 43  64 149 | restarted tscc-13-20-0-636daa2b glide-dock_HTVS_1-0107 localhost [tscc-13-20]
+ 44  63 149 | finished  tscc-13-20-0-636d9b10 glide-dock_HTVS_1-0058 localhost [tscc-13-20]
+ 44  64 148 | launched  tscc-13-20-0-636daa46 glide-dock_HTVS_1-0108 localhost [tscc-13-20]
+ 45  63 148 | finished  tscc-13-20-0-636d9a6e glide-dock_HTVS_1-0031 localhost [tscc-13-20]
+ 45  64 147 | launched  tscc-13-20-0-636daa52 glide-dock_HTVS_1-0109 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0109' died (died) [jobid tscc-13-20-0-636daa52]
+ 45  63 148 | died      tscc-13-20-0-636daa52 glide-dock_HTVS_1-0109 localhost [tscc-13-20]
+ 45  64 147 | restarted tscc-13-20-0-636daa78 glide-dock_HTVS_1-0109 localhost [tscc-13-20]
+ 46  63 147 | finished  tscc-13-20-0-636d9a01 glide-dock_HTVS_1-0011 localhost [tscc-13-20]
+ 46  64 146 | launched  tscc-13-20-0-636daa96 glide-dock_HTVS_1-0110 localhost [tscc-13-20]
+ 47  63 146 | finished  tscc-13-20-0-636d99ec glide-dock_HTVS_1-0007 localhost [tscc-13-20]
+ 47  64 145 | launched  tscc-13-20-0-636daaa3 glide-dock_HTVS_1-0111 localhost [tscc-13-20]
+ 48  63 145 | finished  tscc-13-20-0-636d9a46 glide-dock_HTVS_1-0023 localhost [tscc-13-20]
+ 48  64 144 | launched  tscc-13-20-0-636daaad glide-dock_HTVS_1-0112 localhost [tscc-13-20]
+ 49  63 144 | finished  tscc-13-20-0-636d9a50 glide-dock_HTVS_1-0025 localhost [tscc-13-20]
+ 49  64 143 | launched  tscc-13-20-0-636daac2 glide-dock_HTVS_1-0113 localhost [tscc-13-20]
+ 50  63 143 | finished  tscc-13-20-0-636d9af9 glide-dock_HTVS_1-0054 localhost [tscc-13-20]
+ 50  64 142 | launched  tscc-13-20-0-636daad3 glide-dock_HTVS_1-0114 localhost [tscc-13-20]
+ 51  63 142 | finished  tscc-13-20-0-636d9a56 glide-dock_HTVS_1-0026 localhost [tscc-13-20]
+ 51  64 141 | launched  tscc-13-20-0-636daaea glide-dock_HTVS_1-0115 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0115' died (died) [jobid tscc-13-20-0-636daaea]
+ 51  63 142 | died      tscc-13-20-0-636daaea glide-dock_HTVS_1-0115 localhost [tscc-13-20]
+ 51  64 141 | restarted tscc-13-20-0-636dab0e glide-dock_HTVS_1-0115 localhost [tscc-13-20]
+ 52  63 141 | finished  tscc-13-20-0-636d9a7b glide-dock_HTVS_1-0033 localhost [tscc-13-20]
+ 52  64 140 | launched  tscc-13-20-0-636dab21 glide-dock_HTVS_1-0116 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0116' died (died) [jobid tscc-13-20-0-636dab21]
+ 52  63 141 | died      tscc-13-20-0-636dab21 glide-dock_HTVS_1-0116 localhost [tscc-13-20]
+ 52  64 140 | restarted tscc-13-20-0-636dab45 glide-dock_HTVS_1-0116 localhost [tscc-13-20]
+ 53  63 140 | finished  tscc-13-20-0-636d9aa1 glide-dock_HTVS_1-0040 localhost [tscc-13-20]
+ 53  64 139 | launched  tscc-13-20-0-636dab56 glide-dock_HTVS_1-0117 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0117' died (died) [jobid tscc-13-20-0-636dab56]
+ 53  63 140 | died      tscc-13-20-0-636dab56 glide-dock_HTVS_1-0117 localhost [tscc-13-20]
+ 53  64 139 | restarted tscc-13-20-0-636dab7a glide-dock_HTVS_1-0117 localhost [tscc-13-20]
+ 54  63 139 | finished  tscc-13-20-0-636d9ab6 glide-dock_HTVS_1-0043 localhost [tscc-13-20]
+ 54  64 138 | launched  tscc-13-20-0-636dab94 glide-dock_HTVS_1-0118 localhost [tscc-13-20]
+ 55  63 138 | finished  tscc-13-20-0-636d99f5 glide-dock_HTVS_1-0009 localhost [tscc-13-20]
+ 55  64 137 | launched  tscc-13-20-0-636dabb0 glide-dock_HTVS_1-0119 localhost [tscc-13-20]
+ 56  63 137 | finished  tscc-13-20-0-636d9a3a glide-dock_HTVS_1-0021 localhost [tscc-13-20]
+ 56  64 136 | launched  tscc-13-20-0-636dabc0 glide-dock_HTVS_1-0120 localhost [tscc-13-20]
+ 57  63 136 | finished  tscc-13-20-0-636d9b01 glide-dock_HTVS_1-0055 localhost [tscc-13-20]
+ 57  64 135 | launched  tscc-13-20-0-636dabd3 glide-dock_HTVS_1-0121 localhost [tscc-13-20]
+ 58  63 135 | finished  tscc-13-20-0-636d9a75 glide-dock_HTVS_1-0032 localhost [tscc-13-20]
+ 58  64 134 | launched  tscc-13-20-0-636dabf2 glide-dock_HTVS_1-0122 localhost [tscc-13-20]
+ 59  63 134 | finished  tscc-13-20-0-636d9a61 glide-dock_HTVS_1-0028 localhost [tscc-13-20]
+ 59  64 133 | launched  tscc-13-20-0-636dac0d glide-dock_HTVS_1-0123 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0122' died (died) [jobid tscc-13-20-0-636dabf2]
+ 59  63 134 | died      tscc-13-20-0-636dabf2 glide-dock_HTVS_1-0122 localhost [tscc-13-20]
+ 59  64 133 | restarted tscc-13-20-0-636dac18 glide-dock_HTVS_1-0122 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0122' died (died) [jobid tscc-13-20-0-636dac18]
+ 59  63 134 | died      tscc-13-20-0-636dac18 glide-dock_HTVS_1-0122 localhost [tscc-13-20]
+ 59  64 133 | restarted tscc-13-20-0-636dac3c glide-dock_HTVS_1-0122 localhost [tscc-13-20]
+ 60  63 133 | finished  tscc-13-20-0-636d99d3 glide-dock_HTVS_1-0001 localhost [tscc-13-20]
+ 60  64 132 | launched  tscc-13-20-0-636dac48 glide-dock_HTVS_1-0124 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0124' died (died) [jobid tscc-13-20-0-636dac48]
+ 60  63 133 | died      tscc-13-20-0-636dac48 glide-dock_HTVS_1-0124 localhost [tscc-13-20]
+ 60  64 132 | restarted tscc-13-20-0-636dac6c glide-dock_HTVS_1-0124 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0124' died (died) [jobid tscc-13-20-0-636dac6c]
+ 60  63 133 | died      tscc-13-20-0-636dac6c glide-dock_HTVS_1-0124 localhost [tscc-13-20]
+ 60  64 132 | restarted tscc-13-20-0-636dac90 glide-dock_HTVS_1-0124 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0124' died (died) [jobid tscc-13-20-0-636dac90]
+ 61  63 132 | died      tscc-13-20-0-636dac90 glide-dock_HTVS_1-0124 localhost [tscc-13-20]
+ERROR: Subjob 'glide-dock_HTVS_1-0124' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0124.log':
+
+  Host           : tscc-13-20.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/oxygen_channel/oxygen_1846/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-20.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/oxygen_channel/oxygen_1846/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0124
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0124.inp -HOST localhost
+  StartTime      : 2022-11-10-17:59:45
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 61  63 132 | died      tscc-13-20-0-636dac90 glide-dock_HTVS_1-0124 localhost [tscc-13-20]
+Subjob glide-dock_HTVS_1-0124 produced no pose file: glide-dock_HTVS_1-0124_raw.maegz
+ 61  64 131 | launched  tscc-13-20-0-636dacb4 glide-dock_HTVS_1-0125 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0125' died (died) [jobid tscc-13-20-0-636dacb4]
+ 61  63 132 | died      tscc-13-20-0-636dacb4 glide-dock_HTVS_1-0125 localhost [tscc-13-20]
+ 61  64 131 | restarted tscc-13-20-0-636dacd9 glide-dock_HTVS_1-0125 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0125' died (died) [jobid tscc-13-20-0-636dacd9]
+ 61  63 132 | died      tscc-13-20-0-636dacd9 glide-dock_HTVS_1-0125 localhost [tscc-13-20]
+ 61  64 131 | restarted tscc-13-20-0-636dacfc glide-dock_HTVS_1-0125 localhost [tscc-13-20]
+ 62  63 131 | finished  tscc-13-20-0-636d99fc glide-dock_HTVS_1-0010 localhost [tscc-13-20]
+ 62  64 130 | launched  tscc-13-20-0-636dad16 glide-dock_HTVS_1-0126 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0125' died (died) [jobid tscc-13-20-0-636dacfc]
+ 63  63 130 | died      tscc-13-20-0-636dacfc glide-dock_HTVS_1-0125 localhost [tscc-13-20]
+ERROR: Subjob 'glide-dock_HTVS_1-0125' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0125.log':
+
+  Host           : tscc-13-20.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/oxygen_channel/oxygen_1846/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-20.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/oxygen_channel/oxygen_1846/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0125
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0125.inp -HOST localhost
+  StartTime      : 2022-11-10-18:01:33
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 63  63 130 | died      tscc-13-20-0-636dacfc glide-dock_HTVS_1-0125 localhost [tscc-13-20]
+Subjob glide-dock_HTVS_1-0125 produced no pose file: glide-dock_HTVS_1-0125_raw.maegz
+ 63  64 129 | launched  tscc-13-20-0-636dad21 glide-dock_HTVS_1-0127 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0127' died (died) [jobid tscc-13-20-0-636dad21]
+ 63  63 130 | died      tscc-13-20-0-636dad21 glide-dock_HTVS_1-0127 localhost [tscc-13-20]
+ 63  64 129 | restarted tscc-13-20-0-636dad47 glide-dock_HTVS_1-0127 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0127' died (died) [jobid tscc-13-20-0-636dad47]
+ 63  63 130 | died      tscc-13-20-0-636dad47 glide-dock_HTVS_1-0127 localhost [tscc-13-20]
+ 63  64 129 | restarted tscc-13-20-0-636dad6b glide-dock_HTVS_1-0127 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0127' died (died) [jobid tscc-13-20-0-636dad6b]
+ 64  63 129 | died      tscc-13-20-0-636dad6b glide-dock_HTVS_1-0127 localhost [tscc-13-20]
+ERROR: Subjob 'glide-dock_HTVS_1-0127' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0127.log':
+
+  Host           : tscc-13-20.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/oxygen_channel/oxygen_1846/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-20.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/oxygen_channel/oxygen_1846/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0127
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0127.inp -HOST localhost
+  StartTime      : 2022-11-10-18:03:23
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 64  63 129 | died      tscc-13-20-0-636dad6b glide-dock_HTVS_1-0127 localhost [tscc-13-20]
+Subjob glide-dock_HTVS_1-0127 produced no pose file: glide-dock_HTVS_1-0127_raw.maegz
+ 64  64 128 | launched  tscc-13-20-0-636dad90 glide-dock_HTVS_1-0128 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0128' died (died) [jobid tscc-13-20-0-636dad90]
+ 64  63 129 | died      tscc-13-20-0-636dad90 glide-dock_HTVS_1-0128 localhost [tscc-13-20]
+ 64  64 128 | restarted tscc-13-20-0-636dadb4 glide-dock_HTVS_1-0128 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0128' died (died) [jobid tscc-13-20-0-636dadb4]
+ 64  63 129 | died      tscc-13-20-0-636dadb4 glide-dock_HTVS_1-0128 localhost [tscc-13-20]
+ 64  64 128 | restarted tscc-13-20-0-636dadd9 glide-dock_HTVS_1-0128 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0128' died (died) [jobid tscc-13-20-0-636dadd9]
+ 65  63 128 | died      tscc-13-20-0-636dadd9 glide-dock_HTVS_1-0128 localhost [tscc-13-20]
+ERROR: Subjob 'glide-dock_HTVS_1-0128' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0128.log':
+
+  Host           : tscc-13-20.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/oxygen_channel/oxygen_1846/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-20.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/oxygen_channel/oxygen_1846/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0128
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0128.inp -HOST localhost
+  StartTime      : 2022-11-10-18:05:13
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 65  63 128 | died      tscc-13-20-0-636dadd9 glide-dock_HTVS_1-0128 localhost [tscc-13-20]
+Subjob glide-dock_HTVS_1-0128 produced no pose file: glide-dock_HTVS_1-0128_raw.maegz
+ 65  64 127 | launched  tscc-13-20-0-636dadfd glide-dock_HTVS_1-0129 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0129' died (died) [jobid tscc-13-20-0-636dadfd]
+ 65  63 128 | died      tscc-13-20-0-636dadfd glide-dock_HTVS_1-0129 localhost [tscc-13-20]
+ 65  64 127 | restarted tscc-13-20-0-636dae20 glide-dock_HTVS_1-0129 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0129' died (died) [jobid tscc-13-20-0-636dae20]
+ 65  63 128 | died      tscc-13-20-0-636dae20 glide-dock_HTVS_1-0129 localhost [tscc-13-20]
+ 65  64 127 | restarted tscc-13-20-0-636dae46 glide-dock_HTVS_1-0129 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0129' died (died) [jobid tscc-13-20-0-636dae46]
+ 66  63 127 | died      tscc-13-20-0-636dae46 glide-dock_HTVS_1-0129 localhost [tscc-13-20]
+ERROR: Subjob 'glide-dock_HTVS_1-0129' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0129.log':
+
+  Host           : tscc-13-20.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/oxygen_channel/oxygen_1846/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-20.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/oxygen_channel/oxygen_1846/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0129
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0129.inp -HOST localhost
+  StartTime      : 2022-11-10-18:07:02
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 66  63 127 | died      tscc-13-20-0-636dae46 glide-dock_HTVS_1-0129 localhost [tscc-13-20]
+Subjob glide-dock_HTVS_1-0129 produced no pose file: glide-dock_HTVS_1-0129_raw.maegz
+ 66  64 126 | launched  tscc-13-20-0-636dae69 glide-dock_HTVS_1-0130 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0130' died (died) [jobid tscc-13-20-0-636dae69]
+ 66  63 127 | died      tscc-13-20-0-636dae69 glide-dock_HTVS_1-0130 localhost [tscc-13-20]
+ 66  64 126 | restarted tscc-13-20-0-636dae8e glide-dock_HTVS_1-0130 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0130' died (died) [jobid tscc-13-20-0-636dae8e]
+ 66  63 127 | died      tscc-13-20-0-636dae8e glide-dock_HTVS_1-0130 localhost [tscc-13-20]
+ 66  64 126 | restarted tscc-13-20-0-636daeb1 glide-dock_HTVS_1-0130 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0130' died (died) [jobid tscc-13-20-0-636daeb1]
+ 67  63 126 | died      tscc-13-20-0-636daeb1 glide-dock_HTVS_1-0130 localhost [tscc-13-20]
+ERROR: Subjob 'glide-dock_HTVS_1-0130' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0130.log':
+
+  Host           : tscc-13-20.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/oxygen_channel/oxygen_1846/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-20.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/oxygen_channel/oxygen_1846/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0130
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0130.inp -HOST localhost
+  StartTime      : 2022-11-10-18:08:50
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 67  63 126 | died      tscc-13-20-0-636daeb1 glide-dock_HTVS_1-0130 localhost [tscc-13-20]
+Subjob glide-dock_HTVS_1-0130 produced no pose file: glide-dock_HTVS_1-0130_raw.maegz
+ 67  64 125 | launched  tscc-13-20-0-636daed7 glide-dock_HTVS_1-0131 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0131' died (died) [jobid tscc-13-20-0-636daed7]
+ 67  63 126 | died      tscc-13-20-0-636daed7 glide-dock_HTVS_1-0131 localhost [tscc-13-20]
+ 67  64 125 | restarted tscc-13-20-0-636daefc glide-dock_HTVS_1-0131 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0131' died (died) [jobid tscc-13-20-0-636daefc]
+ 67  63 126 | died      tscc-13-20-0-636daefc glide-dock_HTVS_1-0131 localhost [tscc-13-20]
+ 67  64 125 | restarted tscc-13-20-0-636daf1f glide-dock_HTVS_1-0131 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0131' died (died) [jobid tscc-13-20-0-636daf1f]
+ 68  63 125 | died      tscc-13-20-0-636daf1f glide-dock_HTVS_1-0131 localhost [tscc-13-20]
+ERROR: Subjob 'glide-dock_HTVS_1-0131' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0131.log':
+
+  Host           : tscc-13-20.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/oxygen_channel/oxygen_1846/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-20.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/oxygen_channel/oxygen_1846/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0131
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0131.inp -HOST localhost
+  StartTime      : 2022-11-10-18:10:40
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 68  63 125 | died      tscc-13-20-0-636daf1f glide-dock_HTVS_1-0131 localhost [tscc-13-20]
+Subjob glide-dock_HTVS_1-0131 produced no pose file: glide-dock_HTVS_1-0131_raw.maegz
+ 68  64 124 | launched  tscc-13-20-0-636daf43 glide-dock_HTVS_1-0132 localhost [tscc-13-20]
+ 69  63 124 | finished  tscc-13-20-0-636da394 glide-dock_HTVS_1-0065 localhost [tscc-13-20]
+ 69  64 123 | launched  tscc-13-20-0-636daf56 glide-dock_HTVS_1-0133 localhost [tscc-13-20]
+ 70  63 123 | finished  tscc-13-20-0-636d9b07 glide-dock_HTVS_1-0056 localhost [tscc-13-20]
+ 70  64 122 | launched  tscc-13-20-0-636daf67 glide-dock_HTVS_1-0134 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0134' died (died) [jobid tscc-13-20-0-636daf67]
+ 70  63 123 | died      tscc-13-20-0-636daf67 glide-dock_HTVS_1-0134 localhost [tscc-13-20]
+ 70  64 122 | restarted tscc-13-20-0-636daf8b glide-dock_HTVS_1-0134 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0134' died (died) [jobid tscc-13-20-0-636daf8b]
+ 70  63 123 | died      tscc-13-20-0-636daf8b glide-dock_HTVS_1-0134 localhost [tscc-13-20]
+ 70  64 122 | restarted tscc-13-20-0-636dafb0 glide-dock_HTVS_1-0134 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0134' died (died) [jobid tscc-13-20-0-636dafb0]
+ 71  63 122 | died      tscc-13-20-0-636dafb0 glide-dock_HTVS_1-0134 localhost [tscc-13-20]
+ERROR: Subjob 'glide-dock_HTVS_1-0134' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0134.log':
+
+  Host           : tscc-13-20.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/oxygen_channel/oxygen_1846/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-20.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/oxygen_channel/oxygen_1846/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0134
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0134.inp -HOST localhost
+  StartTime      : 2022-11-10-18:13:05
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 71  63 122 | died      tscc-13-20-0-636dafb0 glide-dock_HTVS_1-0134 localhost [tscc-13-20]
+Subjob glide-dock_HTVS_1-0134 produced no pose file: glide-dock_HTVS_1-0134_raw.maegz
+ 71  64 121 | launched  tscc-13-20-0-636dafd5 glide-dock_HTVS_1-0135 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0135' died (died) [jobid tscc-13-20-0-636dafd5]
+ 71  63 122 | died      tscc-13-20-0-636dafd5 glide-dock_HTVS_1-0135 localhost [tscc-13-20]
+ 71  64 121 | restarted tscc-13-20-0-636daff9 glide-dock_HTVS_1-0135 localhost [tscc-13-20]
+ 72  63 121 | finished  tscc-13-20-0-636d99f0 glide-dock_HTVS_1-0008 localhost [tscc-13-20]
+ 72  64 120 | launched  tscc-13-20-0-636db00f glide-dock_HTVS_1-0136 localhost [tscc-13-20]
+ 73  63 120 | finished  tscc-13-20-0-636d9a95 glide-dock_HTVS_1-0038 localhost [tscc-13-20]
+ 73  64 119 | launched  tscc-13-20-0-636db039 glide-dock_HTVS_1-0137 localhost [tscc-13-20]
+ 74  63 119 | finished  tscc-13-20-0-636d9acf glide-dock_HTVS_1-0048 localhost [tscc-13-20]
+ 74  64 118 | launched  tscc-13-20-0-636db046 glide-dock_HTVS_1-0138 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0138' died (died) [jobid tscc-13-20-0-636db046]
+ 74  63 119 | died      tscc-13-20-0-636db046 glide-dock_HTVS_1-0138 localhost [tscc-13-20]
+ 74  64 118 | restarted tscc-13-20-0-636db06a glide-dock_HTVS_1-0138 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0138' died (died) [jobid tscc-13-20-0-636db06a]
+ 74  63 119 | died      tscc-13-20-0-636db06a glide-dock_HTVS_1-0138 localhost [tscc-13-20]
+ 74  64 118 | restarted tscc-13-20-0-636db08e glide-dock_HTVS_1-0138 localhost [tscc-13-20]
+ 75  63 118 | finished  tscc-13-20-0-636da4b5 glide-dock_HTVS_1-0067 localhost [tscc-13-20]
+ 75  64 117 | launched  tscc-13-20-0-636db0a2 glide-dock_HTVS_1-0139 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0139' died (died) [jobid tscc-13-20-0-636db0a2]
+ 75  63 118 | died      tscc-13-20-0-636db0a2 glide-dock_HTVS_1-0139 localhost [tscc-13-20]
+ 75  64 117 | restarted tscc-13-20-0-636db0c6 glide-dock_HTVS_1-0139 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0139' died (died) [jobid tscc-13-20-0-636db0c6]
+ 75  63 118 | died      tscc-13-20-0-636db0c6 glide-dock_HTVS_1-0139 localhost [tscc-13-20]
+ 75  64 117 | restarted tscc-13-20-0-636db0ea glide-dock_HTVS_1-0139 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0139' died (died) [jobid tscc-13-20-0-636db0ea]
+ 76  63 117 | died      tscc-13-20-0-636db0ea glide-dock_HTVS_1-0139 localhost [tscc-13-20]
+ERROR: Subjob 'glide-dock_HTVS_1-0139' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0139.log':
+
+  Host           : tscc-13-20.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/oxygen_channel/oxygen_1846/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-20.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/oxygen_channel/oxygen_1846/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0139
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0139.inp -HOST localhost
+  StartTime      : 2022-11-10-18:18:19
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 76  63 117 | died      tscc-13-20-0-636db0ea glide-dock_HTVS_1-0139 localhost [tscc-13-20]
+Subjob glide-dock_HTVS_1-0139 produced no pose file: glide-dock_HTVS_1-0139_raw.maegz
+ 76  64 116 | launched  tscc-13-20-0-636db10f glide-dock_HTVS_1-0140 localhost [tscc-13-20]
+ 77  63 116 | finished  tscc-13-20-0-636da816 glide-dock_HTVS_1-0088 localhost [tscc-13-20]
+ 77  64 115 | launched  tscc-13-20-0-636db130 glide-dock_HTVS_1-0141 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0141' died (died) [jobid tscc-13-20-0-636db130]
+ 77  63 116 | died      tscc-13-20-0-636db130 glide-dock_HTVS_1-0141 localhost [tscc-13-20]
+ 77  64 115 | restarted tscc-13-20-0-636db155 glide-dock_HTVS_1-0141 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0141' died (died) [jobid tscc-13-20-0-636db155]
+ 77  63 116 | died      tscc-13-20-0-636db155 glide-dock_HTVS_1-0141 localhost [tscc-13-20]
+ 77  64 115 | restarted tscc-13-20-0-636db179 glide-dock_HTVS_1-0141 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0141' died (died) [jobid tscc-13-20-0-636db179]
+ 78  63 115 | died      tscc-13-20-0-636db179 glide-dock_HTVS_1-0141 localhost [tscc-13-20]
+ERROR: Subjob 'glide-dock_HTVS_1-0141' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0141.log':
+
+  Host           : tscc-13-20.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/oxygen_channel/oxygen_1846/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-20.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/oxygen_channel/oxygen_1846/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0141
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0141.inp -HOST localhost
+  StartTime      : 2022-11-10-18:20:42
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 78  63 115 | died      tscc-13-20-0-636db179 glide-dock_HTVS_1-0141 localhost [tscc-13-20]
+Subjob glide-dock_HTVS_1-0141 produced no pose file: glide-dock_HTVS_1-0141_raw.maegz
+ 78  64 114 | launched  tscc-13-20-0-636db19d glide-dock_HTVS_1-0142 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0142' died (died) [jobid tscc-13-20-0-636db19d]
+ 78  63 115 | died      tscc-13-20-0-636db19d glide-dock_HTVS_1-0142 localhost [tscc-13-20]
+ 78  64 114 | restarted tscc-13-20-0-636db1c2 glide-dock_HTVS_1-0142 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0142' died (died) [jobid tscc-13-20-0-636db1c2]
+ 78  63 115 | died      tscc-13-20-0-636db1c2 glide-dock_HTVS_1-0142 localhost [tscc-13-20]
+ 78  64 114 | restarted tscc-13-20-0-636db1e5 glide-dock_HTVS_1-0142 localhost [tscc-13-20]
+ 79  63 114 | finished  tscc-13-20-0-636da541 glide-dock_HTVS_1-0069 localhost [tscc-13-20]
+ 79  64 113 | launched  tscc-13-20-0-636db206 glide-dock_HTVS_1-0143 localhost [tscc-13-20]
+ 80  63 113 | finished  tscc-13-20-0-636da776 glide-dock_HTVS_1-0083 localhost [tscc-13-20]
+ 80  64 112 | launched  tscc-13-20-0-636db218 glide-dock_HTVS_1-0144 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0144' died (died) [jobid tscc-13-20-0-636db218]
+ 80  63 113 | died      tscc-13-20-0-636db218 glide-dock_HTVS_1-0144 localhost [tscc-13-20]
+ 80  64 112 | restarted tscc-13-20-0-636db23d glide-dock_HTVS_1-0144 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0144' died (died) [jobid tscc-13-20-0-636db23d]
+ 80  63 113 | died      tscc-13-20-0-636db23d glide-dock_HTVS_1-0144 localhost [tscc-13-20]
+ 80  64 112 | restarted tscc-13-20-0-636db261 glide-dock_HTVS_1-0144 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0144' died (died) [jobid tscc-13-20-0-636db261]
+ 81  63 112 | died      tscc-13-20-0-636db261 glide-dock_HTVS_1-0144 localhost [tscc-13-20]
+ERROR: Subjob 'glide-dock_HTVS_1-0144' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0144.log':
+
+  Host           : tscc-13-20.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/oxygen_channel/oxygen_1846/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-20.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/oxygen_channel/oxygen_1846/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0144
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0144.inp -HOST localhost
+  StartTime      : 2022-11-10-18:24:34
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 81  63 112 | died      tscc-13-20-0-636db261 glide-dock_HTVS_1-0144 localhost [tscc-13-20]
+Subjob glide-dock_HTVS_1-0144 produced no pose file: glide-dock_HTVS_1-0144_raw.maegz
+ 81  64 111 | launched  tscc-13-20-0-636db286 glide-dock_HTVS_1-0145 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0145' died (died) [jobid tscc-13-20-0-636db286]
+ 81  63 112 | died      tscc-13-20-0-636db286 glide-dock_HTVS_1-0145 localhost [tscc-13-20]
+ 81  64 111 | restarted tscc-13-20-0-636db2a9 glide-dock_HTVS_1-0145 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0145' died (died) [jobid tscc-13-20-0-636db2a9]
+ 81  63 112 | died      tscc-13-20-0-636db2a9 glide-dock_HTVS_1-0145 localhost [tscc-13-20]
+ 81  64 111 | restarted tscc-13-20-0-636db2cd glide-dock_HTVS_1-0145 localhost [tscc-13-20]
+ 82  63 111 | finished  tscc-13-20-0-636da436 glide-dock_HTVS_1-0066 localhost [tscc-13-20]
+ 82  64 110 | launched  tscc-13-20-0-636db2dc glide-dock_HTVS_1-0146 localhost [tscc-13-20]
+ 83  63 110 | finished  tscc-13-20-0-636da6c9 glide-dock_HTVS_1-0078 localhost [tscc-13-20]
+ 83  64 109 | launched  tscc-13-20-0-636db2e8 glide-dock_HTVS_1-0147 localhost [tscc-13-20]
+ 84  63 109 | finished  tscc-13-20-0-636da8a4 glide-dock_HTVS_1-0094 localhost [tscc-13-20]
+ 84  64 108 | launched  tscc-13-20-0-636db301 glide-dock_HTVS_1-0148 localhost [tscc-13-20]
+ 85  63 108 | finished  tscc-13-20-0-636da83c glide-dock_HTVS_1-0089 localhost [tscc-13-20]
+ 85  64 107 | launched  tscc-13-20-0-636db310 glide-dock_HTVS_1-0149 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0149' died (died) [jobid tscc-13-20-0-636db310]
+ 85  63 108 | died      tscc-13-20-0-636db310 glide-dock_HTVS_1-0149 localhost [tscc-13-20]
+ 85  64 107 | restarted tscc-13-20-0-636db333 glide-dock_HTVS_1-0149 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0149' died (died) [jobid tscc-13-20-0-636db333]
+ 85  63 108 | died      tscc-13-20-0-636db333 glide-dock_HTVS_1-0149 localhost [tscc-13-20]
+ 85  64 107 | restarted tscc-13-20-0-636db358 glide-dock_HTVS_1-0149 localhost [tscc-13-20]
+ 86  63 107 | finished  tscc-13-20-0-636da616 glide-dock_HTVS_1-0073 localhost [tscc-13-20]
+ 86  64 106 | launched  tscc-13-20-0-636db376 glide-dock_HTVS_1-0150 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0149' died (died) [jobid tscc-13-20-0-636db358]
+ 87  63 106 | died      tscc-13-20-0-636db358 glide-dock_HTVS_1-0149 localhost [tscc-13-20]
+ERROR: Subjob 'glide-dock_HTVS_1-0149' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0149.log':
+
+  Host           : tscc-13-20.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/oxygen_channel/oxygen_1846/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-20.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/oxygen_channel/oxygen_1846/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0149
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0149.inp -HOST localhost
+  StartTime      : 2022-11-10-18:28:41
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 87  63 106 | died      tscc-13-20-0-636db358 glide-dock_HTVS_1-0149 localhost [tscc-13-20]
+Subjob glide-dock_HTVS_1-0149 produced no pose file: glide-dock_HTVS_1-0149_raw.maegz
+ 87  64 105 | launched  tscc-13-20-0-636db37d glide-dock_HTVS_1-0151 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0151' died (died) [jobid tscc-13-20-0-636db37d]
+ 87  63 106 | died      tscc-13-20-0-636db37d glide-dock_HTVS_1-0151 localhost [tscc-13-20]
+ 87  64 105 | restarted tscc-13-20-0-636db3a2 glide-dock_HTVS_1-0151 localhost [tscc-13-20]
+ 88  63 105 | finished  tscc-13-20-0-636da599 glide-dock_HTVS_1-0070 localhost [tscc-13-20]
+ 88  64 104 | launched  tscc-13-20-0-636db3cc glide-dock_HTVS_1-0152 localhost [tscc-13-20]
+ 89  63 104 | finished  tscc-13-20-0-636da650 glide-dock_HTVS_1-0075 localhost [tscc-13-20]
+ 89  64 103 | launched  tscc-13-20-0-636db3df glide-dock_HTVS_1-0153 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0153' died (died) [jobid tscc-13-20-0-636db3df]
+ 89  63 104 | died      tscc-13-20-0-636db3df glide-dock_HTVS_1-0153 localhost [tscc-13-20]
+ 89  64 103 | restarted tscc-13-20-0-636db402 glide-dock_HTVS_1-0153 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0153' died (died) [jobid tscc-13-20-0-636db402]
+ 89  63 104 | died      tscc-13-20-0-636db402 glide-dock_HTVS_1-0153 localhost [tscc-13-20]
+ 89  64 103 | restarted tscc-13-20-0-636db426 glide-dock_HTVS_1-0153 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0153' died (died) [jobid tscc-13-20-0-636db426]
+ 90  63 103 | died      tscc-13-20-0-636db426 glide-dock_HTVS_1-0153 localhost [tscc-13-20]
+ERROR: Subjob 'glide-dock_HTVS_1-0153' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0153.log':
+
+  Host           : tscc-13-20.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/oxygen_channel/oxygen_1846/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-20.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/oxygen_channel/oxygen_1846/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0153
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0153.inp -HOST localhost
+  StartTime      : 2022-11-10-18:32:06
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+ 90  63 103 | died      tscc-13-20-0-636db426 glide-dock_HTVS_1-0153 localhost [tscc-13-20]
+Subjob glide-dock_HTVS_1-0153 produced no pose file: glide-dock_HTVS_1-0153_raw.maegz
+ 90  64 102 | launched  tscc-13-20-0-636db44a glide-dock_HTVS_1-0154 localhost [tscc-13-20]
+ 91  63 102 | finished  tscc-13-20-0-636da752 glide-dock_HTVS_1-0081 localhost [tscc-13-20]
+ 91  64 101 | launched  tscc-13-20-0-636db465 glide-dock_HTVS_1-0155 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0155' died (died) [jobid tscc-13-20-0-636db465]
+ 91  63 102 | died      tscc-13-20-0-636db465 glide-dock_HTVS_1-0155 localhost [tscc-13-20]
+ 91  64 101 | restarted tscc-13-20-0-636db489 glide-dock_HTVS_1-0155 localhost [tscc-13-20]
+ 92  63 101 | finished  tscc-13-20-0-636da76b glide-dock_HTVS_1-0082 localhost [tscc-13-20]
+ 92  64 100 | launched  tscc-13-20-0-636db4a9 glide-dock_HTVS_1-0156 localhost [tscc-13-20]
+ 93  63 100 | finished  tscc-13-20-0-636da7f6 glide-dock_HTVS_1-0086 localhost [tscc-13-20]
+ 93  64  99 | launched  tscc-13-20-0-636db4c2 glide-dock_HTVS_1-0157 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0157' died (died) [jobid tscc-13-20-0-636db4c2]
+ 93  63 100 | died      tscc-13-20-0-636db4c2 glide-dock_HTVS_1-0157 localhost [tscc-13-20]
+ 93  64  99 | restarted tscc-13-20-0-636db4e6 glide-dock_HTVS_1-0157 localhost [tscc-13-20]
+ 94  63  99 | finished  tscc-13-20-0-636da71a glide-dock_HTVS_1-0079 localhost [tscc-13-20]
+ 94  64  98 | launched  tscc-13-20-0-636db4fb glide-dock_HTVS_1-0158 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0158' died (died) [jobid tscc-13-20-0-636db4fb]
+ 94  63  99 | died      tscc-13-20-0-636db4fb glide-dock_HTVS_1-0158 localhost [tscc-13-20]
+ 94  64  98 | restarted tscc-13-20-0-636db51f glide-dock_HTVS_1-0158 localhost [tscc-13-20]
+ 95  63  98 | finished  tscc-13-20-0-636da91e glide-dock_HTVS_1-0100 localhost [tscc-13-20]
+ 95  64  97 | launched  tscc-13-20-0-636db54b glide-dock_HTVS_1-0159 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0159' died (died) [jobid tscc-13-20-0-636db54b]
+ 95  63  98 | died      tscc-13-20-0-636db54b glide-dock_HTVS_1-0159 localhost [tscc-13-20]
+ 95  64  97 | restarted tscc-13-20-0-636db56e glide-dock_HTVS_1-0159 localhost [tscc-13-20]
+ 96  63  97 | finished  tscc-13-20-0-636da67a glide-dock_HTVS_1-0077 localhost [tscc-13-20]
+ 96  64  96 | launched  tscc-13-20-0-636db59c glide-dock_HTVS_1-0160 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0160' died (died) [jobid tscc-13-20-0-636db59c]
+ 96  63  97 | died      tscc-13-20-0-636db59c glide-dock_HTVS_1-0160 localhost [tscc-13-20]
+ 96  64  96 | restarted tscc-13-20-0-636db5c0 glide-dock_HTVS_1-0160 localhost [tscc-13-20]
+ 97  63  96 | finished  tscc-13-20-0-636dab7a glide-dock_HTVS_1-0117 localhost [tscc-13-20]
+ 97  64  95 | launched  tscc-13-20-0-636db5d1 glide-dock_HTVS_1-0161 localhost [tscc-13-20]
+ 98  63  95 | finished  tscc-13-20-0-636da89a glide-dock_HTVS_1-0093 localhost [tscc-13-20]
+ 98  64  94 | launched  tscc-13-20-0-636db5e3 glide-dock_HTVS_1-0162 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0162' died (died) [jobid tscc-13-20-0-636db5e3]
+ 98  63  95 | died      tscc-13-20-0-636db5e3 glide-dock_HTVS_1-0162 localhost [tscc-13-20]
+ 98  64  94 | restarted tscc-13-20-0-636db607 glide-dock_HTVS_1-0162 localhost [tscc-13-20]
+ 99  63  94 | finished  tscc-13-20-0-636da85f glide-dock_HTVS_1-0091 localhost [tscc-13-20]
+ 99  64  93 | launched  tscc-13-20-0-636db623 glide-dock_HTVS_1-0163 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0162' died (died) [jobid tscc-13-20-0-636db607]
+ 99  63  94 | died      tscc-13-20-0-636db607 glide-dock_HTVS_1-0162 localhost [tscc-13-20]
+ 99  64  93 | restarted tscc-13-20-0-636db62e glide-dock_HTVS_1-0162 localhost [tscc-13-20]
+100  63  93 | finished  tscc-13-20-0-636da85d glide-dock_HTVS_1-0090 localhost [tscc-13-20]
+100  64  92 | launched  tscc-13-20-0-636db63d glide-dock_HTVS_1-0164 localhost [tscc-13-20]
+101  63  92 | finished  tscc-13-20-0-636da9e8 glide-dock_HTVS_1-0105 localhost [tscc-13-20]
+101  64  91 | launched  tscc-13-20-0-636db649 glide-dock_HTVS_1-0165 localhost [tscc-13-20]
+102  63  91 | finished  tscc-13-20-0-636da954 glide-dock_HTVS_1-0102 localhost [tscc-13-20]
+102  64  90 | launched  tscc-13-20-0-636db666 glide-dock_HTVS_1-0166 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0165' died (died) [jobid tscc-13-20-0-636db649]
+102  63  91 | died      tscc-13-20-0-636db649 glide-dock_HTVS_1-0165 localhost [tscc-13-20]
+102  64  90 | restarted tscc-13-20-0-636db66f glide-dock_HTVS_1-0165 localhost [tscc-13-20]
+103  63  90 | finished  tscc-13-20-0-636da921 glide-dock_HTVS_1-0101 localhost [tscc-13-20]
+103  64  89 | launched  tscc-13-20-0-636db699 glide-dock_HTVS_1-0167 localhost [tscc-13-20]
+104  63  89 | finished  tscc-13-20-0-636daaa3 glide-dock_HTVS_1-0111 localhost [tscc-13-20]
+104  64  88 | launched  tscc-13-20-0-636db6ab glide-dock_HTVS_1-0168 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0168' died (died) [jobid tscc-13-20-0-636db6ab]
+104  63  89 | died      tscc-13-20-0-636db6ab glide-dock_HTVS_1-0168 localhost [tscc-13-20]
+104  64  88 | restarted tscc-13-20-0-636db6d0 glide-dock_HTVS_1-0168 localhost [tscc-13-20]
+105  63  88 | finished  tscc-13-20-0-636da907 glide-dock_HTVS_1-0099 localhost [tscc-13-20]
+105  64  87 | launched  tscc-13-20-0-636db6de glide-dock_HTVS_1-0169 localhost [tscc-13-20]
+106  63  87 | finished  tscc-13-20-0-636dab94 glide-dock_HTVS_1-0118 localhost [tscc-13-20]
+106  64  86 | launched  tscc-13-20-0-636db6ec glide-dock_HTVS_1-0170 localhost [tscc-13-20]
+107  63  86 | finished  tscc-13-20-0-636da807 glide-dock_HTVS_1-0087 localhost [tscc-13-20]
+108  62  86 | finished  tscc-13-20-0-636da8e6 glide-dock_HTVS_1-0097 localhost [tscc-13-20]
+109  61  86 | finished  tscc-13-20-0-636dab45 glide-dock_HTVS_1-0116 localhost [tscc-13-20]
+109  62  85 | launched  tscc-13-20-0-636db70a glide-dock_HTVS_1-0171 localhost [tscc-13-20]
+109  63  84 | launched  tscc-13-20-0-636db70d glide-dock_HTVS_1-0172 localhost [tscc-13-20]
+109  64  83 | launched  tscc-13-20-0-636db712 glide-dock_HTVS_1-0173 localhost [tscc-13-20]
+110  63  83 | finished  tscc-13-20-0-636da62e glide-dock_HTVS_1-0074 localhost [tscc-13-20]
+110  64  82 | launched  tscc-13-20-0-636db72e glide-dock_HTVS_1-0174 localhost [tscc-13-20]
+111  63  82 | finished  tscc-13-20-0-636daa96 glide-dock_HTVS_1-0110 localhost [tscc-13-20]
+111  64  81 | launched  tscc-13-20-0-636db75f glide-dock_HTVS_1-0175 localhost [tscc-13-20]
+112  63  81 | finished  tscc-13-20-0-636da7df glide-dock_HTVS_1-0085 localhost [tscc-13-20]
+112  64  80 | launched  tscc-13-20-0-636db76c glide-dock_HTVS_1-0176 localhost [tscc-13-20]
+113  63  80 | finished  tscc-13-20-0-636da8c7 glide-dock_HTVS_1-0096 localhost [tscc-13-20]
+113  64  79 | launched  tscc-13-20-0-636db791 glide-dock_HTVS_1-0177 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0177' died (died) [jobid tscc-13-20-0-636db791]
+113  63  80 | died      tscc-13-20-0-636db791 glide-dock_HTVS_1-0177 localhost [tscc-13-20]
+113  64  79 | restarted tscc-13-20-0-636db7b7 glide-dock_HTVS_1-0177 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0177' died (died) [jobid tscc-13-20-0-636db7b7]
+113  63  80 | died      tscc-13-20-0-636db7b7 glide-dock_HTVS_1-0177 localhost [tscc-13-20]
+113  64  79 | restarted tscc-13-20-0-636db7db glide-dock_HTVS_1-0177 localhost [tscc-13-20]
+114  63  79 | finished  tscc-13-20-0-636daa78 glide-dock_HTVS_1-0109 localhost [tscc-13-20]
+114  64  78 | launched  tscc-13-20-0-636db7fd glide-dock_HTVS_1-0178 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0178' died (died) [jobid tscc-13-20-0-636db7fd]
+114  63  79 | died      tscc-13-20-0-636db7fd glide-dock_HTVS_1-0178 localhost [tscc-13-20]
+114  64  78 | restarted tscc-13-20-0-636db825 glide-dock_HTVS_1-0178 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0178' died (died) [jobid tscc-13-20-0-636db825]
+114  63  79 | died      tscc-13-20-0-636db825 glide-dock_HTVS_1-0178 localhost [tscc-13-20]
+114  64  78 | restarted tscc-13-20-0-636db849 glide-dock_HTVS_1-0178 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0178' died (died) [jobid tscc-13-20-0-636db849]
+115  63  78 | died      tscc-13-20-0-636db849 glide-dock_HTVS_1-0178 localhost [tscc-13-20]
+ERROR: Subjob 'glide-dock_HTVS_1-0178' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0178.log':
+
+  Host           : tscc-13-20.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/oxygen_channel/oxygen_1846/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-20.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/oxygen_channel/oxygen_1846/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0178
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0178.inp -HOST localhost
+  StartTime      : 2022-11-10-18:49:46
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+115  63  78 | died      tscc-13-20-0-636db849 glide-dock_HTVS_1-0178 localhost [tscc-13-20]
+Subjob glide-dock_HTVS_1-0178 produced no pose file: glide-dock_HTVS_1-0178_raw.maegz
+115  64  77 | launched  tscc-13-20-0-636db86d glide-dock_HTVS_1-0179 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0179' died (died) [jobid tscc-13-20-0-636db86d]
+115  63  78 | died      tscc-13-20-0-636db86d glide-dock_HTVS_1-0179 localhost [tscc-13-20]
+115  64  77 | restarted tscc-13-20-0-636db892 glide-dock_HTVS_1-0179 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0179' died (died) [jobid tscc-13-20-0-636db892]
+115  63  78 | died      tscc-13-20-0-636db892 glide-dock_HTVS_1-0179 localhost [tscc-13-20]
+115  64  77 | restarted tscc-13-20-0-636db8b6 glide-dock_HTVS_1-0179 localhost [tscc-13-20]
+116  63  77 | finished  tscc-13-20-0-636da9f6 glide-dock_HTVS_1-0106 localhost [tscc-13-20]
+116  64  76 | launched  tscc-13-20-0-636db8e3 glide-dock_HTVS_1-0180 localhost [tscc-13-20]
+117  63  76 | finished  tscc-13-20-0-636da5d9 glide-dock_HTVS_1-0072 localhost [tscc-13-20]
+117  64  75 | launched  tscc-13-20-0-636db902 glide-dock_HTVS_1-0181 localhost [tscc-13-20]
+118  63  75 | finished  tscc-13-20-0-636dab0e glide-dock_HTVS_1-0115 localhost [tscc-13-20]
+118  64  74 | launched  tscc-13-20-0-636db919 glide-dock_HTVS_1-0182 localhost [tscc-13-20]
+119  63  74 | finished  tscc-13-20-0-636dabc0 glide-dock_HTVS_1-0120 localhost [tscc-13-20]
+119  64  73 | launched  tscc-13-20-0-636db928 glide-dock_HTVS_1-0183 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0183' died (died) [jobid tscc-13-20-0-636db928]
+119  63  74 | died      tscc-13-20-0-636db928 glide-dock_HTVS_1-0183 localhost [tscc-13-20]
+119  64  73 | restarted tscc-13-20-0-636db94e glide-dock_HTVS_1-0183 localhost [tscc-13-20]
+120  63  73 | finished  tscc-13-20-0-636daa2b glide-dock_HTVS_1-0107 localhost [tscc-13-20]
+120  64  72 | launched  tscc-13-20-0-636db966 glide-dock_HTVS_1-0184 localhost [tscc-13-20]
+121  63  72 | finished  tscc-13-20-0-636dabd3 glide-dock_HTVS_1-0121 localhost [tscc-13-20]
+121  64  71 | launched  tscc-13-20-0-636db982 glide-dock_HTVS_1-0185 localhost [tscc-13-20]
+122  63  71 | finished  tscc-13-20-0-636da9bf glide-dock_HTVS_1-0103 localhost [tscc-13-20]
+122  64  70 | launched  tscc-13-20-0-636db993 glide-dock_HTVS_1-0186 localhost [tscc-13-20]
+123  63  70 | finished  tscc-13-20-0-636daad3 glide-dock_HTVS_1-0114 localhost [tscc-13-20]
+123  64  69 | launched  tscc-13-20-0-636db9ae glide-dock_HTVS_1-0187 localhost [tscc-13-20]
+124  63  69 | finished  tscc-13-20-0-636daa46 glide-dock_HTVS_1-0108 localhost [tscc-13-20]
+124  64  68 | launched  tscc-13-20-0-636db9ba glide-dock_HTVS_1-0188 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0188' died (died) [jobid tscc-13-20-0-636db9ba]
+124  63  69 | died      tscc-13-20-0-636db9ba glide-dock_HTVS_1-0188 localhost [tscc-13-20]
+124  64  68 | restarted tscc-13-20-0-636db9df glide-dock_HTVS_1-0188 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0188' died (died) [jobid tscc-13-20-0-636db9df]
+124  63  69 | died      tscc-13-20-0-636db9df glide-dock_HTVS_1-0188 localhost [tscc-13-20]
+124  64  68 | restarted tscc-13-20-0-636dba03 glide-dock_HTVS_1-0188 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0188' died (died) [jobid tscc-13-20-0-636dba03]
+125  63  68 | died      tscc-13-20-0-636dba03 glide-dock_HTVS_1-0188 localhost [tscc-13-20]
+ERROR: Subjob 'glide-dock_HTVS_1-0188' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0188.log':
+
+  Host           : tscc-13-20.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/oxygen_channel/oxygen_1846/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-20.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/oxygen_channel/oxygen_1846/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0188
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0188.inp -HOST localhost
+  StartTime      : 2022-11-10-18:57:08
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+125  63  68 | died      tscc-13-20-0-636dba03 glide-dock_HTVS_1-0188 localhost [tscc-13-20]
+Subjob glide-dock_HTVS_1-0188 produced no pose file: glide-dock_HTVS_1-0188_raw.maegz
+125  64  67 | launched  tscc-13-20-0-636dba28 glide-dock_HTVS_1-0189 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0189' died (died) [jobid tscc-13-20-0-636dba28]
+125  63  68 | died      tscc-13-20-0-636dba28 glide-dock_HTVS_1-0189 localhost [tscc-13-20]
+125  64  67 | restarted tscc-13-20-0-636dba4c glide-dock_HTVS_1-0189 localhost [tscc-13-20]
+126  63  67 | finished  tscc-13-20-0-636daac2 glide-dock_HTVS_1-0113 localhost [tscc-13-20]
+126  64  66 | launched  tscc-13-20-0-636dba68 glide-dock_HTVS_1-0190 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0189' died (died) [jobid tscc-13-20-0-636dba4c]
+126  63  67 | died      tscc-13-20-0-636dba4c glide-dock_HTVS_1-0189 localhost [tscc-13-20]
+126  64  66 | restarted tscc-13-20-0-636dba73 glide-dock_HTVS_1-0189 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0189' died (died) [jobid tscc-13-20-0-636dba73]
+127  63  66 | died      tscc-13-20-0-636dba73 glide-dock_HTVS_1-0189 localhost [tscc-13-20]
+ERROR: Subjob 'glide-dock_HTVS_1-0189' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0189.log':
+
+  Host           : tscc-13-20.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/oxygen_channel/oxygen_1846/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-20.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/oxygen_channel/oxygen_1846/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0189
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0189.inp -HOST localhost
+  StartTime      : 2022-11-10-18:59:00
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+127  63  66 | died      tscc-13-20-0-636dba73 glide-dock_HTVS_1-0189 localhost [tscc-13-20]
+Subjob glide-dock_HTVS_1-0189 produced no pose file: glide-dock_HTVS_1-0189_raw.maegz
+127  64  65 | launched  tscc-13-20-0-636dba99 glide-dock_HTVS_1-0191 localhost [tscc-13-20]
+128  63  65 | finished  tscc-13-20-0-636da994 glide-dock_HTVS_1-0104 localhost [tscc-13-20]
+128  64  64 | launched  tscc-13-20-0-636dbab1 glide-dock_HTVS_1-0192 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0192' died (died) [jobid tscc-13-20-0-636dbab1]
+128  63  65 | died      tscc-13-20-0-636dbab1 glide-dock_HTVS_1-0192 localhost [tscc-13-20]
+128  64  64 | restarted tscc-13-20-0-636dbad6 glide-dock_HTVS_1-0192 localhost [tscc-13-20]
+129  63  64 | finished  tscc-13-20-0-636da888 glide-dock_HTVS_1-0092 localhost [tscc-13-20]
+129  64  63 | launched  tscc-13-20-0-636dbaf2 glide-dock_HTVS_1-0193 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0192' died (died) [jobid tscc-13-20-0-636dbad6]
+129  63  64 | died      tscc-13-20-0-636dbad6 glide-dock_HTVS_1-0192 localhost [tscc-13-20]
+129  64  63 | restarted tscc-13-20-0-636dbafa glide-dock_HTVS_1-0192 localhost [tscc-13-20]
+130  63  63 | finished  tscc-13-20-0-636dac3c glide-dock_HTVS_1-0122 localhost [tscc-13-20]
+130  64  62 | launched  tscc-13-20-0-636dbb10 glide-dock_HTVS_1-0194 localhost [tscc-13-20]
+131  63  62 | finished  tscc-13-20-0-636da5af glide-dock_HTVS_1-0071 localhost [tscc-13-20]
+131  64  61 | launched  tscc-13-20-0-636dbb21 glide-dock_HTVS_1-0195 localhost [tscc-13-20]
+132  63  61 | finished  tscc-13-20-0-636dabb0 glide-dock_HTVS_1-0119 localhost [tscc-13-20]
+132  64  60 | launched  tscc-13-20-0-636dbb2d glide-dock_HTVS_1-0196 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0196' died (died) [jobid tscc-13-20-0-636dbb2d]
+132  63  61 | died      tscc-13-20-0-636dbb2d glide-dock_HTVS_1-0196 localhost [tscc-13-20]
+132  64  60 | restarted tscc-13-20-0-636dbb51 glide-dock_HTVS_1-0196 localhost [tscc-13-20]
+133  63  60 | finished  tscc-13-20-0-636dad16 glide-dock_HTVS_1-0126 localhost [tscc-13-20]
+133  64  59 | launched  tscc-13-20-0-636dbb5f glide-dock_HTVS_1-0197 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0197' died (died) [jobid tscc-13-20-0-636dbb5f]
+133  63  60 | died      tscc-13-20-0-636dbb5f glide-dock_HTVS_1-0197 localhost [tscc-13-20]
+133  64  59 | restarted tscc-13-20-0-636dbb83 glide-dock_HTVS_1-0197 localhost [tscc-13-20]
+134  63  59 | finished  tscc-13-20-0-636dac0d glide-dock_HTVS_1-0123 localhost [tscc-13-20]
+134  64  58 | launched  tscc-13-20-0-636dbb9c glide-dock_HTVS_1-0198 localhost [tscc-13-20]
+135  63  58 | finished  tscc-13-20-0-636daf56 glide-dock_HTVS_1-0133 localhost [tscc-13-20]
+135  64  57 | launched  tscc-13-20-0-636dbbaa glide-dock_HTVS_1-0199 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0199' died (died) [jobid tscc-13-20-0-636dbbaa]
+135  63  58 | died      tscc-13-20-0-636dbbaa glide-dock_HTVS_1-0199 localhost [tscc-13-20]
+135  64  57 | restarted tscc-13-20-0-636dbbce glide-dock_HTVS_1-0199 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0199' died (died) [jobid tscc-13-20-0-636dbbce]
+135  63  58 | died      tscc-13-20-0-636dbbce glide-dock_HTVS_1-0199 localhost [tscc-13-20]
+135  64  57 | restarted tscc-13-20-0-636dbbf2 glide-dock_HTVS_1-0199 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0199' died (died) [jobid tscc-13-20-0-636dbbf2]
+136  63  57 | died      tscc-13-20-0-636dbbf2 glide-dock_HTVS_1-0199 localhost [tscc-13-20]
+ERROR: Subjob 'glide-dock_HTVS_1-0199' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0199.log':
+
+  Host           : tscc-13-20.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/oxygen_channel/oxygen_1846/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-20.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/oxygen_channel/oxygen_1846/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0199
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0199.inp -HOST localhost
+  StartTime      : 2022-11-10-19:05:23
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+136  63  57 | died      tscc-13-20-0-636dbbf2 glide-dock_HTVS_1-0199 localhost [tscc-13-20]
+Subjob glide-dock_HTVS_1-0199 produced no pose file: glide-dock_HTVS_1-0199_raw.maegz
+136  64  56 | launched  tscc-13-20-0-636dbc17 glide-dock_HTVS_1-0200 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0200' died (died) [jobid tscc-13-20-0-636dbc17]
+136  63  57 | died      tscc-13-20-0-636dbc17 glide-dock_HTVS_1-0200 localhost [tscc-13-20]
+136  64  56 | restarted tscc-13-20-0-636dbc3b glide-dock_HTVS_1-0200 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0200' died (died) [jobid tscc-13-20-0-636dbc3b]
+136  63  57 | died      tscc-13-20-0-636dbc3b glide-dock_HTVS_1-0200 localhost [tscc-13-20]
+136  64  56 | restarted tscc-13-20-0-636dbc5e glide-dock_HTVS_1-0200 localhost [tscc-13-20]
+137  63  56 | finished  tscc-13-20-0-636db10f glide-dock_HTVS_1-0140 localhost [tscc-13-20]
+137  64  55 | launched  tscc-13-20-0-636dbc85 glide-dock_HTVS_1-0201 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0201' died (died) [jobid tscc-13-20-0-636dbc85]
+137  63  56 | died      tscc-13-20-0-636dbc85 glide-dock_HTVS_1-0201 localhost [tscc-13-20]
+137  64  55 | restarted tscc-13-20-0-636dbcab glide-dock_HTVS_1-0201 localhost [tscc-13-20]
+138  63  55 | finished  tscc-13-20-0-636da904 glide-dock_HTVS_1-0098 localhost [tscc-13-20]
+138  64  54 | launched  tscc-13-20-0-636dbcba glide-dock_HTVS_1-0202 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0202' died (died) [jobid tscc-13-20-0-636dbcba]
+138  63  55 | died      tscc-13-20-0-636dbcba glide-dock_HTVS_1-0202 localhost [tscc-13-20]
+138  64  54 | restarted tscc-13-20-0-636dbce0 glide-dock_HTVS_1-0202 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0202' died (died) [jobid tscc-13-20-0-636dbce0]
+138  63  55 | died      tscc-13-20-0-636dbce0 glide-dock_HTVS_1-0202 localhost [tscc-13-20]
+138  64  54 | restarted tscc-13-20-0-636dbd03 glide-dock_HTVS_1-0202 localhost [tscc-13-20]
+139  63  54 | finished  tscc-13-20-0-636daaad glide-dock_HTVS_1-0112 localhost [tscc-13-20]
+139  64  53 | launched  tscc-13-20-0-636dbd1c glide-dock_HTVS_1-0203 localhost [tscc-13-20]
+140  63  53 | finished  tscc-13-20-0-636da739 glide-dock_HTVS_1-0080 localhost [tscc-13-20]
+140  64  52 | launched  tscc-13-20-0-636dbd3e glide-dock_HTVS_1-0204 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0204' died (died) [jobid tscc-13-20-0-636dbd3e]
+140  63  53 | died      tscc-13-20-0-636dbd3e glide-dock_HTVS_1-0204 localhost [tscc-13-20]
+140  64  52 | restarted tscc-13-20-0-636dbd64 glide-dock_HTVS_1-0204 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0204' died (died) [jobid tscc-13-20-0-636dbd64]
+140  63  53 | died      tscc-13-20-0-636dbd64 glide-dock_HTVS_1-0204 localhost [tscc-13-20]
+140  64  52 | restarted tscc-13-20-0-636dbd88 glide-dock_HTVS_1-0204 localhost [tscc-13-20]
+141  63  52 | finished  tscc-13-20-0-636daf43 glide-dock_HTVS_1-0132 localhost [tscc-13-20]
+141  64  51 | launched  tscc-13-20-0-636dbdae glide-dock_HTVS_1-0205 localhost [tscc-13-20]
+142  63  51 | finished  tscc-13-20-0-636db1e5 glide-dock_HTVS_1-0142 localhost [tscc-13-20]
+142  64  50 | launched  tscc-13-20-0-636dbdbd glide-dock_HTVS_1-0206 localhost [tscc-13-20]
+143  63  50 | finished  tscc-13-20-0-636db08e glide-dock_HTVS_1-0138 localhost [tscc-13-20]
+143  64  49 | launched  tscc-13-20-0-636dbdca glide-dock_HTVS_1-0207 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0207' died (died) [jobid tscc-13-20-0-636dbdca]
+143  63  50 | died      tscc-13-20-0-636dbdca glide-dock_HTVS_1-0207 localhost [tscc-13-20]
+143  64  49 | restarted tscc-13-20-0-636dbdee glide-dock_HTVS_1-0207 localhost [tscc-13-20]
+144  63  49 | finished  tscc-13-20-0-636da4c8 glide-dock_HTVS_1-0068 localhost [tscc-13-20]
+144  64  48 | launched  tscc-13-20-0-636dbe20 glide-dock_HTVS_1-0208 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0208' died (died) [jobid tscc-13-20-0-636dbe20]
+144  63  49 | died      tscc-13-20-0-636dbe20 glide-dock_HTVS_1-0208 localhost [tscc-13-20]
+144  64  48 | restarted tscc-13-20-0-636dbe44 glide-dock_HTVS_1-0208 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0208' died (died) [jobid tscc-13-20-0-636dbe44]
+144  63  49 | died      tscc-13-20-0-636dbe44 glide-dock_HTVS_1-0208 localhost [tscc-13-20]
+144  64  48 | restarted tscc-13-20-0-636dbe68 glide-dock_HTVS_1-0208 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0208' died (died) [jobid tscc-13-20-0-636dbe68]
+145  63  48 | died      tscc-13-20-0-636dbe68 glide-dock_HTVS_1-0208 localhost [tscc-13-20]
+ERROR: Subjob 'glide-dock_HTVS_1-0208' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0208.log':
+
+  Host           : tscc-13-20.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/oxygen_channel/oxygen_1846/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-20.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/oxygen_channel/oxygen_1846/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0208
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0208.inp -HOST localhost
+  StartTime      : 2022-11-10-19:15:52
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+145  63  48 | died      tscc-13-20-0-636dbe68 glide-dock_HTVS_1-0208 localhost [tscc-13-20]
+Subjob glide-dock_HTVS_1-0208 produced no pose file: glide-dock_HTVS_1-0208_raw.maegz
+145  64  47 | launched  tscc-13-20-0-636dbe8d glide-dock_HTVS_1-0209 localhost [tscc-13-20]
+146  63  47 | finished  tscc-13-20-0-636db2e8 glide-dock_HTVS_1-0147 localhost [tscc-13-20]
+146  64  46 | launched  tscc-13-20-0-636dbeb0 glide-dock_HTVS_1-0210 localhost [tscc-13-20]
+147  63  46 | finished  tscc-13-20-0-636db039 glide-dock_HTVS_1-0137 localhost [tscc-13-20]
+147  64  45 | launched  tscc-13-20-0-636dbec1 glide-dock_HTVS_1-0211 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0211' died (died) [jobid tscc-13-20-0-636dbec1]
+147  63  46 | died      tscc-13-20-0-636dbec1 glide-dock_HTVS_1-0211 localhost [tscc-13-20]
+147  64  45 | restarted tscc-13-20-0-636dbee6 glide-dock_HTVS_1-0211 localhost [tscc-13-20]
+148  63  45 | finished  tscc-13-20-0-636daff9 glide-dock_HTVS_1-0135 localhost [tscc-13-20]
+148  64  44 | launched  tscc-13-20-0-636dbef8 glide-dock_HTVS_1-0212 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0212' died (died) [jobid tscc-13-20-0-636dbef8]
+148  63  45 | died      tscc-13-20-0-636dbef8 glide-dock_HTVS_1-0212 localhost [tscc-13-20]
+148  64  44 | restarted tscc-13-20-0-636dbf1d glide-dock_HTVS_1-0212 localhost [tscc-13-20]
+149  63  44 | finished  tscc-13-20-0-636db00f glide-dock_HTVS_1-0136 localhost [tscc-13-20]
+149  64  43 | launched  tscc-13-20-0-636dbf39 glide-dock_HTVS_1-0213 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0212' died (died) [jobid tscc-13-20-0-636dbf1d]
+149  63  44 | died      tscc-13-20-0-636dbf1d glide-dock_HTVS_1-0212 localhost [tscc-13-20]
+149  64  43 | restarted tscc-13-20-0-636dbf43 glide-dock_HTVS_1-0212 localhost [tscc-13-20]
+150  63  43 | finished  tscc-13-20-0-636da787 glide-dock_HTVS_1-0084 localhost [tscc-13-20]
+150  64  42 | launched  tscc-13-20-0-636dbf5a glide-dock_HTVS_1-0214 localhost [tscc-13-20]
+151  63  42 | finished  tscc-13-20-0-636db2dc glide-dock_HTVS_1-0146 localhost [tscc-13-20]
+151  64  41 | launched  tscc-13-20-0-636dbf7b glide-dock_HTVS_1-0215 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0215' died (died) [jobid tscc-13-20-0-636dbf7b]
+151  63  42 | died      tscc-13-20-0-636dbf7b glide-dock_HTVS_1-0215 localhost [tscc-13-20]
+151  64  41 | restarted tscc-13-20-0-636dbfa0 glide-dock_HTVS_1-0215 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0215' died (died) [jobid tscc-13-20-0-636dbfa0]
+151  63  42 | died      tscc-13-20-0-636dbfa0 glide-dock_HTVS_1-0215 localhost [tscc-13-20]
+151  64  41 | restarted tscc-13-20-0-636dbfc4 glide-dock_HTVS_1-0215 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0215' died (died) [jobid tscc-13-20-0-636dbfc4]
+152  63  41 | died      tscc-13-20-0-636dbfc4 glide-dock_HTVS_1-0215 localhost [tscc-13-20]
+ERROR: Subjob 'glide-dock_HTVS_1-0215' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0215.log':
+
+  Host           : tscc-13-20.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/oxygen_channel/oxygen_1846/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-20.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/oxygen_channel/oxygen_1846/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0215
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0215.inp -HOST localhost
+  StartTime      : 2022-11-10-19:21:40
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+152  63  41 | died      tscc-13-20-0-636dbfc4 glide-dock_HTVS_1-0215 localhost [tscc-13-20]
+Subjob glide-dock_HTVS_1-0215 produced no pose file: glide-dock_HTVS_1-0215_raw.maegz
+152  64  40 | launched  tscc-13-20-0-636dbfe7 glide-dock_HTVS_1-0216 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0216' died (died) [jobid tscc-13-20-0-636dbfe7]
+152  63  41 | died      tscc-13-20-0-636dbfe7 glide-dock_HTVS_1-0216 localhost [tscc-13-20]
+152  64  40 | restarted tscc-13-20-0-636dc00b glide-dock_HTVS_1-0216 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0216' died (died) [jobid tscc-13-20-0-636dc00b]
+152  63  41 | died      tscc-13-20-0-636dc00b glide-dock_HTVS_1-0216 localhost [tscc-13-20]
+152  64  40 | restarted tscc-13-20-0-636dc02f glide-dock_HTVS_1-0216 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0216' died (died) [jobid tscc-13-20-0-636dc02f]
+153  63  40 | died      tscc-13-20-0-636dc02f glide-dock_HTVS_1-0216 localhost [tscc-13-20]
+ERROR: Subjob 'glide-dock_HTVS_1-0216' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0216.log':
+
+  Host           : tscc-13-20.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/oxygen_channel/oxygen_1846/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-20.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/oxygen_channel/oxygen_1846/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0216
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0216.inp -HOST localhost
+  StartTime      : 2022-11-10-19:23:27
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+153  63  40 | died      tscc-13-20-0-636dc02f glide-dock_HTVS_1-0216 localhost [tscc-13-20]
+Subjob glide-dock_HTVS_1-0216 produced no pose file: glide-dock_HTVS_1-0216_raw.maegz
+153  64  39 | launched  tscc-13-20-0-636dc053 glide-dock_HTVS_1-0217 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0217' died (died) [jobid tscc-13-20-0-636dc053]
+153  63  40 | died      tscc-13-20-0-636dc053 glide-dock_HTVS_1-0217 localhost [tscc-13-20]
+153  64  39 | restarted tscc-13-20-0-636dc077 glide-dock_HTVS_1-0217 localhost [tscc-13-20]
+154  63  39 | finished  tscc-13-20-0-636db301 glide-dock_HTVS_1-0148 localhost [tscc-13-20]
+154  64  38 | launched  tscc-13-20-0-636dc0a6 glide-dock_HTVS_1-0218 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0218' died (died) [jobid tscc-13-20-0-636dc0a6]
+154  63  39 | died      tscc-13-20-0-636dc0a6 glide-dock_HTVS_1-0218 localhost [tscc-13-20]
+154  64  38 | restarted tscc-13-20-0-636dc0c9 glide-dock_HTVS_1-0218 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0218' died (died) [jobid tscc-13-20-0-636dc0c9]
+154  63  39 | died      tscc-13-20-0-636dc0c9 glide-dock_HTVS_1-0218 localhost [tscc-13-20]
+154  64  38 | restarted tscc-13-20-0-636dc0ee glide-dock_HTVS_1-0218 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0218' died (died) [jobid tscc-13-20-0-636dc0ee]
+155  63  38 | died      tscc-13-20-0-636dc0ee glide-dock_HTVS_1-0218 localhost [tscc-13-20]
+ERROR: Subjob 'glide-dock_HTVS_1-0218' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0218.log':
+
+  Host           : tscc-13-20.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/oxygen_channel/oxygen_1846/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-20.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/oxygen_channel/oxygen_1846/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0218
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0218.inp -HOST localhost
+  StartTime      : 2022-11-10-19:26:38
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+155  63  38 | died      tscc-13-20-0-636dc0ee glide-dock_HTVS_1-0218 localhost [tscc-13-20]
+Subjob glide-dock_HTVS_1-0218 produced no pose file: glide-dock_HTVS_1-0218_raw.maegz
+155  64  37 | launched  tscc-13-20-0-636dc111 glide-dock_HTVS_1-0219 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0219' died (died) [jobid tscc-13-20-0-636dc111]
+155  63  38 | died      tscc-13-20-0-636dc111 glide-dock_HTVS_1-0219 localhost [tscc-13-20]
+155  64  37 | restarted tscc-13-20-0-636dc135 glide-dock_HTVS_1-0219 localhost [tscc-13-20]
+156  63  37 | finished  tscc-13-20-0-636db2cd glide-dock_HTVS_1-0145 localhost [tscc-13-20]
+156  64  36 | launched  tscc-13-20-0-636dc156 glide-dock_HTVS_1-0220 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0220' died (died) [jobid tscc-13-20-0-636dc156]
+156  63  37 | died      tscc-13-20-0-636dc156 glide-dock_HTVS_1-0220 localhost [tscc-13-20]
+156  64  36 | restarted tscc-13-20-0-636dc17b glide-dock_HTVS_1-0220 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0220' died (died) [jobid tscc-13-20-0-636dc17b]
+156  63  37 | died      tscc-13-20-0-636dc17b glide-dock_HTVS_1-0220 localhost [tscc-13-20]
+156  64  36 | restarted tscc-13-20-0-636dc19f glide-dock_HTVS_1-0220 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0220' died (died) [jobid tscc-13-20-0-636dc19f]
+157  63  36 | died      tscc-13-20-0-636dc19f glide-dock_HTVS_1-0220 localhost [tscc-13-20]
+ERROR: Subjob 'glide-dock_HTVS_1-0220' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0220.log':
+
+  Host           : tscc-13-20.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/oxygen_channel/oxygen_1846/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-20.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/oxygen_channel/oxygen_1846/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0220
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0220.inp -HOST localhost
+  StartTime      : 2022-11-10-19:29:35
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+157  63  36 | died      tscc-13-20-0-636dc19f glide-dock_HTVS_1-0220 localhost [tscc-13-20]
+Subjob glide-dock_HTVS_1-0220 produced no pose file: glide-dock_HTVS_1-0220_raw.maegz
+157  64  35 | launched  tscc-13-20-0-636dc1c2 glide-dock_HTVS_1-0221 localhost [tscc-13-20]
+158  63  35 | finished  tscc-13-20-0-636db3a2 glide-dock_HTVS_1-0151 localhost [tscc-13-20]
+158  64  34 | launched  tscc-13-20-0-636dc1cc glide-dock_HTVS_1-0222 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0222' died (died) [jobid tscc-13-20-0-636dc1cc]
+158  63  35 | died      tscc-13-20-0-636dc1cc glide-dock_HTVS_1-0222 localhost [tscc-13-20]
+158  64  34 | restarted tscc-13-20-0-636dc1f0 glide-dock_HTVS_1-0222 localhost [tscc-13-20]
+159  63  34 | finished  tscc-13-20-0-636da8ba glide-dock_HTVS_1-0095 localhost [tscc-13-20]
+159  64  33 | launched  tscc-13-20-0-636dc1ff glide-dock_HTVS_1-0223 localhost [tscc-13-20]
+160  63  33 | finished  tscc-13-20-0-636db4e6 glide-dock_HTVS_1-0157 localhost [tscc-13-20]
+160  64  32 | launched  tscc-13-20-0-636dc216 glide-dock_HTVS_1-0224 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0223' died (died) [jobid tscc-13-20-0-636dc1ff]
+160  63  33 | died      tscc-13-20-0-636dc1ff glide-dock_HTVS_1-0223 localhost [tscc-13-20]
+160  64  32 | restarted tscc-13-20-0-636dc222 glide-dock_HTVS_1-0223 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0223' died (died) [jobid tscc-13-20-0-636dc222]
+160  63  33 | died      tscc-13-20-0-636dc222 glide-dock_HTVS_1-0223 localhost [tscc-13-20]
+160  64  32 | restarted tscc-13-20-0-636dc246 glide-dock_HTVS_1-0223 localhost [tscc-13-20]
+161  63  32 | finished  tscc-13-20-0-636db4a9 glide-dock_HTVS_1-0156 localhost [tscc-13-20]
+161  64  31 | launched  tscc-13-20-0-636dc253 glide-dock_HTVS_1-0225 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0225' died (died) [jobid tscc-13-20-0-636dc253]
+161  63  32 | died      tscc-13-20-0-636dc253 glide-dock_HTVS_1-0225 localhost [tscc-13-20]
+161  64  31 | restarted tscc-13-20-0-636dc278 glide-dock_HTVS_1-0225 localhost [tscc-13-20]
+162  63  31 | finished  tscc-13-20-0-636db3cc glide-dock_HTVS_1-0152 localhost [tscc-13-20]
+162  64  30 | launched  tscc-13-20-0-636dc294 glide-dock_HTVS_1-0226 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0225' died (died) [jobid tscc-13-20-0-636dc278]
+162  63  31 | died      tscc-13-20-0-636dc278 glide-dock_HTVS_1-0225 localhost [tscc-13-20]
+162  64  30 | restarted tscc-13-20-0-636dc29c glide-dock_HTVS_1-0225 localhost [tscc-13-20]
+163  63  30 | finished  tscc-13-20-0-636db51f glide-dock_HTVS_1-0158 localhost [tscc-13-20]
+163  64  29 | launched  tscc-13-20-0-636dc2aa glide-dock_HTVS_1-0227 localhost [tscc-13-20]
+164  63  29 | finished  tscc-13-20-0-636db206 glide-dock_HTVS_1-0143 localhost [tscc-13-20]
+164  64  28 | launched  tscc-13-20-0-636dc2cb glide-dock_HTVS_1-0228 localhost [tscc-13-20]
+165  63  28 | finished  tscc-13-20-0-636db489 glide-dock_HTVS_1-0155 localhost [tscc-13-20]
+165  64  27 | launched  tscc-13-20-0-636dc2e6 glide-dock_HTVS_1-0229 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0228' died (died) [jobid tscc-13-20-0-636dc2cb]
+165  63  28 | died      tscc-13-20-0-636dc2cb glide-dock_HTVS_1-0228 localhost [tscc-13-20]
+165  64  27 | restarted tscc-13-20-0-636dc2f0 glide-dock_HTVS_1-0228 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0228' died (died) [jobid tscc-13-20-0-636dc2f0]
+165  63  28 | died      tscc-13-20-0-636dc2f0 glide-dock_HTVS_1-0228 localhost [tscc-13-20]
+165  64  27 | restarted tscc-13-20-0-636dc313 glide-dock_HTVS_1-0228 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0228' died (died) [jobid tscc-13-20-0-636dc313]
+166  63  27 | died      tscc-13-20-0-636dc313 glide-dock_HTVS_1-0228 localhost [tscc-13-20]
+ERROR: Subjob 'glide-dock_HTVS_1-0228' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0228.log':
+
+  Host           : tscc-13-20.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/oxygen_channel/oxygen_1846/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-20.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/oxygen_channel/oxygen_1846/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0228
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0228.inp -HOST localhost
+  StartTime      : 2022-11-10-19:35:48
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+166  63  27 | died      tscc-13-20-0-636dc313 glide-dock_HTVS_1-0228 localhost [tscc-13-20]
+Subjob glide-dock_HTVS_1-0228 produced no pose file: glide-dock_HTVS_1-0228_raw.maegz
+166  64  26 | launched  tscc-13-20-0-636dc338 glide-dock_HTVS_1-0230 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0230' died (died) [jobid tscc-13-20-0-636dc338]
+166  63  27 | died      tscc-13-20-0-636dc338 glide-dock_HTVS_1-0230 localhost [tscc-13-20]
+166  64  26 | restarted tscc-13-20-0-636dc35b glide-dock_HTVS_1-0230 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0230' died (died) [jobid tscc-13-20-0-636dc35b]
+166  63  27 | died      tscc-13-20-0-636dc35b glide-dock_HTVS_1-0230 localhost [tscc-13-20]
+166  64  26 | restarted tscc-13-20-0-636dc37f glide-dock_HTVS_1-0230 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0230' died (died) [jobid tscc-13-20-0-636dc37f]
+167  63  26 | died      tscc-13-20-0-636dc37f glide-dock_HTVS_1-0230 localhost [tscc-13-20]
+ERROR: Subjob 'glide-dock_HTVS_1-0230' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_HTVS_1-0230.log':
+
+  Host           : tscc-13-20.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/oxygen_channel/oxygen_1846/lifechemicals/htvs/cseitz/glide-dock_HTVS_1
+  HostEntry      : localhost
+  JobHost        : tscc-13-20.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/oxygen_channel/oxygen_1846/lifechemicals/htvs/cseitz/glide-dock_HTVS_1-0230
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_HTVS_1-0230.inp -HOST localhost
+  StartTime      : 2022-11-10-19:37:36
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+167  63  26 | died      tscc-13-20-0-636dc37f glide-dock_HTVS_1-0230 localhost [tscc-13-20]
+Subjob glide-dock_HTVS_1-0230 produced no pose file: glide-dock_HTVS_1-0230_raw.maegz
+167  64  25 | launched  tscc-13-20-0-636dc3a3 glide-dock_HTVS_1-0231 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0231' died (died) [jobid tscc-13-20-0-636dc3a3]
+167  63  26 | died      tscc-13-20-0-636dc3a3 glide-dock_HTVS_1-0231 localhost [tscc-13-20]
+167  64  25 | restarted tscc-13-20-0-636dc3c7 glide-dock_HTVS_1-0231 localhost [tscc-13-20]
+168  63  25 | finished  tscc-13-20-0-636db6de glide-dock_HTVS_1-0169 localhost [tscc-13-20]
+168  64  24 | launched  tscc-13-20-0-636dc3f2 glide-dock_HTVS_1-0232 localhost [tscc-13-20]
+169  63  24 | finished  tscc-13-20-0-636db56e glide-dock_HTVS_1-0159 localhost [tscc-13-20]
+169  64  23 | launched  tscc-13-20-0-636dc40e glide-dock_HTVS_1-0233 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0232' died (died) [jobid tscc-13-20-0-636dc3f2]
+169  63  24 | died      tscc-13-20-0-636dc3f2 glide-dock_HTVS_1-0232 localhost [tscc-13-20]
+169  64  23 | restarted tscc-13-20-0-636dc417 glide-dock_HTVS_1-0232 localhost [tscc-13-20]
+170  63  23 | finished  tscc-13-20-0-636db993 glide-dock_HTVS_1-0186 localhost [tscc-13-20]
+170  64  22 | launched  tscc-13-20-0-636dc427 glide-dock_HTVS_1-0234 localhost [tscc-13-20]
+171  63  22 | finished  tscc-13-20-0-636db70d glide-dock_HTVS_1-0172 localhost [tscc-13-20]
+171  64  21 | launched  tscc-13-20-0-636dc442 glide-dock_HTVS_1-0235 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0234' died (died) [jobid tscc-13-20-0-636dc427]
+171  63  22 | died      tscc-13-20-0-636dc427 glide-dock_HTVS_1-0234 localhost [tscc-13-20]
+171  64  21 | restarted tscc-13-20-0-636dc44c glide-dock_HTVS_1-0234 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0234' died (died) [jobid tscc-13-20-0-636dc44c]
+171  63  22 | died      tscc-13-20-0-636dc44c glide-dock_HTVS_1-0234 localhost [tscc-13-20]
+171  64  21 | restarted tscc-13-20-0-636dc46f glide-dock_HTVS_1-0234 localhost [tscc-13-20]
+172  63  21 | finished  tscc-13-20-0-636db70a glide-dock_HTVS_1-0171 localhost [tscc-13-20]
+172  64  20 | launched  tscc-13-20-0-636dc487 glide-dock_HTVS_1-0236 localhost [tscc-13-20]
+173  63  20 | finished  tscc-13-20-0-636db72e glide-dock_HTVS_1-0174 localhost [tscc-13-20]
+173  64  19 | launched  tscc-13-20-0-636dc49b glide-dock_HTVS_1-0237 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0237' died (died) [jobid tscc-13-20-0-636dc49b]
+173  63  20 | died      tscc-13-20-0-636dc49b glide-dock_HTVS_1-0237 localhost [tscc-13-20]
+173  64  19 | restarted tscc-13-20-0-636dc4bf glide-dock_HTVS_1-0237 localhost [tscc-13-20]
+174  63  19 | finished  tscc-13-20-0-636dba99 glide-dock_HTVS_1-0191 localhost [tscc-13-20]
+174  64  18 | launched  tscc-13-20-0-636dc4cc glide-dock_HTVS_1-0238 localhost [tscc-13-20]
+175  63  18 | finished  tscc-13-20-0-636db75f glide-dock_HTVS_1-0175 localhost [tscc-13-20]
+175  64  17 | launched  tscc-13-20-0-636dc4e6 glide-dock_HTVS_1-0239 localhost [tscc-13-20]
+176  63  17 | finished  tscc-13-20-0-636db376 glide-dock_HTVS_1-0150 localhost [tscc-13-20]
+176  64  16 | launched  tscc-13-20-0-636dc4f5 glide-dock_HTVS_1-0240 localhost [tscc-13-20]
+177  63  16 | finished  tscc-13-20-0-636db8e3 glide-dock_HTVS_1-0180 localhost [tscc-13-20]
+178  62  16 | finished  tscc-13-20-0-636dba68 glide-dock_HTVS_1-0190 localhost [tscc-13-20]
+178  63  15 | launched  tscc-13-20-0-636dc50a glide-dock_HTVS_1-0241 localhost [tscc-13-20]
+178  64  14 | launched  tscc-13-20-0-636dc50d glide-dock_HTVS_1-0242 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0242' died (died) [jobid tscc-13-20-0-636dc50d]
+178  63  15 | died      tscc-13-20-0-636dc50d glide-dock_HTVS_1-0242 localhost [tscc-13-20]
+178  64  14 | restarted tscc-13-20-0-636dc531 glide-dock_HTVS_1-0242 localhost [tscc-13-20]
+179  63  14 | finished  tscc-13-20-0-636db9ae glide-dock_HTVS_1-0187 localhost [tscc-13-20]
+179  64  13 | launched  tscc-13-20-0-636dc548 glide-dock_HTVS_1-0243 localhost [tscc-13-20]
+180  63  13 | finished  tscc-13-20-0-636db44a glide-dock_HTVS_1-0154 localhost [tscc-13-20]
+180  64  12 | launched  tscc-13-20-0-636dc561 glide-dock_HTVS_1-0244 localhost [tscc-13-20]
+181  63  12 | finished  tscc-13-20-0-636dbb10 glide-dock_HTVS_1-0194 localhost [tscc-13-20]
+181  64  11 | launched  tscc-13-20-0-636dc57c glide-dock_HTVS_1-0245 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0244' died (died) [jobid tscc-13-20-0-636dc561]
+181  63  12 | died      tscc-13-20-0-636dc561 glide-dock_HTVS_1-0244 localhost [tscc-13-20]
+181  64  11 | restarted tscc-13-20-0-636dc585 glide-dock_HTVS_1-0244 localhost [tscc-13-20]
+182  63  11 | finished  tscc-13-20-0-636db919 glide-dock_HTVS_1-0182 localhost [tscc-13-20]
+182  64  10 | launched  tscc-13-20-0-636dc5a8 glide-dock_HTVS_1-0246 localhost [tscc-13-20]
+183  63  10 | finished  tscc-13-20-0-636db5d1 glide-dock_HTVS_1-0161 localhost [tscc-13-20]
+183  64   9 | launched  tscc-13-20-0-636dc5c3 glide-dock_HTVS_1-0247 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0247' died (died) [jobid tscc-13-20-0-636dc5c3]
+183  63  10 | died      tscc-13-20-0-636dc5c3 glide-dock_HTVS_1-0247 localhost [tscc-13-20]
+183  64   9 | restarted tscc-13-20-0-636dc5e7 glide-dock_HTVS_1-0247 localhost [tscc-13-20]
+184  63   9 | finished  tscc-13-20-0-636db712 glide-dock_HTVS_1-0173 localhost [tscc-13-20]
+184  64   8 | launched  tscc-13-20-0-636dc609 glide-dock_HTVS_1-0248 localhost [tscc-13-20]
+185  63   8 | finished  tscc-13-20-0-636db8b6 glide-dock_HTVS_1-0179 localhost [tscc-13-20]
+185  64   7 | launched  tscc-13-20-0-636dc615 glide-dock_HTVS_1-0249 localhost [tscc-13-20]
+186  63   7 | finished  tscc-13-20-0-636db62e glide-dock_HTVS_1-0162 localhost [tscc-13-20]
+186  64   6 | launched  tscc-13-20-0-636dc640 glide-dock_HTVS_1-0250 localhost [tscc-13-20]
+Subjob 'glide-dock_HTVS_1-0250' died (died) [jobid tscc-13-20-0-636dc640]
+186  63   7 | died      tscc-13-20-0-636dc640 glide-dock_HTVS_1-0250 localhost [tscc-13-20]
+186  64   6 | restarted tscc-13-20-0-636dc664 glide-dock_HTVS_1-0250 localhost [tscc-13-20]
+187  63   6 | finished  tscc-13-20-0-636dbafa glide-dock_HTVS_1-0192 localhost [tscc-13-20]
+187  64   5 | launched  tscc-13-20-0-636dc679 glide-dock_HTVS_1-0251 localhost [tscc-13-20]
+188  63   5 | finished  tscc-13-20-0-636db63d glide-dock_HTVS_1-0164 localhost [tscc-13-20]
+188  64   4 | launched  tscc-13-20-0-636dc685 glide-dock_HTVS_1-0252 localhost [tscc-13-20]
+189  63   4 | finished  tscc-13-20-0-636db902 glide-dock_HTVS_1-0181 localhost [tscc-13-20]
+189  64   3 | launched  tscc-13-20-0-636dc699 glide-dock_HTVS_1-0253 localhost [tscc-13-20]
+190  63   3 | finished  tscc-13-20-0-636db94e glide-dock_HTVS_1-0183 localhost [tscc-13-20]
+191  62   3 | finished  tscc-13-20-0-636db982 glide-dock_HTVS_1-0185 localhost [tscc-13-20]
+191  63   2 | launched  tscc-13-20-0-636dc6ac glide-dock_HTVS_1-0254 localhost [tscc-13-20]
+191  64   1 | launched  tscc-13-20-0-636dc6ae glide-dock_HTVS_1-0255 localhost [tscc-13-20]
+192  63   1 | finished  tscc-13-20-0-636db966 glide-dock_HTVS_1-0184 localhost [tscc-13-20]
+192  64   0 | launched  tscc-13-20-0-636dc6c2 glide-dock_HTVS_1-0256 localhost [tscc-13-20]
+193  63   0 | finished  tscc-13-20-0-636dbdae glide-dock_HTVS_1-0205 localhost [tscc-13-20]
+194  62   0 | finished  tscc-13-20-0-636db6ec glide-dock_HTVS_1-0170 localhost [tscc-13-20]
+195  61   0 | finished  tscc-13-20-0-636db66f glide-dock_HTVS_1-0165 localhost [tscc-13-20]
+196  60   0 | finished  tscc-13-20-0-636dbdbd glide-dock_HTVS_1-0206 localhost [tscc-13-20]
+197  59   0 | finished  tscc-13-20-0-636dbaf2 glide-dock_HTVS_1-0193 localhost [tscc-13-20]
+198  58   0 | finished  tscc-13-20-0-636db623 glide-dock_HTVS_1-0163 localhost [tscc-13-20]
+199  57   0 | finished  tscc-13-20-0-636dbb9c glide-dock_HTVS_1-0198 localhost [tscc-13-20]
+200  56   0 | finished  tscc-13-20-0-636dbe8d glide-dock_HTVS_1-0209 localhost [tscc-13-20]
+201  55   0 | finished  tscc-13-20-0-636dbb21 glide-dock_HTVS_1-0195 localhost [tscc-13-20]
+202  54   0 | finished  tscc-13-20-0-636db76c glide-dock_HTVS_1-0176 localhost [tscc-13-20]
+203  53   0 | finished  tscc-13-20-0-636dbd1c glide-dock_HTVS_1-0203 localhost [tscc-13-20]
+204  52   0 | finished  tscc-13-20-0-636dbd03 glide-dock_HTVS_1-0202 localhost [tscc-13-20]
+205  51   0 | finished  tscc-13-20-0-636db666 glide-dock_HTVS_1-0166 localhost [tscc-13-20]
+206  50   0 | finished  tscc-13-20-0-636db699 glide-dock_HTVS_1-0167 localhost [tscc-13-20]
+207  49   0 | finished  tscc-13-20-0-636dbf43 glide-dock_HTVS_1-0212 localhost [tscc-13-20]
+208  48   0 | finished  tscc-13-20-0-636dbd88 glide-dock_HTVS_1-0204 localhost [tscc-13-20]
+209  47   0 | finished  tscc-13-20-0-636db5c0 glide-dock_HTVS_1-0160 localhost [tscc-13-20]
+210  46   0 | finished  tscc-13-20-0-636dbb51 glide-dock_HTVS_1-0196 localhost [tscc-13-20]
+211  45   0 | finished  tscc-13-20-0-636dbee6 glide-dock_HTVS_1-0211 localhost [tscc-13-20]
+212  44   0 | finished  tscc-13-20-0-636dbf39 glide-dock_HTVS_1-0213 localhost [tscc-13-20]
+213  43   0 | finished  tscc-13-20-0-636dbb83 glide-dock_HTVS_1-0197 localhost [tscc-13-20]
+214  42   0 | finished  tscc-13-20-0-636dc077 glide-dock_HTVS_1-0217 localhost [tscc-13-20]
+215  41   0 | finished  tscc-13-20-0-636db6d0 glide-dock_HTVS_1-0168 localhost [tscc-13-20]
+216  40   0 | finished  tscc-13-20-0-636dbf5a glide-dock_HTVS_1-0214 localhost [tscc-13-20]
+217  39   0 | finished  tscc-13-20-0-636dc1f0 glide-dock_HTVS_1-0222 localhost [tscc-13-20]
+218  38   0 | finished  tscc-13-20-0-636db7db glide-dock_HTVS_1-0177 localhost [tscc-13-20]
+219  37   0 | finished  tscc-13-20-0-636dc2e6 glide-dock_HTVS_1-0229 localhost [tscc-13-20]
+220  36   0 | finished  tscc-13-20-0-636dc216 glide-dock_HTVS_1-0224 localhost [tscc-13-20]
+221  35   0 | finished  tscc-13-20-0-636dc294 glide-dock_HTVS_1-0226 localhost [tscc-13-20]
+222  34   0 | finished  tscc-13-20-0-636dc2aa glide-dock_HTVS_1-0227 localhost [tscc-13-20]
+223  33   0 | finished  tscc-13-20-0-636dbeb0 glide-dock_HTVS_1-0210 localhost [tscc-13-20]
+224  32   0 | finished  tscc-13-20-0-636dc29c glide-dock_HTVS_1-0225 localhost [tscc-13-20]
+225  31   0 | finished  tscc-13-20-0-636dbc5e glide-dock_HTVS_1-0200 localhost [tscc-13-20]
+226  30   0 | finished  tscc-13-20-0-636dc50a glide-dock_HTVS_1-0241 localhost [tscc-13-20]
+227  29   0 | finished  tscc-13-20-0-636dc417 glide-dock_HTVS_1-0232 localhost [tscc-13-20]
+228  28   0 | finished  tscc-13-20-0-636dc3c7 glide-dock_HTVS_1-0231 localhost [tscc-13-20]
+229  27   0 | finished  tscc-13-20-0-636dc40e glide-dock_HTVS_1-0233 localhost [tscc-13-20]
+230  26   0 | finished  tscc-13-20-0-636dc246 glide-dock_HTVS_1-0223 localhost [tscc-13-20]
+231  25   0 | finished  tscc-13-20-0-636dc4e6 glide-dock_HTVS_1-0239 localhost [tscc-13-20]
+232  24   0 | finished  tscc-13-20-0-636dc531 glide-dock_HTVS_1-0242 localhost [tscc-13-20]
+233  23   0 | finished  tscc-13-20-0-636dc1c2 glide-dock_HTVS_1-0221 localhost [tscc-13-20]
+234  22   0 | finished  tscc-13-20-0-636dc4f5 glide-dock_HTVS_1-0240 localhost [tscc-13-20]
+235  21   0 | finished  tscc-13-20-0-636dc442 glide-dock_HTVS_1-0235 localhost [tscc-13-20]
+236  20   0 | finished  tscc-13-20-0-636dc4cc glide-dock_HTVS_1-0238 localhost [tscc-13-20]
+237  19   0 | finished  tscc-13-20-0-636dbcab glide-dock_HTVS_1-0201 localhost [tscc-13-20]
+238  18   0 | finished  tscc-13-20-0-636dbdee glide-dock_HTVS_1-0207 localhost [tscc-13-20]
+239  17   0 | finished  tscc-13-20-0-636dc46f glide-dock_HTVS_1-0234 localhost [tscc-13-20]
+240  16   0 | finished  tscc-13-20-0-636dc4bf glide-dock_HTVS_1-0237 localhost [tscc-13-20]
+241  15   0 | finished  tscc-13-20-0-636dc548 glide-dock_HTVS_1-0243 localhost [tscc-13-20]
+242  14   0 | finished  tscc-13-20-0-636dc615 glide-dock_HTVS_1-0249 localhost [tscc-13-20]
+243  13   0 | finished  tscc-13-20-0-636dc585 glide-dock_HTVS_1-0244 localhost [tscc-13-20]
+244  12   0 | finished  tscc-13-20-0-636dc609 glide-dock_HTVS_1-0248 localhost [tscc-13-20]
+245  11   0 | finished  tscc-13-20-0-636dc664 glide-dock_HTVS_1-0250 localhost [tscc-13-20]
+246  10   0 | finished  tscc-13-20-0-636dc6ac glide-dock_HTVS_1-0254 localhost [tscc-13-20]
+247   9   0 | finished  tscc-13-20-0-636dc487 glide-dock_HTVS_1-0236 localhost [tscc-13-20]
+248   8   0 | finished  tscc-13-20-0-636dc6ae glide-dock_HTVS_1-0255 localhost [tscc-13-20]
+249   7   0 | finished  tscc-13-20-0-636dc679 glide-dock_HTVS_1-0251 localhost [tscc-13-20]
+250   6   0 | finished  tscc-13-20-0-636dc699 glide-dock_HTVS_1-0253 localhost [tscc-13-20]
+251   5   0 | finished  tscc-13-20-0-636dc135 glide-dock_HTVS_1-0219 localhost [tscc-13-20]
+252   4   0 | finished  tscc-13-20-0-636dc5a8 glide-dock_HTVS_1-0246 localhost [tscc-13-20]
+253   3   0 | finished  tscc-13-20-0-636dc6c2 glide-dock_HTVS_1-0256 localhost [tscc-13-20]
+254   2   0 | finished  tscc-13-20-0-636dc685 glide-dock_HTVS_1-0252 localhost [tscc-13-20]
+255   1   0 | finished  tscc-13-20-0-636dc5e7 glide-dock_HTVS_1-0247 localhost [tscc-13-20]
+256   0   0 | finished  tscc-13-20-0-636dc57c glide-dock_HTVS_1-0245 localhost [tscc-13-20]
+
+All jobs have completed.
+
+231 of 256 job(s) succeeded; 25 job(s) failed.
+
+Some jobs failed: 839600 of 930464 ligands done.
+Writing poses to glide-dock_HTVS_1_pv.maegz
+Combining log files to glide-dock_HTVS_1_subjobs.log
+Archiving subjob pose files in glide-dock_HTVS_1_subjob_poses.zip
+Archiving subjob input and log files in glide-dock_HTVS_1_subjobs.tar.gz
+Cleaning up...
+
+Elapsed times:
+- preprocessing: 340.2 s
+- running subjobs: 15592.3 s
+- postprocessing: 1201.0 s
+- cleanup: 880.9 s
+
+All Glide docking subjobs: Total CPU time = 779247 seconds (9 d 27 min 27 s)
+
+Finished at: Thu Nov 10 21:34:17 2022
+Total elapsed time for Glide script = 18017 seconds (5 h 17 s)
