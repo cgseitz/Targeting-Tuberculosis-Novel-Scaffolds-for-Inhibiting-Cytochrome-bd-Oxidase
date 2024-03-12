@@ -1,0 +1,534 @@
+
+====================================
+            Glide Script            
+====================================
+
+mmshare         2cb27f0eb7
+glide-src       1e5ffd4733
+psp-src         6c93e2fe77
+macromodel-src  d47a6cf2e1
+epik-src        46d635d642
+
+--------------------------------------------------------------------------------
+JobId          : tscc-13-18-0-637c6fe3
+Name           : glide-dock_sp
+Program        : Glide
+Host           : tscc-13-18.sdsc.edu
+Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/cluster1/lifechemicals/sp
+HostEntry      : localhost
+JobHost        : tscc-13-18.sdsc.edu
+JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/cluster1/lifechemicals/sp/cseitz/glide-dock_sp
+JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -WAIT glide-dock_sp.in -OVERWRITE -adjust -HOST localhost:8 -NJOBS 32 -NOLOCAL
+StartTime      : 2022-11-21-22:45:10
+--------------------------------------------------------------------------------
+
+Running locally: False
+Max retries: 2
+Input file: glide-dock_sp.in
+
+Setting up docking job
+Separating ligands...
+....................                                   20000
+Number of structures that are to be docked: 20000
+Setting up Glide docking jobs...
+
+Running subjobs on hosts:
+  localhost (Max: 8)
+Number of jobs:       32
+Max retries per job:  2
+Max allowed failures: unlimited
+Verbosity:            normal
+
+Starting JobDJ...
+
+Keep one job on driver host: False
+JobDJ columns:
+  C: Number of completed subjobs
+  A: Number of active subjobs (e.g., submitted, running)
+  W: Number of waiting/pending subjobs
+
+ C  A  W | Activity  JobId  JobName  JobHost
+-- -- -- | --------- -----------------------
+ 0  1 31 | launched  tscc-13-18-0-637c709a glide-dock_sp-0001 localhost [tscc-13-18]
+ 0  2 30 | launched  tscc-13-18-0-637c709c glide-dock_sp-0002 localhost [tscc-13-18]
+ 0  3 29 | launched  tscc-13-18-0-637c709f glide-dock_sp-0003 localhost [tscc-13-18]
+ 0  4 28 | launched  tscc-13-18-0-637c70ac glide-dock_sp-0004 localhost [tscc-13-18]
+ 0  5 27 | launched  tscc-13-18-0-637c70ae glide-dock_sp-0005 localhost [tscc-13-18]
+ 0  6 26 | launched  tscc-13-18-0-637c70b2 glide-dock_sp-0006 localhost [tscc-13-18]
+ 0  7 25 | launched  tscc-13-18-0-637c70b4 glide-dock_sp-0007 localhost [tscc-13-18]
+ 0  8 24 | launched  tscc-13-18-0-637c70b8 glide-dock_sp-0008 localhost [tscc-13-18]
+ 1  7 24 | finished  tscc-13-18-0-637c70ac glide-dock_sp-0004 localhost [tscc-13-18]
+ 1  8 23 | launched  tscc-13-18-0-637d1c02 glide-dock_sp-0009 localhost [tscc-13-18]
+ 2  7 23 | finished  tscc-13-18-0-637c70b8 glide-dock_sp-0008 localhost [tscc-13-18]
+ 2  8 22 | launched  tscc-13-18-0-637d1e9c glide-dock_sp-0010 localhost [tscc-13-18]
+ 3  7 22 | finished  tscc-13-18-0-637c70b4 glide-dock_sp-0007 localhost [tscc-13-18]
+ 3  8 21 | launched  tscc-13-18-0-637d2377 glide-dock_sp-0011 localhost [tscc-13-18]
+ 4  7 21 | finished  tscc-13-18-0-637c709f glide-dock_sp-0003 localhost [tscc-13-18]
+ 4  8 20 | launched  tscc-13-18-0-637d2973 glide-dock_sp-0012 localhost [tscc-13-18]
+ 5  7 20 | finished  tscc-13-18-0-637c70b2 glide-dock_sp-0006 localhost [tscc-13-18]
+ 5  8 19 | launched  tscc-13-18-0-637d2b48 glide-dock_sp-0013 localhost [tscc-13-18]
+ 6  7 19 | finished  tscc-13-18-0-637c70ae glide-dock_sp-0005 localhost [tscc-13-18]
+ 6  8 18 | launched  tscc-13-18-0-637d3149 glide-dock_sp-0014 localhost [tscc-13-18]
+ 7  7 18 | finished  tscc-13-18-0-637c709c glide-dock_sp-0002 localhost [tscc-13-18]
+ 7  8 17 | launched  tscc-13-18-0-637d40c6 glide-dock_sp-0015 localhost [tscc-13-18]
+ 8  7 17 | finished  tscc-13-18-0-637c709a glide-dock_sp-0001 localhost [tscc-13-18]
+ 8  8 16 | launched  tscc-13-18-0-637d48c2 glide-dock_sp-0016 localhost [tscc-13-18]
+ 9  7 16 | finished  tscc-13-18-0-637d1e9c glide-dock_sp-0010 localhost [tscc-13-18]
+ 9  8 15 | launched  tscc-13-18-0-637dc82a glide-dock_sp-0017 localhost [tscc-13-18]
+10  7 15 | finished  tscc-13-18-0-637d2b48 glide-dock_sp-0013 localhost [tscc-13-18]
+10  8 14 | launched  tscc-13-18-0-637dcbbb glide-dock_sp-0018 localhost [tscc-13-18]
+11  7 14 | finished  tscc-13-18-0-637d1c02 glide-dock_sp-0009 localhost [tscc-13-18]
+11  8 13 | launched  tscc-13-18-0-637dcdcd glide-dock_sp-0019 localhost [tscc-13-18]
+12  7 13 | finished  tscc-13-18-0-637d2973 glide-dock_sp-0012 localhost [tscc-13-18]
+12  8 12 | launched  tscc-13-18-0-637dd0ef glide-dock_sp-0020 localhost [tscc-13-18]
+13  7 12 | finished  tscc-13-18-0-637d2377 glide-dock_sp-0011 localhost [tscc-13-18]
+13  8 11 | launched  tscc-13-18-0-637dd140 glide-dock_sp-0021 localhost [tscc-13-18]
+14  7 11 | finished  tscc-13-18-0-637d3149 glide-dock_sp-0014 localhost [tscc-13-18]
+14  8 10 | launched  tscc-13-18-0-637de68e glide-dock_sp-0022 localhost [tscc-13-18]
+Subjob 'glide-dock_sp-0022' died (died) [jobid tscc-13-18-0-637de68e]
+14  7 11 | died      tscc-13-18-0-637de68e glide-dock_sp-0022 localhost [tscc-13-18]
+14  8 10 | restarted tscc-13-18-0-637de6b2 glide-dock_sp-0022 localhost [tscc-13-18]
+Subjob 'glide-dock_sp-0022' died (died) [jobid tscc-13-18-0-637de6b2]
+14  7 11 | died      tscc-13-18-0-637de6b2 glide-dock_sp-0022 localhost [tscc-13-18]
+14  8 10 | restarted tscc-13-18-0-637de6d5 glide-dock_sp-0022 localhost [tscc-13-18]
+Subjob 'glide-dock_sp-0022' died (died) [jobid tscc-13-18-0-637de6d5]
+15  7 10 | died      tscc-13-18-0-637de6d5 glide-dock_sp-0022 localhost [tscc-13-18]
+ERROR: Subjob 'glide-dock_sp-0022' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_sp-0022.log':
+
+  Host           : tscc-13-18.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/cluster1/lifechemicals/sp/cseitz/glide-dock_sp
+  HostEntry      : localhost
+  JobHost        : tscc-13-18.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/cluster1/lifechemicals/sp/cseitz/glide-dock_sp-0022
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_sp-0022.inp -HOST localhost
+  StartTime      : 2022-11-23-01:24:38
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+15  7 10 | died      tscc-13-18-0-637de6d5 glide-dock_sp-0022 localhost [tscc-13-18]
+Subjob glide-dock_sp-0022 produced no pose file: glide-dock_sp-0022_raw.maegz
+15  8  9 | launched  tscc-13-18-0-637de6f9 glide-dock_sp-0023 localhost [tscc-13-18]
+Subjob 'glide-dock_sp-0023' died (died) [jobid tscc-13-18-0-637de6f9]
+15  7 10 | died      tscc-13-18-0-637de6f9 glide-dock_sp-0023 localhost [tscc-13-18]
+15  8  9 | restarted tscc-13-18-0-637de71c glide-dock_sp-0023 localhost [tscc-13-18]
+Subjob 'glide-dock_sp-0023' died (died) [jobid tscc-13-18-0-637de71c]
+15  7 10 | died      tscc-13-18-0-637de71c glide-dock_sp-0023 localhost [tscc-13-18]
+15  8  9 | restarted tscc-13-18-0-637de73f glide-dock_sp-0023 localhost [tscc-13-18]
+Subjob 'glide-dock_sp-0023' died (died) [jobid tscc-13-18-0-637de73f]
+16  7  9 | died      tscc-13-18-0-637de73f glide-dock_sp-0023 localhost [tscc-13-18]
+ERROR: Subjob 'glide-dock_sp-0023' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_sp-0023.log':
+
+  Host           : tscc-13-18.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/cluster1/lifechemicals/sp/cseitz/glide-dock_sp
+  HostEntry      : localhost
+  JobHost        : tscc-13-18.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/cluster1/lifechemicals/sp/cseitz/glide-dock_sp-0023
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_sp-0023.inp -HOST localhost
+  StartTime      : 2022-11-23-01:26:24
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+16  7  9 | died      tscc-13-18-0-637de73f glide-dock_sp-0023 localhost [tscc-13-18]
+Subjob glide-dock_sp-0023 produced no pose file: glide-dock_sp-0023_raw.maegz
+16  8  8 | launched  tscc-13-18-0-637de762 glide-dock_sp-0024 localhost [tscc-13-18]
+Subjob 'glide-dock_sp-0024' died (died) [jobid tscc-13-18-0-637de762]
+16  7  9 | died      tscc-13-18-0-637de762 glide-dock_sp-0024 localhost [tscc-13-18]
+16  8  8 | restarted tscc-13-18-0-637de785 glide-dock_sp-0024 localhost [tscc-13-18]
+Subjob 'glide-dock_sp-0024' died (died) [jobid tscc-13-18-0-637de785]
+16  7  9 | died      tscc-13-18-0-637de785 glide-dock_sp-0024 localhost [tscc-13-18]
+16  8  8 | restarted tscc-13-18-0-637de7a9 glide-dock_sp-0024 localhost [tscc-13-18]
+17  7  8 | finished  tscc-13-18-0-637d40c6 glide-dock_sp-0015 localhost [tscc-13-18]
+17  8  7 | launched  tscc-13-18-0-637de7cb glide-dock_sp-0025 localhost [tscc-13-18]
+Subjob 'glide-dock_sp-0024' died (died) [jobid tscc-13-18-0-637de7a9]
+18  7  7 | died      tscc-13-18-0-637de7a9 glide-dock_sp-0024 localhost [tscc-13-18]
+ERROR: Subjob 'glide-dock_sp-0024' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_sp-0024.log':
+
+  Host           : tscc-13-18.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/cluster1/lifechemicals/sp/cseitz/glide-dock_sp
+  HostEntry      : localhost
+  JobHost        : tscc-13-18.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/cluster1/lifechemicals/sp/cseitz/glide-dock_sp-0024
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_sp-0024.inp -HOST localhost
+  StartTime      : 2022-11-23-01:28:09
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+18  7  7 | died      tscc-13-18-0-637de7a9 glide-dock_sp-0024 localhost [tscc-13-18]
+Subjob glide-dock_sp-0024 produced no pose file: glide-dock_sp-0024_raw.maegz
+18  8  6 | launched  tscc-13-18-0-637de7ce glide-dock_sp-0026 localhost [tscc-13-18]
+Subjob 'glide-dock_sp-0025' died (died) [jobid tscc-13-18-0-637de7cb]
+18  7  7 | died      tscc-13-18-0-637de7cb glide-dock_sp-0025 localhost [tscc-13-18]
+18  8  6 | restarted tscc-13-18-0-637de7f0 glide-dock_sp-0025 localhost [tscc-13-18]
+Subjob 'glide-dock_sp-0026' died (died) [jobid tscc-13-18-0-637de7ce]
+18  7  7 | died      tscc-13-18-0-637de7ce glide-dock_sp-0026 localhost [tscc-13-18]
+18  8  6 | restarted tscc-13-18-0-637de7f5 glide-dock_sp-0026 localhost [tscc-13-18]
+Subjob 'glide-dock_sp-0025' died (died) [jobid tscc-13-18-0-637de7f0]
+18  7  7 | died      tscc-13-18-0-637de7f0 glide-dock_sp-0025 localhost [tscc-13-18]
+18  8  6 | restarted tscc-13-18-0-637de815 glide-dock_sp-0025 localhost [tscc-13-18]
+Subjob 'glide-dock_sp-0026' died (died) [jobid tscc-13-18-0-637de7f5]
+18  7  7 | died      tscc-13-18-0-637de7f5 glide-dock_sp-0026 localhost [tscc-13-18]
+18  8  6 | restarted tscc-13-18-0-637de818 glide-dock_sp-0026 localhost [tscc-13-18]
+Subjob 'glide-dock_sp-0025' died (died) [jobid tscc-13-18-0-637de815]
+19  7  6 | died      tscc-13-18-0-637de815 glide-dock_sp-0025 localhost [tscc-13-18]
+ERROR: Subjob 'glide-dock_sp-0025' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_sp-0025.log':
+
+  Host           : tscc-13-18.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/cluster1/lifechemicals/sp/cseitz/glide-dock_sp
+  HostEntry      : localhost
+  JobHost        : tscc-13-18.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/cluster1/lifechemicals/sp/cseitz/glide-dock_sp-0025
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_sp-0025.inp -HOST localhost
+  StartTime      : 2022-11-23-01:29:57
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+19  7  6 | died      tscc-13-18-0-637de815 glide-dock_sp-0025 localhost [tscc-13-18]
+Subjob glide-dock_sp-0025 produced no pose file: glide-dock_sp-0025_raw.maegz
+19  8  5 | launched  tscc-13-18-0-637de839 glide-dock_sp-0027 localhost [tscc-13-18]
+Subjob 'glide-dock_sp-0026' died (died) [jobid tscc-13-18-0-637de818]
+20  7  5 | died      tscc-13-18-0-637de818 glide-dock_sp-0026 localhost [tscc-13-18]
+ERROR: Subjob 'glide-dock_sp-0026' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_sp-0026.log':
+
+  Host           : tscc-13-18.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/cluster1/lifechemicals/sp/cseitz/glide-dock_sp
+  HostEntry      : localhost
+  JobHost        : tscc-13-18.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/cluster1/lifechemicals/sp/cseitz/glide-dock_sp-0026
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_sp-0026.inp -HOST localhost
+  StartTime      : 2022-11-23-01:30:01
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+20  7  5 | died      tscc-13-18-0-637de818 glide-dock_sp-0026 localhost [tscc-13-18]
+Subjob glide-dock_sp-0026 produced no pose file: glide-dock_sp-0026_raw.maegz
+20  8  4 | launched  tscc-13-18-0-637de83f glide-dock_sp-0028 localhost [tscc-13-18]
+Subjob 'glide-dock_sp-0027' died (died) [jobid tscc-13-18-0-637de839]
+20  7  5 | died      tscc-13-18-0-637de839 glide-dock_sp-0027 localhost [tscc-13-18]
+20  8  4 | restarted tscc-13-18-0-637de85c glide-dock_sp-0027 localhost [tscc-13-18]
+Subjob 'glide-dock_sp-0028' died (died) [jobid tscc-13-18-0-637de83f]
+20  7  5 | died      tscc-13-18-0-637de83f glide-dock_sp-0028 localhost [tscc-13-18]
+20  8  4 | restarted tscc-13-18-0-637de868 glide-dock_sp-0028 localhost [tscc-13-18]
+Subjob 'glide-dock_sp-0027' died (died) [jobid tscc-13-18-0-637de85c]
+20  7  5 | died      tscc-13-18-0-637de85c glide-dock_sp-0027 localhost [tscc-13-18]
+20  8  4 | restarted tscc-13-18-0-637de880 glide-dock_sp-0027 localhost [tscc-13-18]
+Subjob 'glide-dock_sp-0028' died (died) [jobid tscc-13-18-0-637de868]
+20  7  5 | died      tscc-13-18-0-637de868 glide-dock_sp-0028 localhost [tscc-13-18]
+20  8  4 | restarted tscc-13-18-0-637de88d glide-dock_sp-0028 localhost [tscc-13-18]
+Subjob 'glide-dock_sp-0027' died (died) [jobid tscc-13-18-0-637de880]
+21  7  4 | died      tscc-13-18-0-637de880 glide-dock_sp-0027 localhost [tscc-13-18]
+ERROR: Subjob 'glide-dock_sp-0027' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_sp-0027.log':
+
+  Host           : tscc-13-18.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/cluster1/lifechemicals/sp/cseitz/glide-dock_sp
+  HostEntry      : localhost
+  JobHost        : tscc-13-18.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/cluster1/lifechemicals/sp/cseitz/glide-dock_sp-0027
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_sp-0027.inp -HOST localhost
+  StartTime      : 2022-11-23-01:31:48
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+21  7  4 | died      tscc-13-18-0-637de880 glide-dock_sp-0027 localhost [tscc-13-18]
+Subjob glide-dock_sp-0027 produced no pose file: glide-dock_sp-0027_raw.maegz
+21  8  3 | launched  tscc-13-18-0-637de8a7 glide-dock_sp-0029 localhost [tscc-13-18]
+Subjob 'glide-dock_sp-0028' died (died) [jobid tscc-13-18-0-637de88d]
+22  7  3 | died      tscc-13-18-0-637de88d glide-dock_sp-0028 localhost [tscc-13-18]
+ERROR: Subjob 'glide-dock_sp-0028' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_sp-0028.log':
+
+  Host           : tscc-13-18.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/cluster1/lifechemicals/sp/cseitz/glide-dock_sp
+  HostEntry      : localhost
+  JobHost        : tscc-13-18.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/cluster1/lifechemicals/sp/cseitz/glide-dock_sp-0028
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_sp-0028.inp -HOST localhost
+  StartTime      : 2022-11-23-01:31:59
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+22  7  3 | died      tscc-13-18-0-637de88d glide-dock_sp-0028 localhost [tscc-13-18]
+Subjob glide-dock_sp-0028 produced no pose file: glide-dock_sp-0028_raw.maegz
+22  8  2 | launched  tscc-13-18-0-637de8b4 glide-dock_sp-0030 localhost [tscc-13-18]
+Subjob 'glide-dock_sp-0029' died (died) [jobid tscc-13-18-0-637de8a7]
+22  7  3 | died      tscc-13-18-0-637de8a7 glide-dock_sp-0029 localhost [tscc-13-18]
+22  8  2 | restarted tscc-13-18-0-637de8cb glide-dock_sp-0029 localhost [tscc-13-18]
+Subjob 'glide-dock_sp-0030' died (died) [jobid tscc-13-18-0-637de8b4]
+22  7  3 | died      tscc-13-18-0-637de8b4 glide-dock_sp-0030 localhost [tscc-13-18]
+22  8  2 | restarted tscc-13-18-0-637de8da glide-dock_sp-0030 localhost [tscc-13-18]
+Subjob 'glide-dock_sp-0029' died (died) [jobid tscc-13-18-0-637de8cb]
+22  7  3 | died      tscc-13-18-0-637de8cb glide-dock_sp-0029 localhost [tscc-13-18]
+22  8  2 | restarted tscc-13-18-0-637de8f1 glide-dock_sp-0029 localhost [tscc-13-18]
+Subjob 'glide-dock_sp-0030' died (died) [jobid tscc-13-18-0-637de8da]
+22  7  3 | died      tscc-13-18-0-637de8da glide-dock_sp-0030 localhost [tscc-13-18]
+22  8  2 | restarted tscc-13-18-0-637de8fc glide-dock_sp-0030 localhost [tscc-13-18]
+Subjob 'glide-dock_sp-0029' died (died) [jobid tscc-13-18-0-637de8f1]
+23  7  2 | died      tscc-13-18-0-637de8f1 glide-dock_sp-0029 localhost [tscc-13-18]
+ERROR: Subjob 'glide-dock_sp-0029' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_sp-0029.log':
+
+  Host           : tscc-13-18.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/cluster1/lifechemicals/sp/cseitz/glide-dock_sp
+  HostEntry      : localhost
+  JobHost        : tscc-13-18.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/cluster1/lifechemicals/sp/cseitz/glide-dock_sp-0029
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_sp-0029.inp -HOST localhost
+  StartTime      : 2022-11-23-01:33:38
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+23  7  2 | died      tscc-13-18-0-637de8f1 glide-dock_sp-0029 localhost [tscc-13-18]
+Subjob glide-dock_sp-0029 produced no pose file: glide-dock_sp-0029_raw.maegz
+23  8  1 | launched  tscc-13-18-0-637de916 glide-dock_sp-0031 localhost [tscc-13-18]
+Subjob 'glide-dock_sp-0030' died (died) [jobid tscc-13-18-0-637de8fc]
+24  7  1 | died      tscc-13-18-0-637de8fc glide-dock_sp-0030 localhost [tscc-13-18]
+ERROR: Subjob 'glide-dock_sp-0030' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_sp-0030.log':
+
+  Host           : tscc-13-18.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/cluster1/lifechemicals/sp/cseitz/glide-dock_sp
+  HostEntry      : localhost
+  JobHost        : tscc-13-18.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/cluster1/lifechemicals/sp/cseitz/glide-dock_sp-0030
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_sp-0030.inp -HOST localhost
+  StartTime      : 2022-11-23-01:33:50
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+24  7  1 | died      tscc-13-18-0-637de8fc glide-dock_sp-0030 localhost [tscc-13-18]
+Subjob glide-dock_sp-0030 produced no pose file: glide-dock_sp-0030_raw.maegz
+24  8  0 | launched  tscc-13-18-0-637de920 glide-dock_sp-0032 localhost [tscc-13-18]
+Subjob 'glide-dock_sp-0031' died (died) [jobid tscc-13-18-0-637de916]
+24  7  1 | died      tscc-13-18-0-637de916 glide-dock_sp-0031 localhost [tscc-13-18]
+24  8  0 | restarted tscc-13-18-0-637de93b glide-dock_sp-0031 localhost [tscc-13-18]
+Subjob 'glide-dock_sp-0032' died (died) [jobid tscc-13-18-0-637de920]
+24  7  1 | died      tscc-13-18-0-637de920 glide-dock_sp-0032 localhost [tscc-13-18]
+24  8  0 | restarted tscc-13-18-0-637de94f glide-dock_sp-0032 localhost [tscc-13-18]
+Subjob 'glide-dock_sp-0031' died (died) [jobid tscc-13-18-0-637de93b]
+24  7  1 | died      tscc-13-18-0-637de93b glide-dock_sp-0031 localhost [tscc-13-18]
+24  8  0 | restarted tscc-13-18-0-637de95e glide-dock_sp-0031 localhost [tscc-13-18]
+Subjob 'glide-dock_sp-0032' died (died) [jobid tscc-13-18-0-637de94f]
+24  7  1 | died      tscc-13-18-0-637de94f glide-dock_sp-0032 localhost [tscc-13-18]
+24  8  0 | restarted tscc-13-18-0-637de97b glide-dock_sp-0032 localhost [tscc-13-18]
+Subjob 'glide-dock_sp-0031' died (died) [jobid tscc-13-18-0-637de95e]
+25  7  0 | died      tscc-13-18-0-637de95e glide-dock_sp-0031 localhost [tscc-13-18]
+ERROR: Subjob 'glide-dock_sp-0031' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_sp-0031.log':
+
+  Host           : tscc-13-18.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/cluster1/lifechemicals/sp/cseitz/glide-dock_sp
+  HostEntry      : localhost
+  JobHost        : tscc-13-18.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/cluster1/lifechemicals/sp/cseitz/glide-dock_sp-0031
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_sp-0031.inp -HOST localhost
+  StartTime      : 2022-11-23-01:35:26
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+25  7  0 | died      tscc-13-18-0-637de95e glide-dock_sp-0031 localhost [tscc-13-18]
+Subjob glide-dock_sp-0031 produced no pose file: glide-dock_sp-0031_raw.maegz
+Subjob 'glide-dock_sp-0032' died (died) [jobid tscc-13-18-0-637de97b]
+26  6  0 | died      tscc-13-18-0-637de97b glide-dock_sp-0032 localhost [tscc-13-18]
+ERROR: Subjob 'glide-dock_sp-0032' has failed after 2 retries.
+
+Last 20 lines of 'glide-dock_sp-0032.log':
+
+  Host           : tscc-13-18.sdsc.edu
+  Dir            : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/cluster1/lifechemicals/sp/cseitz/glide-dock_sp
+  HostEntry      : localhost
+  JobHost        : tscc-13-18.sdsc.edu
+  JobDir         : /oasis/tscc/scratch/cseitz/docking/ecoli/qloop/cluster1/lifechemicals/sp/cseitz/glide-dock_sp-0032
+  JobSchrodinger : /home/ux453813/pkg/schrodinger2021-1
+  Commandline    : /home/ux453813/pkg/schrodinger2021-1/glide -RESTART -serial glide-dock_sp-0032.inp -HOST localhost
+  StartTime      : 2022-11-23-01:36:02
+  --------------------------------------------------------------------------------
+  
+  WARNING Unable to checkout 1 GLIDE_MAIN v90 license(s). Error is -4: Licensed number of users already reached. Tried 3 time(s) in 30 seconds.
+  
+  =============================================================
+  Could not obtain license for feature "GLIDE_MAIN" of Glide
+  ** -4: Licensed number of users already reached. **
+  
+  =============================================================
+   FATAL ERROR.
+   Failed to check out a GLIDE_MAIN license.
+   Make sure your $SCHRODINGER/license file contains valid licenses
+
+
+No job control errors were found.
+26  6  0 | died      tscc-13-18-0-637de97b glide-dock_sp-0032 localhost [tscc-13-18]
+Subjob glide-dock_sp-0032 produced no pose file: glide-dock_sp-0032_raw.maegz
+27  5  0 | finished  tscc-13-18-0-637d48c2 glide-dock_sp-0016 localhost [tscc-13-18]
+28  4  0 | finished  tscc-13-18-0-637dc82a glide-dock_sp-0017 localhost [tscc-13-18]
+29  3  0 | finished  tscc-13-18-0-637dcdcd glide-dock_sp-0019 localhost [tscc-13-18]
+30  2  0 | finished  tscc-13-18-0-637dcbbb glide-dock_sp-0018 localhost [tscc-13-18]
+31  1  0 | finished  tscc-13-18-0-637dd0ef glide-dock_sp-0020 localhost [tscc-13-18]
+32  0  0 | finished  tscc-13-18-0-637dd140 glide-dock_sp-0021 localhost [tscc-13-18]
+
+All jobs have completed.
+
+21 of 32 job(s) succeeded; 11 job(s) failed.
+
+Some jobs failed: 13125 of 20000 ligands done.
+Writing poses to glide-dock_sp_pv.maegz
+Combining log files to glide-dock_sp_subjobs.log
+Archiving subjob pose files in glide-dock_sp_subjob_poses.zip
+Archiving subjob input and log files in glide-dock_sp_subjobs.tar.gz
+Cleaning up...
+
+Elapsed times:
+- preprocessing: 115.7 s
+- running subjobs: 130786.2 s
+- postprocessing: 27.3 s
+- cleanup: 34.7 s
+
+All Glide docking subjobs: Total CPU time = 929849 seconds (10 d 18 h 17 min 29 s)
+
+Finished at: Wed Nov 23 11:08:41 2022
+Total elapsed time for Glide script = 131010 seconds (1 d 12 h 23 min 30 s)
